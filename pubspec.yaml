@@ -1,0 +1,64 @@
+name: cih_first_app
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 2.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  flutter_svg: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  animated_text_kit: ^4.2.2
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.0
+  flutter_markdown: ^0.6.14
+  font_awesome_flutter: ^10.4.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/appLogo_one.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Alkatra
+      fonts:
+        - asset: fonts/Alkatra-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: Playfair
+      fonts:
+        - asset: fonts/PlayfairDisplay-Regular.ttf
+    - family: Rubik
+      fonts:
+        - asset: fonts/RubikPixels-Regular.ttf
+            
+          
+  assets:
+     - assets/images/
+     - assets/images/vegcuts/
+     - fonts/Alkatra-Regular.ttf
+
+     
+     
+  
+
+
+
+
+
+
+  
