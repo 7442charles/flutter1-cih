@@ -6,36 +6,116 @@ class FeaturesContainer extends StatelessWidget {
   });
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 150,
-      child: ListView.builder(
-        scrollDirection: Axis.horizontal,
-        itemCount: 5, // Replace with actual number of containers
-        itemBuilder: (context, index) {
-          return Container(
-            width: 80,
-            margin: const EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              //color: Colors.grey,
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      child: Row(
+        children: [
+          FeatureContainer(
+            title: 'Students Portal',
+            onTap: () {
+              // Perform action when Students Portal is clicked
+            },
+          ),
+          FeatureContainer(
+            title: 'Notice Board',
+            onTap: () {
+              // Perform action when Notice Board is clicked
+            },
+          ),
+          FeatureContainer(
+            title: 'Events',
+            onTap: () {
+              // Perform action when Events is clicked
+            },
+          ),
+          FeatureContainer(
+            title: 'Timetable',
+            onTap: () {
+              // Perform action when Timetable is clicked
+            },
+          ),
+          FeatureContainer(
+            title: 'Suggestions',
+            onTap: () {
+              // Perform action when Suggestions is clicked
+            },
+          ),
+          FeatureContainer(
+            title: 'JNAI',
+            onTap: () {
+              // Perform action when JNAI is clicked
+            },
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class FeatureContainer extends StatelessWidget {
+  final String title;
+  final VoidCallback onTap;
+
+  const FeatureContainer({required this.title, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        width: 150,
+        height: 150,
+        margin: const EdgeInsets.all(10),
+        decoration: BoxDecoration(
+          color: Colors.blue, // Customize the container color as needed
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.blue.withOpacity(0.3),
+              blurRadius: 10,
+              offset: const Offset(0, 5),
             ),
-            child: Column(
-              children: [
-                Image.asset(
-                  'assets/images/mainImg.png',
-                  height: 100,
+          ],
+        ),
+        child: Stack(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [
+                    Colors.blue.shade700,
+                    Colors.blue.shade900,
+                  ],
                 ),
-                const SizedBox(height: 10),
-                Text(
-                  'Container ${index + 1}',
-                  style: const TextStyle(
+              ),
+            ),
+            Align(
+              alignment: Alignment.center,
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  title,
+                  style: TextStyle(
+                    fontSize: 20,
                     fontWeight: FontWeight.bold,
+                    color: Colors.white, // Customize the text color as needed
+                    shadows: [
+                      Shadow(
+                        color: Colors.black.withOpacity(0.5),
+                        offset: const Offset(0, 2),
+                        blurRadius: 4,
+                      ),
+                    ],
                   ),
+                  textAlign: TextAlign.center,
                 ),
-              ],
+              ),
             ),
-          );
-        },
+          ],
+        ),
       ),
     );
   }
