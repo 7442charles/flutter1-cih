@@ -4,7 +4,6 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import '../components/home_page_notifications.dart';
 import '../components/open_drawer.dart';
 import '../components/style.dart';
-import '../components/topic_containers.dart';
 import 'landingtwo.dart';
 
 class LandingPage extends StatelessWidget {
@@ -28,15 +27,14 @@ class LandingPage extends StatelessWidget {
           ],
         ),
         drawer: const MyDrawer(),
-        body: Column(
-          children: const [
+        body: const Column(
+          children: [
             TopContainer(),
             Separator(),
             CoursesContainer(),
             Divider(
               color: Colors.blue,
             ),
-            CustomNotification(),
             CustomNotification(),
           ],
         ),

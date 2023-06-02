@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../components/open_drawer.dart';
 import '../contentScreens/cakes_sponges/cakes_sponges.dart';
 import '../contentScreens/chocolate/chocolate.dart';
 import '../contentScreens/cold_larder/cold_larder.dart';

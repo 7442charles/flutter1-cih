@@ -11,10 +11,10 @@ class FoodSafety extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Food Safety'),
         ),
-        body: SingleChildScrollView(
+        body: const SingleChildScrollView(
           child: Column(
             //crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children: [
               Introduction(),
               Separator(),
               SubTopicOne(),
@@ -67,10 +67,10 @@ class IntroductionBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(5.0),
+    return const Padding(
+      padding: EdgeInsets.all(5.0),
       child: Column(
-        children: const [
+        children: [
           Text(
             'Introduction',
             style: TextStyle(
@@ -130,8 +130,8 @@ class SubTopicOne extends StatelessWidget {
               fontFamily: 'Roboto',
             ),
           ),
-          Row(
-            children: const [
+          const Row(
+            children: [
               Text(
                 '1.',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
@@ -145,8 +145,8 @@ class SubTopicOne extends StatelessWidget {
               )
             ],
           ),
-          Row(
-            children: const [
+          const Row(
+            children: [
               Text(
                 '2.',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
@@ -158,8 +158,8 @@ class SubTopicOne extends StatelessWidget {
                   ))
             ],
           ),
-          Row(
-            children: const [
+          const Row(
+            children: [
               Text(
                 '3.',
                 textAlign: TextAlign.center,
@@ -176,8 +176,8 @@ class SubTopicOne extends StatelessWidget {
               )
             ],
           ),
-          Row(
-            children: const [
+          const Row(
+            children: [
               Text(
                 '4.',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
@@ -191,8 +191,8 @@ class SubTopicOne extends StatelessWidget {
               )
             ],
           ),
-          Row(
-            children: const [
+          const Row(
+            children: [
               Text(
                 '5.',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
@@ -206,8 +206,8 @@ class SubTopicOne extends StatelessWidget {
               )
             ],
           ),
-          Row(
-            children: const [
+          const Row(
+            children: [
               Text(
                 '6.',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
@@ -223,8 +223,8 @@ class SubTopicOne extends StatelessWidget {
               )
             ],
           ),
-          Row(
-            children: const [
+          const Row(
+            children: [
               Text(
                 '7.',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
@@ -257,8 +257,8 @@ class SubTopicOne extends StatelessWidget {
             ),
           ),
           const Separator(),
-          Column(
-            children: const [
+          const Column(
+            children: [
               Text(
                 'The food safety management system helps in:',
                 style: TextStyle(
@@ -273,8 +273,8 @@ class SubTopicOne extends StatelessWidget {
           const Separator(),
           Container(
             padding: const EdgeInsets.all(5.0),
-            child: Column(
-              children: const [
+            child: const Column(
+              children: [
                 Text(
                   'HACCP and those responsible for food businesses must ensure that:',
                   style: TextStyle(
@@ -303,8 +303,8 @@ class SubTopicTwo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(5.0),
-      child: Column(
-        children: const [
+      child: const Column(
+        children: [
           Text('Temperature control and avoiding food contamination'),
           Separator(),
         ],

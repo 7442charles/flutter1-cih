@@ -21,10 +21,10 @@ class LandingPage extends StatelessWidget {
         child: ListView(
           children: [
             const DrawerHeader(
-              child: Text('Drawer Header'),
               decoration: BoxDecoration(
                 color: Colors.blue,
               ),
+              child: Text('Drawer Header'),
             ),
             ListTile(
               title: const Text('Drawer Item 1'),
@@ -64,7 +64,7 @@ class LandingPage extends StatelessWidget {
           //   ),
           // ),
           const Divider(),
-          CoursesContainer(),
+          const CoursesContainer(),
           const SizedBox(height: 20),
           const Text(
             'Notifications',
@@ -102,7 +102,7 @@ class CoursesContainer extends StatelessWidget {
   });
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 150,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,

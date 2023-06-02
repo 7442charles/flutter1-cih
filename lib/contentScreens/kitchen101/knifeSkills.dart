@@ -5,9 +5,9 @@ class KnifeSkillsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
-        children: const [
+        children: [
           Introduction(),
           SizedBox(height: 10.0),
           BasicKnifeSkills(),
@@ -30,9 +30,9 @@ class Introduction extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(5.0),
-      child: Column(
+      child: const Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [
+        children: [
           Text(
             'Introduction',
             style: TextStyle(
@@ -164,11 +164,11 @@ class GripTips extends StatelessWidget {
           Radius.circular(10.0),
         ),
       ),
-      child: Padding(
-        padding: const EdgeInsets.all(5.0),
+      child: const Padding(
+        padding: EdgeInsets.all(5.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [
+          children: [
             Text(
               'Tips for your grip',
               style: TextStyle(

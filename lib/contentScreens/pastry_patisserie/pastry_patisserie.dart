@@ -13,9 +13,9 @@ class PastryPatisserie extends StatelessWidget {
           title: const Text('Pastry & Patisserie'),
           backgroundColor: Colors.black,
         ),
-        body: SingleChildScrollView(
+        body: const SingleChildScrollView(
           child: Column(
-            children: const [
+            children: [
               Header(),
               SizedBox(
                 height: 5.0,

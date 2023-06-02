@@ -22,19 +22,19 @@ class CustomNotification extends StatelessWidget {
           ),
         ],
       ),
-      child: Row(
+      child: const Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Icon(
+          Icon(
             Icons.notifications,
             color: Colors.blue,
             size: 36.0,
           ),
-          const SizedBox(width: 16.0),
+          SizedBox(width: 16.0),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const [
+              children: [
                 Text(
                   'come home',
                   style: TextStyle(
@@ -52,7 +52,7 @@ class CustomNotification extends StatelessWidget {
               ],
             ),
           ),
-          const Icon(
+          Icon(
             Icons.arrow_forward_ios,
             color: Colors.blue,
             size: 25.0,
