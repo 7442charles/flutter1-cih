@@ -23,9 +23,9 @@ class FeaturesContainer extends StatelessWidget {
             },
           ),
           FeatureContainer(
-            title: 'Events',
+            title: 'Sch Diary',
             onTap: () {
-              // Perform action when Events is clicked
+              // Perform action when JNAI is clicked
             },
           ),
           FeatureContainer(
@@ -35,15 +35,15 @@ class FeaturesContainer extends StatelessWidget {
             },
           ),
           FeatureContainer(
-            title: 'Suggestions',
+            title: 'Events',
             onTap: () {
-              // Perform action when Suggestions is clicked
+              // Perform action when Events is clicked
             },
           ),
           FeatureContainer(
-            title: 'JNAI',
+            title: 'Suggestions',
             onTap: () {
-              // Perform action when JNAI is clicked
+              // Perform action when Suggestions is clicked
             },
           ),
         ],
@@ -56,7 +56,7 @@ class FeatureContainer extends StatelessWidget {
   final String title;
   final VoidCallback onTap;
 
-  const FeatureContainer({required this.title, required this.onTap});
+  const FeatureContainer({super.key, required this.title, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
