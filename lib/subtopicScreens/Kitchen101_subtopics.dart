@@ -15,35 +15,30 @@ class Kitchen101subs extends StatelessWidget {
           SubtopicRow(
             title: 'Introduction',
             onPressed: () {
-              // Action to perform when Introduction row is clicked
               print('Introduction row clicked!');
             },
           ),
           SubtopicRow(
             title: 'Knife Skills',
             onPressed: () {
-              // Action to perform when Knife Skills row is clicked
               print('Knife Skills row clicked!');
             },
           ),
           SubtopicRow(
             title: 'Kitchen Tools',
             onPressed: () {
-              // Action to perform when Kitchen Tools row is clicked
               print('Kitchen Tools row clicked!');
             },
           ),
           SubtopicRow(
             title: 'Safety Measures',
             onPressed: () {
-              // Action to perform when Safety Measures row is clicked
               print('Safety Measures row clicked!');
             },
           ),
           SubtopicRow(
             title: 'Ingredients',
             onPressed: () {
-              // Action to perform when Ingredients row is clicked
               print('Ingredients row clicked!');
             },
           ),
