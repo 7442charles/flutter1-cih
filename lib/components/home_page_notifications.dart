@@ -1,44 +1,57 @@
 import 'package:cih_first_app/components/recent_update.dart';
+import 'package:cih_first_app/subtopicScreens/Kitchen101_subtopics.dart';
 import 'package:flutter/material.dart';
 
 class CustomNotification extends StatelessWidget {
+  final Key? key;
+
   const CustomNotification({
-    super.key,
-  });
+    this.key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const Expanded(
+    return SingleChildScrollView(
       child: Column(
         children: [
-          Text(
+          const Text(
             "Recent Updated",
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
           SingleChildScrollView(
+            scrollDirection: Axis.vertical,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Expanded(
-                  child: RecentUpdated(
-                    title: "Sauces & Soups",
-                    lecturer: "G.M",
-                    subtopics: 10,
-                  ),
-                ),
-                Expanded(
-                  child: RecentUpdated(
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const Kitchen101subs(),
+                      ),
+                    );
+                  },
+                  child: const RecentUpdated(
                     title: "Kitchen 101",
                     lecturer: "C.O",
-                    subtopics: 5,
+                    subtopics: 6,
                   ),
                 ),
-                Expanded(
-                  child: RecentUpdated(
-                    title: "Pasta & Rice",
-                    lecturer: "C.M",
-                    subtopics: 20,
-                  ),
+                const RecentUpdated(
+                  title: "Biscuits Cakes & Sponges",
+                  lecturer: "P.K",
+                  subtopics: 10,
+                ),
+                const RecentUpdated(
+                  title: "Pasta, Rice & Eggs",
+                  lecturer: "M.O",
+                  subtopics: 20,
+                ),
+                const RecentUpdated(
+                  title: "Pastry & Dough Products",
+                  lecturer: "J.W",
+                  subtopics: 20,
                 ),
               ],
             ),

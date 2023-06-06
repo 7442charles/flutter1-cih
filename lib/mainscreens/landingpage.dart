@@ -14,10 +14,8 @@ class LandingPage extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        //backgroundColor: Colors.black,
         appBar: AppBar(
           elevation: 0,
-          //shadowColor: const Color.fromARGB(255, 22, 125, 209),
           backgroundColor: const Color.fromARGB(255, 22, 125, 209),
           actions: [
             IconButton(
@@ -27,16 +25,21 @@ class LandingPage extends StatelessWidget {
           ],
         ),
         drawer: const MyDrawer(),
-        body: const Column(
-          children: [
-            EcascadeContainer(),
-            Separator(),
-            FeaturesContainer(),
-            Divider(
-              color: Colors.blue,
-            ),
-            CustomNotification(),
-          ],
+        body: const SingleChildScrollView(
+          child: Column(
+            children: [
+              EcascadeContainer(),
+              Separator(),
+              FeaturesContainer(),
+              Divider(
+                color: Colors.blue,
+              ),
+              SingleChildScrollView(
+                scrollDirection: Axis.vertical,
+                child: CustomNotification(),
+              ),
+            ],
+          ),
         ),
       ),
     );
