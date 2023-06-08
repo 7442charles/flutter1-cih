@@ -1,5 +1,6 @@
 import 'package:cih_first_app/components/recent_update.dart';
 import 'package:cih_first_app/subtopicScreens/Kitchen101_subtopics.dart';
+import 'package:cih_first_app/subtopicScreens/stocks_soups_sauces.dart';
 import 'package:flutter/material.dart';
 
 class CustomNotification extends StatelessWidget {
@@ -36,6 +37,21 @@ class CustomNotification extends StatelessWidget {
                     title: "Kitchen 101",
                     lecturer: "C.O",
                     subtopics: 6,
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const StocksSoupSauces(),
+                      ),
+                    );
+                  },
+                  child: const RecentUpdated(
+                    title: "Stocks, Soups & Sauces",
+                    lecturer: "C.O",
+                    subtopics: 10,
                   ),
                 ),
                 const RecentUpdated(
