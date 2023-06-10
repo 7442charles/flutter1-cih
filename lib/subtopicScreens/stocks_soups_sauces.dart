@@ -1,3 +1,6 @@
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/introduction.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/white_vegetable_stock.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/whitestock.dart';
 import 'package:cih_first_app/components/subtopic.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +18,12 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Introduction',
             onPressed: () {
-              print('Introduction row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const Introduction()),
+                ),
+              );
             },
           ),
 
@@ -32,12 +40,23 @@ class StocksSoupSauces extends StatelessWidget {
             title: 'White Stock',
             onPressed: () {
               print('white stock row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const WhiteStock()),
+                ),
+              );
             },
           ),
           SubtopicRow(
-            title: 'White Vegetanle Stock',
+            title: 'White Vegetable Stock',
             onPressed: () {
-              print('White Vegetanle Stock row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const WhiteVegetableStock()),
+                ),
+              );
             },
           ),
           SubtopicRow(
@@ -151,19 +170,19 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Potato Soup',
             onPressed: () {
-              print('Chicken Soup row clicked!');
+              print('Potato Soup row clicked!');
             },
           ),
           SubtopicRow(
             title: 'Tomato Soup',
             onPressed: () {
-              print('Chicken Soup row clicked!');
+              print('Tomato Soup row clicked!');
             },
           ),
           SubtopicRow(
             title: 'Chilled Leek & Potato Soup',
             onPressed: () {
-              print('Chicken Soup row clicked!');
+              print('Chilled Leek row clicked!');
             },
           ),
 
@@ -277,7 +296,7 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Hollandise Sauce',
             onPressed: () {
-              print('Tomato sauce row clicked!');
+              print('Holladise sauce row clicked!');
             },
           ),
 

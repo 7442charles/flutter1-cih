@@ -1,3 +1,7 @@
+import 'package:cih_first_app/MainTopicContent/kitchen101/kichen_tool.dart';
+import 'package:cih_first_app/MainTopicContent/kitchen101/kitchen101Intro.dart';
+import 'package:cih_first_app/MainTopicContent/kitchen101/knifeSkills.dart';
+import 'package:cih_first_app/MainTopicContent/kitchen101/safetyMeasures.dart';
 import 'package:cih_first_app/components/subtopic.dart';
 import 'package:flutter/material.dart';
 
@@ -15,33 +19,53 @@ class Kitchen101subs extends StatelessWidget {
           SubtopicRow(
             title: 'Introduction',
             onPressed: () {
-              print('Introduction row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const Kitchen101Introduction()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Knife Skills',
             onPressed: () {
-              print('Knife Skills row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const KnifeSkills()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Kitchen Tools',
             onPressed: () {
-              print('Kitchen Tools row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const KitchenTools()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Safety Measures',
             onPressed: () {
-              print('Safety Measures row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SafetyMeasures()),
+                ),
+              );
             },
           ),
-          SubtopicRow(
-            title: 'Ingredients',
-            onPressed: () {
-              print('Ingredients row clicked!');
-            },
-          ),
+          // SubtopicRow(
+          //   title: 'Ingredients',
+          //   onPressed: () {
+          //     print('Ingredients row clicked!');
+          //   },
+          // ),
         ],
       ),
     );

@@ -4,6 +4,7 @@ import 'package:cih_first_app/subtopicScreens/stocks_soups_sauces.dart';
 import 'package:flutter/material.dart';
 
 class CustomNotification extends StatelessWidget {
+  @override
   final Key? key;
 
   const CustomNotification({
