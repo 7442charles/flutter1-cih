@@ -1,14 +1,14 @@
 import 'package:cih_first_app/components/contentpage.dart';
 import 'package:flutter/material.dart';
 
-class WhiteVegetableStock extends StatelessWidget {
-  const WhiteVegetableStock({super.key});
+class WhiteChickenStock extends StatelessWidget {
+  const WhiteChickenStock({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const ContentPage(
-      appBarTitle: 'White Vegetable Stock',
-      markdownPath: 'assets/markdowns/stocksoupsauces/white_vegetable_stock.md',
+      appBarTitle: 'White Chicken Stock',
+      markdownPath: 'assets/markdowns/stocksoupsauces/white_chicken_stock.md',
       errorMessage: 'Error loading ',
     );
   }

@@ -1,6 +1,6 @@
-# Introduction to Culinary Arts Course
+# Introduction to Culinary Course
 
-Welcome to the Introduction to Culinary Arts course! This course is designed to provide you with a foundational understanding of the culinary arts and develop your skills in the kitchen. Whether you're a beginner or an aspiring chef, this course will help you build a strong culinary foundation.
+Welcome to the Introduction to Culinary course! This course is designed to provide you with a foundational understanding of the culinary arts and develop your skills in the kitchen. Whether you're a beginner or an aspiring chef, this course will help you build a strong culinary foundation.
 
 ## Course Overview
 
@@ -35,9 +35,6 @@ To successfully complete this course, you will need:
 3. Dedication and commitment to practicing the skills taught in the course.
 4. A passion for culinary arts and a desire to learn and grow as a cook.
 
-## Certification
-
-Upon successful completion of the course, you will receive a certificate of completion, recognizing your achievement in the Introduction to Culinary Arts course.
 
 We hope you enjoy this culinary journey and have a wonderful learning experience!
 

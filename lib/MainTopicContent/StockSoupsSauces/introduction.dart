@@ -8,8 +8,8 @@ class Introduction extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ContentPage(
       appBarTitle: 'Introduction',
-      markdownPath: 'assets/markdowns/stockSoupsSauces.md',
-      errorMessage: 'Error loading Markdown',
+      markdownPath: 'assets/markdowns/stocksoupsauces/stockSoupsSauces.md',
+      errorMessage: 'Error loading',
     );
   }
 }

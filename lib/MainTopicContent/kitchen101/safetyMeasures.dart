@@ -8,7 +8,7 @@ class SafetyMeasures extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ContentPage(
       appBarTitle: 'Safety Measures',
-      markdownPath: 'assets/markdowns/safetymeasures.md',
+      markdownPath: 'assets/markdowns/kitchen101/safetymeasures.md',
       errorMessage: 'Error loading',
     );
   }

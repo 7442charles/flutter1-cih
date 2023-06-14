@@ -1,4 +1,11 @@
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/brown_onion_soup.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/brown_stock.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/brown_vegetable_stock.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/fish_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/introduction.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/lamb_jus.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/reduced_veal_stock.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/white_chicken_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/white_vegetable_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/whitestock.dart';
 import 'package:cih_first_app/components/subtopic.dart';
@@ -62,31 +69,67 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Brown Stock',
             onPressed: () {
-              print('Brown stock row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BrownStock()),
+                ),
+              );
+            },
+          ),
+          SubtopicRow(
+            title: 'White Chicken Stock',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const WhiteChickenStock()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Fish Stock',
             onPressed: () {
-              print('fish stock row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const FishStock()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Brown vegetable Stock',
             onPressed: () {
-              print('Brown Vegetable stock row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BrownVegetableStock()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Lamb Jus',
             onPressed: () {
-              print('Lamb Jus row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const LambJus()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Reduced Veal Stock',
             onPressed: () {
-              print('Reduced Veal Stock row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ReducedVealStock()),
+                ),
+              );
             },
           ),
 
@@ -102,7 +145,12 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Brown Onion soup',
             onPressed: () {
-              print('Brown Onion soup row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BrownOnionSoup()),
+                ),
+              );
             },
           ),
           SubtopicRow(

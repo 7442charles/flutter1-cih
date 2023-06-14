@@ -8,7 +8,7 @@ class KnifeSkills extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ContentPage(
       appBarTitle: 'Knife Skills ',
-      markdownPath: 'assets/markdowns/knife_skills.md',
+      markdownPath: 'assets/markdowns/kitchen101/knife_skills.md',
       errorMessage: 'Error loading',
     );
   }
