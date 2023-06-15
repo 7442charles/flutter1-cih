@@ -1,4 +1,4 @@
-![BrownVegetableStock](assets/images/stocksoupssauces/brownVegetableStock.png)
+![BrownVegetableStock](resource:assets/images/stocksoupssauces/brownVegetableStock.png)
 
 ### **Ingredients (4L)**
 - 300g Onions

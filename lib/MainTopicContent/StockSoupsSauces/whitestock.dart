@@ -9,7 +9,7 @@ class WhiteStock extends StatelessWidget {
     return const ContentPage(
       appBarTitle: 'White Stock',
       markdownPath: 'assets/markdowns/stocksoupsauces/whitestock.md',
-      errorMessage: 'Error loading ',
+      errorMessage: 'Error loading',
     );
   }
 }

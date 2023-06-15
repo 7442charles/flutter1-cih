@@ -1,4 +1,4 @@
-![WhiteVegetableStock](assets/images/stocksoupssauces/brown_stock.png)
+![WhiteVegetableStock](resource:assets/images/stocksoupssauces/brown_stock.png)
 
 ### **Ingredients (4.5L)**
 - 1kg Raw, Meaty Bones

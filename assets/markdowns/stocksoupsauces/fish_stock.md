@@ -1,4 +1,4 @@
-![Fishstock](assets/images/stocksoupssauces/fishstock.png)
+![Fishstock](resource:assets/images/stocksoupssauces/fishstock.png)
 
 ### **Ingredients (2L)**
 - 5kg Fish bones

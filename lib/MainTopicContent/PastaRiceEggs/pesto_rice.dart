@@ -8,8 +8,7 @@ class PestoRice extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ContentPage(
       appBarTitle: 'Pesto Rice',
-      markdownPath:
-          'https://raw.githubusercontent.com/7442charles/cryptochain.market/main/README.md',
+      markdownPath: 'assets/markdowns/pasta_rice_eggs/pesto_rice.md',
       errorMessage: 'Error loading ',
     );
   }

@@ -1,4 +1,4 @@
-![WhiteStock](assets/images/stocksoupssauces/whitestock.png)
+![whitestock](resource:assets/images/stocksoupssauces/whitestock.png)
 
 White stock is a flavorful base used in many soups, sauces, and dishes. It is commonly made from bones and aromatics. Here's a recipe for preparing white stock:
 

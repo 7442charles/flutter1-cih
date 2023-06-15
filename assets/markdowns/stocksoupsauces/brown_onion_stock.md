@@ -1,4 +1,4 @@
-![BrownOnionSoup](assets/images/stocksoupssauces/brown_onion_soup.png)
+![BrownOnionSoup](resource:assets/images/stocksoupssauces/brown_onion_soup.png)
 
 ### **Ingredients (4Portions)**
 - 600g Onions

@@ -1,4 +1,4 @@
-![WhiteChickenStock](assets/images/stocksoupssauces/whteChickenStock.png)
+![WhiteChickenStock](resource:assets/images/stocksoupssauces/whteChickenStock.png)
 
 ### **Ingredients (3L)**
 - 5kg Chicken carcass

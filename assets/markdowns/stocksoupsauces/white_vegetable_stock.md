@@ -1,6 +1,4 @@
-![WhiteVegetableStock](assets/images/stocksoupssauces/whiteVegetableStock.png)
-
-
+![whiteVegetableStock](resource:assets/images/stocksoupssauces/whiteVegetableStock.png)
 White vegetable stock is a flavorful and versatile base for various vegetarian dishes. Made with a combination of aromatic vegetables, herbs, and spices, it adds depth and complexity to soups, stews, risottos, and more. Here's how you can make white vegetable stock:
 
 ---

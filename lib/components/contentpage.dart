@@ -5,13 +5,13 @@ import 'package:flutter/services.dart' show rootBundle;
 class ContentPage extends StatefulWidget {
   final String appBarTitle;
   final String markdownPath;
-  final String errorMessage;
+  final String? errorMessage;
 
   const ContentPage({
     Key? key,
     required this.appBarTitle,
     required this.markdownPath,
-    required this.errorMessage,
+    this.errorMessage,
   }) : super(key: key);
 
   @override
@@ -19,10 +19,22 @@ class ContentPage extends StatefulWidget {
 }
 
 class _ContentPageState extends State<ContentPage> {
+  late Future<String> markdownContent;
+
+  @override
+  void initState() {
+    super.initState();
+    markdownContent = fetchMarkdownContent();
+  }
+
   Future<String> fetchMarkdownContent() async {
-    final String markdownContent =
-        await rootBundle.loadString(widget.markdownPath);
-    return markdownContent;
+    try {
+      final String markdownContent =
+          await rootBundle.loadString(widget.markdownPath);
+      return markdownContent;
+    } catch (e) {
+      return '';
+    }
   }
 
   @override
@@ -31,18 +43,28 @@ class _ContentPageState extends State<ContentPage> {
       appBar: AppBar(
         title: Text(widget.appBarTitle),
       ),
-      body: FutureBuilder<String>(
-        future: fetchMarkdownContent(),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
-          } else if (snapshot.hasError) {
-            return Center(child: Text(widget.errorMessage));
-          } else {
-            final markdownContent = snapshot.data ?? '';
-            return Markdown(data: markdownContent);
-          }
-        },
+      body: Column(
+        children: [
+          Expanded(
+            child: FutureBuilder<String>(
+              future: markdownContent,
+              builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.waiting) {
+                  return const Center(child: CircularProgressIndicator());
+                } else if (snapshot.hasError || !snapshot.hasData) {
+                  return Center(
+                    child: Text(
+                      widget.errorMessage ?? 'Error loading markdown content.',
+                    ),
+                  );
+                } else {
+                  final markdownContent = snapshot.data!;
+                  return Markdown(data: markdownContent);
+                }
+              },
+            ),
+          ),
+        ],
       ),
     );
   }

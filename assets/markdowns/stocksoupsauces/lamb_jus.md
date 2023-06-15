@@ -1,4 +1,4 @@
-![lambJus](assets/images/stocksoupssauces/lambjus.png)
+![lambJus](resource:assets/images/stocksoupssauces/lambjus.png)
 ### **Ingredients (2L)**
 - 2kg Lamb bones
 - 1kg Veal bones
