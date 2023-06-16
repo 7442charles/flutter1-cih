@@ -33,14 +33,14 @@ class MyDrawer extends StatelessWidget {
                 ),
               ),
             ),
-            ListTile(
-              leading: const Icon(Icons.home, color: Colors.white),
-              title: const Text(
-                'Home',
-                style: TextStyle(color: Colors.white, fontSize: 18.0),
-              ),
-              onTap: () {},
-            ),
+            // ListTile(
+            //   leading: const Icon(Icons.home, color: Colors.white),
+            //   title: const Text(
+            //     'Home',
+            //     style: TextStyle(color: Colors.white, fontSize: 18.0),
+            //   ),
+            //   onTap: () {},
+            // ),
             ListTile(
               leading: const Icon(Icons.history, color: Colors.white),
               title: const Text(

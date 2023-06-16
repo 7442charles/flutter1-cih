@@ -1,4 +1,4 @@
-![Cream Of Vegetable soup](assets/images/stocksoupssauces/cream_of_vegetable_soup.png)
+![Cream Of Vegetable soup](resource:assets/images/stocksoupssauces/cream_of_vegetable_soup.png)
 
 ### **Ingredients (4 Portions)**
 - 100g Onions, Leeks, Celery (sliced)

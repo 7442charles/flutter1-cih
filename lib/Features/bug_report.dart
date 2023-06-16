@@ -41,7 +41,7 @@ class _BugReportState extends State<BugReport> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: 200,
+                width: 300,
                 height: 300,
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
@@ -64,7 +64,7 @@ class _BugReportState extends State<BugReport> {
               TextField(
                 controller: _descriptionController,
                 decoration: InputDecoration(
-                  labelText: 'Description',
+                  labelText: 'Error Description',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(8.0),
                   ),

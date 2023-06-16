@@ -1,4 +1,11 @@
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/bcs_introduction.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/chocolate_gateau.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/chocolate_genoise.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/coffee_gateau.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/cup_cake.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/scones.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/swiss_roll.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/victoria_sandwich.dart';
 import 'package:cih_first_app/components/subtopic.dart';
 import 'package:flutter/material.dart';
 
@@ -35,34 +42,83 @@ class BiscuitsCakesSponge extends StatelessWidget {
 
           SubtopicRow(
             title: 'Victoria Sandwich',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const VictoriaSandwich()),
+                ),
+              );
+            },
           ),
 
           SubtopicRow(
-            title: 'Genoise Sponge',
-            onPressed: () {},
+            title: 'Chocolate gâteau',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ChocolateGateau()),
+                ),
+              );
+            },
           ),
 
           SubtopicRow(
             title: 'Coffee Gâteau',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const CoffeeGateau()),
+                ),
+              );
+            },
           ),
 
           SubtopicRow(
             title: 'Chocolate Genoise Sponge',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ChocolateGenoise()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Swiss Roll',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SwissRoll()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Cup Cakes',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const CupCake()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Scones',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const Scone()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Rock Cakes',

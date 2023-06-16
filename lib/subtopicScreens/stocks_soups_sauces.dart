@@ -1,3 +1,4 @@
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/avocado_coriander_salsa.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/bechamel_sauce.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/brown_onion_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/brown_stock.dart';
@@ -10,6 +11,7 @@ import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/cream_tomato_sou
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/fish_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/green_pea_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/hollandise_sauce.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/horseradish.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/introduction.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/lamb_jus.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/mushroom_sauce.dart';
@@ -19,8 +21,11 @@ import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/pea_veloute.dart
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/potato_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/pumpkin_veloute.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/reduced_veal_stock.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/salsa_verde.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/scotch_broth.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/supreme_sauce.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/sweet_sour_sauce.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/tomato_cucumber_salsa.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/tomato_sauce.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/tomato_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/vegetable_puree_soup.dart';
@@ -474,19 +479,34 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Salsa verde',
             onPressed: () {
-              print('Salsa verde row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SalsaVerde()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Tomato & Cucumber salsa',
             onPressed: () {
-              print('Tomato & Cucumber salsa row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const TomatoCucumberSalsa()),
+                ),
+              );
             },
           ),
           SubtopicRow(
-            title: 'Avocade & Coriander salsa',
+            title: 'Avocado & Coriander salsa',
             onPressed: () {
-              print('Avocade & Coriander salsa row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const AvocadoCorianderSalsa()),
+                ),
+              );
             },
           ),
 
@@ -502,14 +522,24 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Horseradish Sauce',
             onPressed: () {
-              print('Horseradish Saucerow clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const HorseradishSauce()),
+                ),
+              );
             },
           ),
 
           SubtopicRow(
             title: 'Sweet & Sour Sauce',
             onPressed: () {
-              print('Sweet & Sour Sauce row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SweetSourSauce()),
+                ),
+              );
             },
           ),
         ],

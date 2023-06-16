@@ -54,7 +54,7 @@ class CustomNotification extends StatelessWidget {
                   child: const RecentUpdated(
                     title: "Stocks, Soups & Sauces",
                     lecturer: "C.O",
-                    subtopics: 10,
+                    subtopics: 12,
                   ),
                 ),
                 GestureDetector(
