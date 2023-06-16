@@ -1,18 +1,27 @@
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/bechamel_sauce.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/brown_onion_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/brown_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/brown_vegetable_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/chicken_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/chilled_leek_and_potato.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/clear_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/cream_of_Vegetable_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/cream_tomato_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/fish_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/green_pea_soup.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/hollandise_sauce.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/introduction.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/lamb_jus.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/mushroom_sauce.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/mushroom_soup.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/parsely_sauce.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/pea_veloute.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/potato_soup.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/pumpkin_veloute.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/reduced_veal_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/scotch_broth.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/supreme_sauce.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/tomato_sauce.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/tomato_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/vegetable_puree_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/white_chicken_stock.dart';
@@ -306,13 +315,23 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Pea Veloute',
             onPressed: () {
-              print('Pea veloute row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const PeaVeloute()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Pumpkin Veloute',
             onPressed: () {
-              print('Pumpkin Veloute row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const PumpkinVeloute()),
+                ),
+              );
             },
           ),
 
@@ -328,7 +347,12 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Clear Soup',
             onPressed: () {
-              print('clear soup row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ClearSoup()),
+                ),
+              );
             },
           ),
 
@@ -344,13 +368,23 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Bechamel sauce',
             onPressed: () {
-              print('bechamel sauce row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BechamelSauce()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Parsely Sauce',
             onPressed: () {
-              print('parsely sauce row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ParselySauce()),
+                ),
+              );
             },
           ),
 
@@ -366,13 +400,23 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Mushroom Sauce',
             onPressed: () {
-              print('mushroom sauce row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const MushroomSauce()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Supreme Sauce',
             onPressed: () {
-              print('Supreme sauce row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SupremeSauce()),
+                ),
+              );
             },
           ),
 
@@ -388,7 +432,12 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Tomato Sauce',
             onPressed: () {
-              print('Tomato sauce row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const TomatoSauce()),
+                ),
+              );
             },
           ),
 
@@ -404,7 +453,12 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'Hollandise Sauce',
             onPressed: () {
-              print('Holladise sauce row clicked!');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const HollandiseSauce()),
+                ),
+              );
             },
           ),
 
