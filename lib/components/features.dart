@@ -1,3 +1,4 @@
+import 'package:cih_first_app/Features/suggestion/suggets.dart';
 import 'package:flutter/material.dart';
 
 class FeaturesContainer extends StatelessWidget {
@@ -43,6 +44,12 @@ class FeaturesContainer extends StatelessWidget {
           FeatureContainer(
             title: 'Suggestions',
             onTap: () {
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: ((context) => const SuggestionPage()),
+              //   ),
+              // );
               // Perform action when Suggestions is clicked
             },
           ),

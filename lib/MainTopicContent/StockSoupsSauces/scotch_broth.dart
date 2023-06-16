@@ -1,14 +1,14 @@
 import 'package:cih_first_app/components/contentpage.dart';
 import 'package:flutter/material.dart';
 
-class ReducedVealStock extends StatelessWidget {
-  const ReducedVealStock({super.key});
+class ScothBroth extends StatelessWidget {
+  const ScothBroth({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const ContentPage(
-      appBarTitle: 'Reduced Veal Stock',
-      markdownPath: 'assets/markdowns/stocksoupsauces/reduced_veal_stock.md',
+      appBarTitle: 'Scoth Broth',
+      markdownPath: 'assets/markdowns/stocksoupsauces/scorth_broth.md',
       errorMessage: 'Error loading ',
     );
   }
