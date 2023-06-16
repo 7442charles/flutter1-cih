@@ -44,13 +44,13 @@ class FeaturesContainer extends StatelessWidget {
           FeatureContainer(
             title: 'Suggestions',
             onTap: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const SuggestionPage()),
-              //   ),
-              // );
-              // Perform action when Suggestions is clicked
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SuggestionPage()),
+                ),
+              );
+              //Perform action when Suggestions is clicked
             },
           ),
         ],

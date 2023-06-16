@@ -1,3 +1,4 @@
+import 'package:cih_first_app/Features/bug_report.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -43,10 +44,25 @@ class MyDrawer extends StatelessWidget {
             ListTile(
               leading: const Icon(Icons.history, color: Colors.white),
               title: const Text(
-                'Sch Diary',
+                'Update Sch Diary',
                 style: TextStyle(color: Colors.white, fontSize: 18.0),
               ),
               onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(Icons.bug_report, color: Colors.white),
+              title: const Text(
+                'Report App Errors',
+                style: TextStyle(color: Colors.white, fontSize: 18.0),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: ((context) => BugReport()),
+                  ),
+                );
+              },
             ),
             ListTile(
               leading: const Icon(Icons.settings, color: Colors.white),
