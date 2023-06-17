@@ -1,3 +1,5 @@
+![Pesto Rice](resource:assets/images/pastaRiceEggs/pesto_rice.jpg)
+
 ### **Ingredients**
 - 400g long grain rice(boiled)
 - 1/2 bunch Basil

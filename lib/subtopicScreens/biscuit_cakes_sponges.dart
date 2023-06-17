@@ -1,11 +1,24 @@
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/apricot_glaze.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/bcs_introduction.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/brandy_snap.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/cat_toungues.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/chocolate_gateau.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/chocolate_genoise.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/coffee_gateau.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/cup_cake.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/lemon_cake.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/marzipan.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/piped_biscuits.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/rich_fruit_cake.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/rock_cakes.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/royal_icing.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/scones.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/short_bread.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/sponge_fingers.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/swiss_roll.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/tuiles.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/victoria_sandwich.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/water_icing.dart';
 import 'package:cih_first_app/components/subtopic.dart';
 import 'package:flutter/material.dart';
 
@@ -122,15 +135,36 @@ class BiscuitsCakesSponge extends StatelessWidget {
           ),
           SubtopicRow(
             title: 'Rock Cakes',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const RockCakes()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Rich Fruit Cake',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const RichFruitCake()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Lemon Drizzle Cake',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const LemonCake()),
+                ),
+              );
+            },
           ),
 
           const Padding(
@@ -144,19 +178,47 @@ class BiscuitsCakesSponge extends StatelessWidget {
           //separator: subTopic divider
           SubtopicRow(
             title: 'Apricot Glaze',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ApricotGlaze()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Water Icing (glacé icing)',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const WaterIcing()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Royal Icing',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const RoyalIcing()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Marzipan',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const Marzipan()),
+                ),
+              );
+            },
           ),
 
           const Padding(
@@ -170,27 +232,69 @@ class BiscuitsCakesSponge extends StatelessWidget {
 
           SubtopicRow(
             title: 'Sponge Fingers',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SpongeFingers()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Tuiles',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const Tuiles()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
-            title: 'Cat Tounges',
-            onPressed: () {},
+            title: 'Cats\' Tongues',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const CatTongues()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Pipped biscuits',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const PipedBiscuits()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Shortbread Biscuits',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ShortBread()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Brandy Snaps',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BrandySnaps()),
+                ),
+              );
+            },
           ),
         ],
       ),
