@@ -30,5 +30,5 @@ seasoning and consistency.
 7. Serve sprinkled with chopped parsley.
 8. Serve fried or toasted croutons separately.
 
-> *Healthy eating tip*
+> ***Healthy eating tip***
 > Toatst the croutons instead of frying them

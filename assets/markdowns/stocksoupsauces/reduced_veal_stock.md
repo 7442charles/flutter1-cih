@@ -27,8 +27,6 @@ gently for 4–5 hours. Skim frequently.
 a light consistency is achieved.
 
 ---
->No flour is used in the thickening process and
-consequently a lighter textured sauce is produced. Care
-needs to be taken when reducing this type of sauce,
-however, so that the end product is not too strong or
-bitter.
+>No flour is used in the thickening process and consequently a lighter textured sauce is produced. 
+
+>Care needs to be taken when reducing this type of sauce, however, so that the end product is not too strong or bitter.

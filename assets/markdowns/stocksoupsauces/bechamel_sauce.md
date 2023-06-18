@@ -26,10 +26,10 @@ not burn on the bottom.
 conical strainer.
 
 **Variation**
+
 *For cream sauce, finish with 125 ml single cream per litre
 of béchamel sauce.*
 
 > **chefs tip**
-> To prevent a skin from forming, brush the surface with
-melted butter. When ready to use, stir this into the
-sauce. Alternatively, cover the sauce with cling film or greaseproof paper.
+> To prevent a skin from forming, brush the surface with melted butter. 
+>When ready to use, stir this into the sauce. Alternatively, cover the sauce with cling film or greaseproof paper.

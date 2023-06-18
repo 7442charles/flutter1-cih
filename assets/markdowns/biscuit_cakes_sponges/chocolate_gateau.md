@@ -6,7 +6,8 @@
 - 50g Chocolate Pieces
 - Stock syrup
 - Chocolate glaze
-  **ButterCream**
+  
+**ButterCream**
 - 200g Unsalted Butter
 - 150g Icing sugar
 - 50g Block chocolate

@@ -1,4 +1,3 @@
-import 'package:cih_first_app/MainTopicContent/kitchen101/kichen_tool.dart';
 import 'package:cih_first_app/MainTopicContent/kitchen101/kitchen101Intro.dart';
 import 'package:cih_first_app/MainTopicContent/kitchen101/knifeSkills.dart';
 import 'package:cih_first_app/MainTopicContent/kitchen101/safetyMeasures.dart';
@@ -38,17 +37,17 @@ class Kitchen101subs extends StatelessWidget {
               );
             },
           ),
-          SubtopicRow(
-            title: 'Kitchen Tools',
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: ((context) => const KitchenTools()),
-                ),
-              );
-            },
-          ),
+          // SubtopicRow(
+          //   title: 'Kitchen Tools',
+          //   onPressed: () {
+          //     Navigator.push(
+          //       context,
+          //       MaterialPageRoute(
+          //         builder: ((context) => const KitchenTools()),
+          //       ),
+          //     );
+          //   },
+          // ),
           SubtopicRow(
             title: 'Safety Measures',
             onPressed: () {

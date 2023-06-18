@@ -21,9 +21,9 @@
 
 In both cases the consistency should be a light dropping one and, if necessary, it may be adjusted with the addition of a few drops of milk.
 
-### **Variation**
-
 ---
+
+### **Variation**
 
 #### **Cherry cakes**
 1. Add 50g glacé cherries cut in quarters

@@ -19,9 +19,9 @@
 3. Rub the butter into the flour to form a crumb mix.
 4. Add the currants and citrus peel.
 5. Blend in the milk to achieve a smooth mix.
-6. Divide the mixture into small portions, approximately 70 g each, and place evenly on to a baking tray.
+6. Divide the mixture into small portions, approximately 70g each, and place evenly on to a baking tray.
 7. Egg wash and sprinkle with caster sugar.
-8. Bake at 210 °C for 15–20 minutes, until light golden brown.
+8. Bake at 210°C for 15–20 minutes, until light golden brown.
 
 > **Variation**
 > Add a small pinch if mixed spice.

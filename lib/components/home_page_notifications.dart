@@ -39,7 +39,7 @@ class CustomNotification extends StatelessWidget {
                   child: const RecentUpdated(
                     title: "Kitchen 101",
                     lecturer: "C.O",
-                    subtopics: 4,
+                    subtopics: 3,
                   ),
                 ),
                 GestureDetector(
@@ -69,7 +69,7 @@ class CustomNotification extends StatelessWidget {
                   child: const RecentUpdated(
                     title: "Biscuits Cakes & Sponges",
                     lecturer: "P.K",
-                    subtopics: 10,
+                    subtopics: 3,
                   ),
                 ),
                 GestureDetector(

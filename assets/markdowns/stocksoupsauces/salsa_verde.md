@@ -1,6 +1,6 @@
 ![Salsa Verde](resource:assets/images/stocksoupssauces/salsa_verde.png)
 
-### **INgredients** *(8 portions)*
+### **Ingredients** *(8 portions)*
 - 1tbsp mint, coarsely chopped
 - 3tbsp Parsely, coarsely chopped
 - 3 capers, coarsely chopped

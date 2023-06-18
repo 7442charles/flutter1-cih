@@ -15,6 +15,6 @@
 
 ### **Method of Work**
 1. Mix all the ingredients together in a large bowl.
-2. Check the seasonig=ng and serve.
+2. Check the seasoning and serve.
 
 >Use with cold dishes such as salads or terrines.

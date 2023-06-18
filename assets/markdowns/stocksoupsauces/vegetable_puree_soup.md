@@ -27,6 +27,6 @@ strainer.
 7. Return to a clean pan, reboil, and correct the
 seasoning and consistency.
 
-> *Variation*
+> ***Variation***
 > Add a little spice, sufficient to give a subtle background flavour, e.g garam masala with parsnip soup.
 > just before serving add a little chopped herbs e.g parsley.
