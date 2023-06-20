@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "679162173715",
+    "firebase_url": "https://ecascade-9c192-default-rtdb.firebaseio.com",
+    "project_id": "ecascade-9c192",
+    "storage_bucket": "ecascade-9c192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679162173715:android:5a455cf4feebc4948422e6",
+        "android_client_info": {
+          "package_name": "com.example.cih_first_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679162173715-pnm1cdrvaet81b8to99s4maaduoj8k20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlQpM-K7tXK-Ve3gZzy2rIfmtvv42x9QY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679162173715-pnm1cdrvaet81b8to99s4maaduoj8k20.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "679162173715-cvme3q7ln47jsfh1uhlqhnqvvp7abb7o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cihFirstApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

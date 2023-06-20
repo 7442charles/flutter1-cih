@@ -1,8 +1,31 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:firebase_storage/firebase_storage.dart';
+import 'package:firebase_database/firebase_database.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Bug Report',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const BugReport(),
+    );
+  }
+}
 
 class BugReport extends StatefulWidget {
+  const BugReport({super.key});
+
   @override
   _BugReportState createState() => _BugReportState();
 }
@@ -11,6 +34,8 @@ class _BugReportState extends State<BugReport> {
   File? _pickedImage;
   final _imagePicker = ImagePicker();
   final _descriptionController = TextEditingController();
+  final FirebaseStorage _storage = FirebaseStorage.instance;
+  final DatabaseReference _database = FirebaseDatabase.instance.reference();
 
   Future<void> _pickImage() async {
     final pickedImage =
@@ -18,6 +43,27 @@ class _BugReportState extends State<BugReport> {
     if (pickedImage != null) {
       setState(() {
         _pickedImage = File(pickedImage.path);
+      });
+    }
+  }
+
+  Future<void> _uploadImageAndSaveToDatabase(String description) async {
+    if (_pickedImage != null) {
+      // Upload image to Firebase Cloud Storage
+      final imageName = DateTime.now().millisecondsSinceEpoch.toString();
+      final storageReference = _storage.ref().child('images/$imageName.jpg');
+      final uploadTask = storageReference.putFile(_pickedImage!);
+      final storageSnapshot = await uploadTask;
+
+      // Get image URL from Cloud Storage
+      final imageUrl = await storageSnapshot.ref.getDownloadURL();
+
+      // Save image URL, description, and timestamp to Realtime Database
+      final timestamp = DateTime.now().millisecondsSinceEpoch;
+      _database.child('bug_reports').push().set({
+        'imageUrl': imageUrl,
+        'description': description,
+        'timestamp': timestamp,
       });
     }
   }
@@ -73,14 +119,12 @@ class _BugReportState extends State<BugReport> {
                 ),
               ),
               const SizedBox(height: 16),
-              Container(
+              SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    // Perform submission logic here
                     final description = _descriptionController.text;
-                    print('Image: $_pickedImage');
-                    print('Description: $description');
+                    _uploadImageAndSaveToDatabase(description);
                   },
                   child: const Padding(
                     padding: EdgeInsets.symmetric(vertical: 16),

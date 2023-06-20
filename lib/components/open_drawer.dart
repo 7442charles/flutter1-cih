@@ -59,7 +59,7 @@ class MyDrawer extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: ((context) => BugReport()),
+                    builder: ((context) => const BugReport()),
                   ),
                 );
               },
