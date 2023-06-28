@@ -2,7 +2,7 @@ name: cih_first_app
 description: A new Flutter project.
 publish_to: 'none' 
 
-version: 2.0.0+1
+version: 1.0.0+1
 
 environment:
   sdk: '>=2.18.0 <4.0.0'
@@ -23,6 +23,7 @@ dependencies:
   firebase_analytics: ^10.4.3
   firebase_database: ^10.2.3
   firebase_storage: ^11.2.0
+  firebase_performance: ^0.9.2+3
 
 dev_dependencies:
   flutter_test:

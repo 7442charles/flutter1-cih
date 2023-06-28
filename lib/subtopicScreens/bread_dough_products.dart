@@ -1,14 +1,24 @@
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/SundriedTomatoBread.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/Whole_meal_bread.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/bath_buns.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/begal.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/blueberry_baba.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/bun_dough.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/doughnuts.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/focaccia.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/introduction.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/naan_bread.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/olive_bread.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/permesan_rolls.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/pizza.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/question_answer.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/rye_bread.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/savarin_dough.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/savarin_syrup.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/savarin_with%20_fruits.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/seeded_bread.dart';
 import 'package:cih_first_app/MainTopicContent/breadDughProducts/soda_bread.dart';
+import 'package:cih_first_app/MainTopicContent/breadDughProducts/swiss_buns.dart';
 import 'package:cih_first_app/components/subtopic.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +35,25 @@ class BreadDoughProducts extends StatelessWidget {
         children: [
           SubtopicRow(
             title: 'Introduction',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const Introduction()),
+                ),
+              );
+            },
+          ),
+          SubtopicRow(
+            title: 'Question & Answer',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const QuestionAnswer()),
+                ),
+              );
+            },
           ),
           const Padding(
             padding: EdgeInsets.only(top: 15.0),
@@ -166,19 +194,47 @@ class BreadDoughProducts extends StatelessWidget {
           ),
           SubtopicRow(
             title: 'Bun Dough',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BunDough()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Bath Buns',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BathBuns()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
-            title: 'Hot Cross Buns',
-            onPressed: () {},
+            title: 'Swiss Buns',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SwissBuns()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Dougnuts',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const DoughNuts()),
+                ),
+              );
+            },
           ),
           const Padding(
             padding: EdgeInsets.only(top: 15.0),
@@ -190,15 +246,47 @@ class BreadDoughProducts extends StatelessWidget {
           ),
           SubtopicRow(
             title: "Savarin Dough",
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SavarinDough()),
+                ),
+              );
+            },
+          ),
+          SubtopicRow(
+            title: "Savarin Syrup",
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SavarinSyrup()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Savarin with Fruits',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SavarinWithFruits()),
+                ),
+              );
+            },
           ),
           SubtopicRow(
             title: 'Blueberry Baba',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BlueBerryBaba()),
+                ),
+              );
+            },
           ),
         ],
       ),

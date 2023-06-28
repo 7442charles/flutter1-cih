@@ -9,6 +9,7 @@ import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/cup_cake.dar
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/lemon_cake.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/marzipan.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/piped_biscuits.dart';
+import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/question_answer.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/rich_fruit_cake.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/rock_cakes.dart';
 import 'package:cih_first_app/MainTopicContent/biscuitsCakesSponges/royal_icing.dart';
@@ -40,6 +41,17 @@ class BiscuitsCakesSponge extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: ((context) => const BcsIntroduction()),
+                ),
+              );
+            },
+          ),
+          SubtopicRow(
+            title: 'Question & Answer',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const QuestionAnswerSBC()),
                 ),
               );
             },
