@@ -1,4 +1,4 @@
-name: Build APK
+name: DHM Build APK
 
 on:
   push:
