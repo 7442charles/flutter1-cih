@@ -1,4 +1,4 @@
-name: Build and Deploy APK
+name: Build APK
 
 on:
   push:
@@ -13,26 +13,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Create 'builds' branch if it doesn't exist
-        run: |
-          git branch -a | grep "remotes/origin/builds$" || git checkout -b builds
-
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.10.4'  
+          flutter-version: '2.2.3'  # Specify the desired Flutter version
 
       - name: Install dependencies
         run: flutter pub get
 
       - name: Build APK
         run: flutter build apk --release
-
-      - name: Commit and push APK to 'builds' branch
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git checkout builds
-          git add .
-          git commit -m "Auto-built APK from DPC branch"
-          git push origin builds
