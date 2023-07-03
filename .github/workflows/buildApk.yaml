@@ -16,32 +16,13 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.10.4'  
+          flutter-version: '3.10.4'
+
+      - name: Clean project
+        run: flutter clean
 
       - name: Install dependencies
         run: flutter pub get
 
       - name: Build APK
         run: flutter build apk --release
-
-      - name: Check if builds branch exists
-        id: check_branch
-        run: echo ::set-output name=branch_exists::$(git show-ref --quiet refs/heads/builds && echo true || echo false)
-
-      - name: Create builds branch
-        run: |
-          if [[ "${{ steps.check_branch.outputs.branch_exists }}" == "false" ]]; then
-            git checkout -b builds
-            git push origin builds
-          else
-            git checkout builds
-            git pull origin builds
-          fi
-
-      - name: Move APK to builds branch
-        run: |
-          mkdir -p builds
-          mv build/app/outputs/flutter-apk/app-release.apk builds/
-          git add builds/
-          git commit -m "Add built APK to builds branch"
-          git push origin builds
