@@ -35,4 +35,27 @@
     - *fennel*
 
 9.  what is the difference between leavened and unleavened bread?
+    - *Leavened bread is made from dough that has gone through fermentation while unleavened bread the dough doesn't go through fermentation*
 10. What is the meaning of the term 'scaling'
+11. How is the fat added to the flour in the production of choux pastry?
+    - *Boiling method*
+
+12. What is meant by the term lamination?
+    - *Adding fat to flour by layering*
+
+13. Name 5 examples of products that can be produced using puff pastry
+    - *Cheese straws*
+    - *Sausage rolls*
+    - *Cream horns*
+    - *Puff pastry slice*
+    - *Puff pastry cases*
+    - *Apple turnovers*
+14. Other than eclairs and profiteroles name 3 Products that are made using choux pastry
+    - *cream buns*
+    - *Gateau Paris-brest*
+    - *Choux paste fritters*
+
+15. Name one pastry product eaten as dessert which would be unsuitable for a vegetarian customer
+    - *Sausage rolls*
+
+

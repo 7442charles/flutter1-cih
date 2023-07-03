@@ -4,27 +4,8 @@ import 'package:image_picker/image_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:firebase_database/firebase_database.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Bug Report',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const BugReport(),
-    );
-  }
-}
-
 class BugReport extends StatefulWidget {
-  const BugReport({super.key});
+  const BugReport({Key? key});
 
   @override
   _BugReportState createState() => _BugReportState();
@@ -65,7 +46,27 @@ class _BugReportState extends State<BugReport> {
         'description': description,
         'timestamp': timestamp,
       });
+
+      // Show success message and reset the page
+      _showSnackBar('Bug report submitted successfully');
+      _resetPage();
+    } else {
+      // Show error message
+      _showSnackBar('Please select an image');
     }
+  }
+
+  void _showSnackBar(String message) {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text(message)),
+    );
+  }
+
+  void _resetPage() {
+    setState(() {
+      _pickedImage = null;
+      _descriptionController.clear();
+    });
   }
 
   @override

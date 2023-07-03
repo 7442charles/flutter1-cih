@@ -90,6 +90,36 @@ class CustomNotification extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(
+                    //     builder: (context) => const BasicPastryProducts(),
+                    //   ),
+                    // );
+                  },
+                  child: const RecentUpdated(
+                    title: "Basic Pastry Products",
+                    lecturer: "M.o",
+                    subtopics: 20,
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(
+                    //     builder: (context) => const Eggs(),
+                    //   ),
+                    // );
+                  },
+                  child: const RecentUpdated(
+                    title: "Eggs",
+                    lecturer: "M.o",
+                    subtopics: 20,
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -98,7 +128,7 @@ class CustomNotification extends StatelessWidget {
                     );
                   },
                   child: const RecentUpdated(
-                    title: "Pasta, Rice & Eggs",
+                    title: "Pasta, Rice",
                     lecturer: "M.O",
                     subtopics: 20,
                   ),

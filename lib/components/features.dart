@@ -1,10 +1,11 @@
+import 'package:cih_first_app/Features/students_portal.dart';
 import 'package:cih_first_app/Features/suggestion/suggets.dart';
 import 'package:flutter/material.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 
 class FeaturesContainer extends StatelessWidget {
-  const FeaturesContainer({
-    super.key,
-  });
+  const FeaturesContainer({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -12,49 +13,83 @@ class FeaturesContainer extends StatelessWidget {
       child: Row(
         children: [
           FeatureContainer(
+            title: 'Courses',
+            onTap: () {
+              //_checkInternetAndNavigate(context, CoursesPage());
+            },
+          ),
+          FeatureContainer(
             title: 'Students Portal',
             onTap: () {
-              // Perform action when Students Portal is clicked
+              _checkInternetAndNavigate(context, StudentsPortalPage());
+            },
+          ),
+          FeatureContainer(
+            title: 'Suggestions Box',
+            onTap: () {
+              _checkInternetAndNavigate(context, SuggestionPage());
             },
           ),
           FeatureContainer(
             title: 'Notice Board',
             onTap: () {
-              // Perform action when Notice Board is clicked
+              //_checkInternetAndNavigate(context, NoticeBoardPage());
             },
           ),
           FeatureContainer(
             title: 'Sch Diary',
             onTap: () {
-              // Perform action when JNAI is clicked
+              //_checkInternetAndNavigate(context, SchDiaryPage());
             },
           ),
           FeatureContainer(
             title: 'Timetable',
             onTap: () {
-              // Perform action when Timetable is clicked
+              //_checkInternetAndNavigate(context, TimetablePage());
             },
           ),
           FeatureContainer(
             title: 'Events',
             onTap: () {
-              // Perform action when Events is clicked
-            },
-          ),
-          FeatureContainer(
-            title: 'Suggestions',
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: ((context) => const SuggestionPage()),
-                ),
-              );
-              //Perform action when Suggestions is clicked
+              // _checkInternetAndNavigate(context, EventsPage());
             },
           ),
         ],
       ),
+    );
+  }
+
+  Future<void> _checkInternetAndNavigate(
+      BuildContext context, Widget page) async {
+    final connectivityResult = await Connectivity().checkConnectivity();
+    if (connectivityResult != ConnectivityResult.none) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => page),
+      );
+    } else {
+      _showNoInternetDialog(context);
+    }
+  }
+
+  void _showNoInternetDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('No Internet Connection'),
+          content:
+              const Text('Please connect to the internet to access this page.'),
+          actions: <Widget>[
+            TextButton(
+              child: const Text('OK'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
     );
   }
 }
@@ -63,7 +98,7 @@ class FeatureContainer extends StatelessWidget {
   final String title;
   final VoidCallback onTap;
 
-  const FeatureContainer({super.key, required this.title, required this.onTap});
+  const FeatureContainer({Key? key, required this.title, required this.onTap});
 
   @override
   Widget build(BuildContext context) {

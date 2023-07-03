@@ -12,6 +12,7 @@ buildscript {
         classpath 'com.google.firebase:perf-plugin:1.4.1'
         // END: FlutterFire Configuration
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
     }
 }
 
