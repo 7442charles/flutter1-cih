@@ -18,9 +18,6 @@ jobs:
         with:
           flutter-version: '3.10.4'
 
-      - name: Clean project
-        run: flutter clean
-
       - name: Install dependencies
         run: flutter pub get
 
