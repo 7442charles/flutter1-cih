@@ -1,0 +1,165 @@
+{
+    "bug_reports": {
+      "-NZ6N6akoDL2mUhYEToI": {
+        "description": "kibe",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/ecascade-9c192.appspot.com/o/images%2F1688045901990.jpg?alt=media&token=9f02b337-a6a0-4a3e-8805-161171bd1c1c",
+        "timestamp": 1688045910448
+      },
+      "-NZA6OaTzrz9itz6sxaY": {
+        "description": "master leon😆😆😆",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/ecascade-9c192.appspot.com/o/images%2F1688108629099.jpg?alt=media&token=d6e05e45-0ac9-48d1-b28e-36013f0d3417",
+        "timestamp": 1688108636574
+      }
+    },
+    "suggestions": {
+      "-NZ6MoZFdFP4bgkSTxWl": {
+        "name": "Anonymous",
+        "suggestion": "hello everyone "
+      },
+      "-NZ6Mspdhx2lOcGLxDl-": {
+        "name": "mike",
+        "suggestion": "hello mike"
+      },
+      "-NZA6_4Q5rtO0GtjxzDK": {
+        "name": "Anonymous",
+        "suggestion": "hello... i would like to suggest that this app is f*cking amazing"
+      },
+      "-NZA6g6KHhvgBE5LKMqu": {
+        "name": "mike mbuvi sonko",
+        "suggestion": "hello... i would like to suggest that this app is f*cking amazing.. my name testing the name "
+      }
+    },
+    "students": [
+      {
+        "name": "John Smith",
+        "admissionNumber": "CIH/DHM/1000M/2019",
+        "units": {
+          "kitchenOrganisation": 85,
+          "kitchenHygiene": 72,
+          "stocksAndSoups": 90,
+          "breadAndDough": 78,
+          "pastry": 95,
+          "eggsAndPasta": 88,
+          "meat": 80
+        }
+      },
+      {
+        "name": "Emily Johnson",
+        "admissionNumber": "CIH/DHM/1001M/2019",
+        "units": {
+          "kitchenOrganisation": 76,
+          "kitchenHygiene": 81,
+          "stocksAndSoups": 88,
+          "breadAndDough": 92,
+          "pastry": 80,
+          "eggsAndPasta": 85,
+          "meat": 90
+        }
+      },
+      {
+        "name": "Daniel Wilson",
+        "admissionNumber": "CIH/DHM/1002M/2019",
+        "units": {
+          "kitchenOrganisation": 92,
+          "kitchenHygiene": 88,
+          "stocksAndSoups": 79,
+          "breadAndDough": 84,
+          "pastry": 91,
+          "eggsAndPasta": 78,
+          "meat": 87
+        }
+      },
+      {
+        "name": "Olivia Brown",
+        "admissionNumber": "CIH/DHM/1003M/2019",
+        "units": {
+          "kitchenOrganisation": 79,
+          "kitchenHygiene": 83,
+          "stocksAndSoups": 90,
+          "breadAndDough": 75,
+          "pastry": 82,
+          "eggsAndPasta": 88,
+          "meat": 91
+        }
+      },
+      {
+        "name": "William Davis",
+        "admissionNumber": "CIH/DHM/1004M/2019",
+        "units": {
+          "kitchenOrganisation": 85,
+          "kitchenHygiene": 90,
+          "stocksAndSoups": 82,
+          "breadAndDough": 88,
+          "pastry": 79,
+          "eggsAndPasta": 84,
+          "meat": 93
+        }
+      },
+      {
+        "name": "Sophia Taylor",
+        "admissionNumber": "CIH/DHM/1005M/2019",
+        "units": {
+          "kitchenOrganisation": 91,
+          "kitchenHygiene": 85,
+          "stocksAndSoups": 88,
+          "breadAndDough": 79,
+          "pastry": 86,
+          "eggsAndPasta": 92,
+          "meat": 83
+        }
+      },
+      {
+        "name": "James Anderson",
+        "admissionNumber": "CIH/DHM/1006M/2019",
+        "units": {
+          "kitchenOrganisation": 82,
+          "kitchenHygiene": 78,
+          "stocksAndSoups": 86,
+          "breadAndDough": 91,
+          "pastry": 88,
+          "eggsAndPasta": 80,
+          "meat": 85
+        }
+      },
+      {
+        "name": "Ava Martinez",
+        "admissionNumber": "CIH/DHM/1007M/2019",
+        "units": {
+          "kitchenOrganisation": 88,
+          "kitchenHygiene": 92,
+          "stocksAndSoups": 78,
+          "breadAndDough": 83,
+          "pastry": 90,
+          "eggsAndPasta": 87,
+          "meat": 79
+        }
+      },
+      {
+        "name": "Joseph Thompson",
+        "admissionNumber": "CIH/DHM/1008M/2019",
+        "units": {
+          "kitchenOrganisation": 75,
+          "kitchenHygiene": 79,
+          "stocksAndSoups": 85,
+          "breadAndDough": 90,
+          "pastry": 87,
+          "eggsAndPasta": 92,
+          "meat": 84
+        }
+      },
+      {
+        "name": "Mia Roberts",
+        "admissionNumber": "CIH/DHM/1009M/2019",
+        "units": {
+          "kitchenOrganisation": 92,
+          "kitchenHygiene": 88,
+          "stocksAndSoups": 80,
+          "breadAndDough": 85,
+          "pastry": 79,
+          "eggsAndPasta": 84,
+          "meat": 91
+        }
+      }
+    ]
+  }
+  
