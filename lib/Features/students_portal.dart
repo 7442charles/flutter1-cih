@@ -38,20 +38,21 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
     super.dispose();
   }
 
-  Future<Map<String, dynamic>?> fetchStudentResult(
+  Future<List<Map<String, dynamic>>?> fetchStudentResult(
       String name, String admissionNumber) async {
-    final String url =
+    const String url =
         'https://raw.githubusercontent.com/7442charles/ecascade_jsons/main/results.json';
 
     final response = await http.get(Uri.parse(url));
 
     if (response.statusCode == 200) {
-      final data = jsonDecode(response.body) as List<dynamic>;
+      final data = jsonDecode(response.body) as Map<String, dynamic>;
+      final students = data['students'] as List<dynamic>;
 
-      for (final student in data) {
+      for (final student in students) {
         if (student['name'] == name &&
             student['admissionNumber'] == admissionNumber) {
-          return student['units'];
+          return [student['units']];
         }
       }
     }
@@ -75,9 +76,10 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
     });
 
     if (resultData != null) {
+      final units = resultData[0];
       setState(() {
         _searchResult = 'Search result for $name - $admissionNumber\n\n';
-        resultData.forEach((unit, grade) {
+        units.forEach((unit, grade) {
           _searchResult += '$unit: $grade\n';
         });
       });
