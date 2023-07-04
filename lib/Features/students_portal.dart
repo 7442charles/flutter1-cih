@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_database/firebase_database.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 
 class StudentsPortalApp extends StatelessWidget {
   const StudentsPortalApp({Key? key}) : super(key: key);
@@ -39,22 +40,18 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
 
   Future<Map<String, dynamic>?> fetchStudentResult(
       String name, String admissionNumber) async {
-    DatabaseReference databaseReference =
-        FirebaseDatabase.instance.reference().child('students');
+    final String url =
+        'https://raw.githubusercontent.com/7442charles/ecascade_jsons/main/results.json';
 
-    DataSnapshot snapshot = (await databaseReference.once()) as DataSnapshot;
+    final response = await http.get(Uri.parse(url));
 
-    if (snapshot.value != null) {
-      Map<dynamic, dynamic>? data = snapshot.value as Map<dynamic, dynamic>?;
+    if (response.statusCode == 200) {
+      final data = jsonDecode(response.body) as List<dynamic>;
 
-      if (data != null) {
-        for (final studentEntry in data.entries) {
-          Map<dynamic, dynamic> student = studentEntry.value;
-
-          if (student['name'] == name &&
-              student['admissionNumber'] == admissionNumber) {
-            return student['units'];
-          }
+      for (final student in data) {
+        if (student['name'] == name &&
+            student['admissionNumber'] == admissionNumber) {
+          return student['units'];
         }
       }
     }
