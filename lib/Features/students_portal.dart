@@ -2,21 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-class StudentsPortalApp extends StatelessWidget {
-  const StudentsPortalApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Student Portal',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: StudentsPortalPage(),
-    );
-  }
-}
-
 class StudentsPortalPage extends StatefulWidget {
   const StudentsPortalPage({Key? key}) : super(key: key);
 
@@ -49,7 +34,7 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
       final data = jsonDecode(response.body) as Map<String, dynamic>;
       final students = data['students'] as List<dynamic>;
 
-      List<Map<String, dynamic>>? results = students
+      List<Map<String, dynamic>> results = students
           .where((student) =>
               student['name'] == name &&
               student['admissionNumber'] == admissionNumber)
@@ -203,10 +188,25 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
                   final student = _searchResults[index];
                   final studentName = student['name'];
                   final admissionNumber = student['admissionNumber'];
+                  final units = student['units'] as List<dynamic>;
 
-                  return ListTile(
-                    title: Text(studentName),
-                    subtitle: Text(admissionNumber),
+                  return Card(
+                    margin: const EdgeInsets.symmetric(vertical: 8.0),
+                    child: ListTile(
+                      title: Text(studentName),
+                      subtitle: Text(admissionNumber),
+                      trailing: Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: units.map<Widget>((unit) {
+                          final unitName = unit['name'];
+                          final unitScore = unit['score'];
+                          return ListTile(
+                            title: Text(unitName),
+                            subtitle: Text('Score: $unitScore'),
+                          );
+                        }).toList(),
+                      ),
+                    ),
                   );
                 },
               ),
@@ -216,8 +216,4 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
       ),
     );
   }
-}
-
-void main() {
-  runApp(StudentsPortalApp());
 }
