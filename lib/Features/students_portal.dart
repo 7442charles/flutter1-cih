@@ -61,8 +61,23 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
   }
 
   void _submitForm() async {
-    String name = _nameController.text;
-    String admissionNumber = _admissionNumberController.text;
+    String name = _nameController.text.trim();
+    String admissionNumber =
+        _admissionNumberController.text.trim().toUpperCase();
+
+    if (name.isEmpty || admissionNumber.isEmpty) {
+      _showErrorDialog('Please enter both name and admission number.');
+      return;
+    }
+
+    List<String> nameParts = name.split(' ');
+    nameParts = nameParts.map((part) {
+      if (part.isNotEmpty) {
+        return part[0].toUpperCase() + part.substring(1);
+      }
+      return '';
+    }).toList();
+    name = nameParts.join(' ');
 
     setState(() {
       _isLoading = true;
@@ -78,16 +93,38 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
     if (resultData != null) {
       final units = resultData[0];
       setState(() {
-        _searchResult = 'Search result for $name - $admissionNumber\n\n';
+        _searchResult =
+            'Search result for $name - ${admissionNumber.toUpperCase()}\n\n';
         units.forEach((unit, grade) {
           _searchResult += '$unit: $grade\n';
         });
       });
     } else {
       setState(() {
-        _searchResult = 'No result found for $name - $admissionNumber';
+        _searchResult =
+            'No result found for $name - ${admissionNumber.toUpperCase()}';
       });
     }
+  }
+
+  void _showErrorDialog(String message) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Error'),
+          content: Text(message),
+          actions: [
+            TextButton(
+              child: Text('OK'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
   }
 
   @override
