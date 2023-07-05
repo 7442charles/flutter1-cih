@@ -28,7 +28,7 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _admissionNumberController =
       TextEditingController();
-  String _searchResult = '';
+  List<Map<String, dynamic>> _searchResults = [];
   bool _isLoading = false;
 
   @override
@@ -49,11 +49,15 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
       final data = jsonDecode(response.body) as Map<String, dynamic>;
       final students = data['students'] as List<dynamic>;
 
-      for (final student in students) {
-        if (student['name'] == name &&
-            student['admissionNumber'] == admissionNumber) {
-          return [student['units']];
-        }
+      List<Map<String, dynamic>>? results = students
+          .where((student) =>
+              student['name'] == name &&
+              student['admissionNumber'] == admissionNumber)
+          .toList()
+          .cast<Map<String, dynamic>>();
+
+      if (results.isNotEmpty) {
+        return results;
       }
     }
 
@@ -81,7 +85,7 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
 
     setState(() {
       _isLoading = true;
-      _searchResult = '';
+      _searchResults = [];
     });
 
     final resultData = await fetchStudentResult(name, admissionNumber);
@@ -91,19 +95,15 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
     });
 
     if (resultData != null) {
-      final units = resultData[0];
       setState(() {
-        _searchResult =
-            'Search result for $name - ${admissionNumber.toUpperCase()}\n\n';
-        units.forEach((unit, grade) {
-          _searchResult += '$unit: $grade\n';
-        });
+        _searchResults = resultData;
       });
     } else {
       setState(() {
-        _searchResult =
-            'No result found for $name - ${admissionNumber.toUpperCase()}';
+        _searchResults = [];
       });
+      _showErrorDialog(
+          'No result found for $name - ${admissionNumber.toUpperCase()}');
     }
   }
 
@@ -196,11 +196,19 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
                     ),
             ),
             const SizedBox(height: 24.0),
-            Text(
-              _searchResult,
-              style: const TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
+            Expanded(
+              child: ListView.builder(
+                itemCount: _searchResults.length,
+                itemBuilder: (BuildContext context, int index) {
+                  final student = _searchResults[index];
+                  final studentName = student['name'];
+                  final admissionNumber = student['admissionNumber'];
+
+                  return ListTile(
+                    title: Text(studentName),
+                    subtitle: Text(admissionNumber),
+                  );
+                },
               ),
             ),
           ],
@@ -208,4 +216,8 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
       ),
     );
   }
+}
+
+void main() {
+  runApp(StudentsPortalApp());
 }
