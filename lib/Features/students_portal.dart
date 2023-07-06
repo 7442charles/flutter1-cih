@@ -112,6 +112,10 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
     );
   }
 
+  void _downloadResults() {
+    // Write code here to download the results as a PDF file
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -230,6 +234,10 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
                                   subtitle: Text('Score: $unitScore'),
                                 );
                               },
+                            ),
+                            TextButton(
+                              onPressed: _downloadResults,
+                              child: const Text('Download Results'),
                             ),
                           ],
                         ),
