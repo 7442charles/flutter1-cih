@@ -88,7 +88,7 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
         _searchResults = [];
       });
       _showErrorDialog(
-          'No result found for $name - ${admissionNumber.toUpperCase()}');
+          'No result found for \n $name \n ${admissionNumber.toUpperCase()}');
     }
   }
 
@@ -97,11 +97,11 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Error'),
+          title: const Text('Please Try Again'),
           content: Text(message),
           actions: [
             TextButton(
-              child: Text('OK'),
+              child: const Text('OK'),
               onPressed: () {
                 Navigator.of(context).pop();
               },
@@ -188,24 +188,52 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
                   final student = _searchResults[index];
                   final studentName = student['name'];
                   final admissionNumber = student['admissionNumber'];
-                  final units = student['units'] as List<dynamic>;
+                  final units = student['units'] as Map<String, dynamic>;
 
                   return Card(
                     margin: const EdgeInsets.symmetric(vertical: 8.0),
-                    child: ListTile(
-                      title: Text(studentName),
-                      subtitle: Text(admissionNumber),
-                      trailing: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: units.map<Widget>((unit) {
-                          final unitName = unit['name'];
-                          final unitScore = unit['score'];
-                          return ListTile(
-                            title: Text(unitName),
-                            subtitle: Text('Score: $unitScore'),
-                          );
-                        }).toList(),
-                      ),
+                    child: Column(
+                      children: [
+                        ListTile(
+                          title: Text(
+                            studentName,
+                            style: const TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18.0,
+                            ),
+                          ),
+                          subtitle: Text(
+                            admissionNumber,
+                            style: const TextStyle(
+                              fontSize: 16.0,
+                            ),
+                          ),
+                        ),
+                        ExpansionTile(
+                          title: const Text(
+                            'View Results',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16.0,
+                            ),
+                          ),
+                          children: [
+                            ListView.builder(
+                              shrinkWrap: true,
+                              physics: const ClampingScrollPhysics(),
+                              itemCount: units.length,
+                              itemBuilder: (BuildContext context, int index) {
+                                final unitName = units.keys.elementAt(index);
+                                final unitScore = units[unitName];
+                                return ListTile(
+                                  title: Text(unitName),
+                                  subtitle: Text('Score: $unitScore'),
+                                );
+                              },
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                   );
                 },

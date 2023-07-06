@@ -64,11 +64,13 @@ flutter:
      - assets/images/spongeBiscuitsCakes/
      - assets/images/breadDoughProducts/
      - assets/images/pastaRiceEggs/
+     - assets/images/basicPastryProducts/
 
      - assets/markdowns/kitchen101/
      - assets/markdowns/stocksoupsauces/
      - assets/markdowns/biscuit_cakes_sponges/
      - assets/markdowns/Bread_dough_products/
      - assets/markdowns/pasta_rice_eggs/
+     - assets/markdowns/basic_pastry_products/
      
      - fonts/Alkatra-Regular.ttf
