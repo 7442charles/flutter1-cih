@@ -2,7 +2,7 @@ import 'package:cih_first_app/components/ecascade_container.dart';
 import 'package:cih_first_app/components/features.dart';
 import 'package:flutter/material.dart';
 
-import '../components/home_page_notifications.dart';
+//import '../components/home_page_notifications.dart';
 import '../components/open_drawer.dart';
 import '../components/style.dart';
 
@@ -36,7 +36,7 @@ class LandingPage extends StatelessWidget {
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.vertical,
-                child: CustomNotification(),
+                //child: CustomNotification(),
               ),
             ],
           ),
