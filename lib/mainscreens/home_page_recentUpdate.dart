@@ -106,12 +106,12 @@ class CustomNotification extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const BasicPastry(),
-                      ),
-                    );
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(
+                    //     builder: (context) => const BasicPastry(),
+                    //   ),
+                    // );
                   },
                   child: const RecentUpdated(
                     title: "Eggs",
@@ -121,12 +121,12 @@ class CustomNotification extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    // Navigator.push(
-                    //   context,
-                    //   MaterialPageRoute(
-                    //     builder: (context) => const PastaRiceEggs(),
-                    //   ),
-                    // );
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const PastaRiceEggs(),
+                      ),
+                    );
                   },
                   child: const RecentUpdated(
                     title: "Pasta, Rice",
