@@ -1,5 +1,5 @@
 import 'package:cih_first_app/Features/students_portal.dart';
-import 'package:cih_first_app/Features/suggestion/suggets.dart';
+import 'package:cih_first_app/Features/suggets.dart';
 import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 
@@ -21,7 +21,7 @@ class FeaturesContainer extends StatelessWidget {
           FeatureContainer(
             title: 'Students Portal',
             onTap: () {
-              _checkInternetAndNavigate(context, StudentsPortalPage());
+              _checkInternetAndNavigate(context, const StudentsPortalPage());
             },
           ),
           FeatureContainer(
@@ -77,9 +77,8 @@ class FeaturesContainer extends StatelessWidget {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text('No Internet Connection'),
-          content:
-              const Text('Please connect to the internet to access this page.'),
+          title: const Text('No Internet Connection!'),
+          content: const Text('Please connect to the internet and try again.'),
           actions: <Widget>[
             TextButton(
               child: const Text('OK'),
