@@ -59,16 +59,4 @@ flutter:
 
   assets:
      - assets/images/
-     - assets/images/vegcuts/
-     - assets/images/stocksoupssauces/
-     - assets/images/spongeBiscuitsCakes/
-     - assets/images/breadDoughProducts/
-     - assets/images/pastaRiceEggs/
-
-     - assets/markdowns/kitchen101/
-     - assets/markdowns/stocksoupsauces/
-     - assets/markdowns/biscuit_cakes_sponges/
-     - assets/markdowns/Bread_dough_products/
-     - assets/markdowns/pasta_rice_eggs/
-     
      - fonts/Alkatra-Regular.ttf
