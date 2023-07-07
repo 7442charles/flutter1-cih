@@ -1,5 +1,5 @@
 import 'package:cih_first_app/Features/students_portal.dart';
-import 'package:cih_first_app/Features/suggestion/suggets.dart';
+import 'package:cih_first_app/Features/suggets.dart';
 import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 
