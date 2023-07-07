@@ -2,7 +2,7 @@ import 'package:cih_first_app/components/recent_update.dart';
 import 'package:cih_first_app/subtopicScreens/Kitchen101_subtopics.dart';
 import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
 import 'package:cih_first_app/subtopicScreens/bread_dough_products.dart';
-import 'package:cih_first_app/subtopicScreens/paste_rice_eggs.dart';
+import 'package:cih_first_app/subtopicScreens/paste_rice.dart';
 import 'package:cih_first_app/subtopicScreens/stocks_soups_sauces.dart';
 import 'package:flutter/material.dart';
 
@@ -120,12 +120,12 @@ class CustomNotification extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const PastaRiceEggs(),
-                      ),
-                    );
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(
+                    //     builder: (context) => const PastaRiceEggs(),
+                    //   ),
+                    // );
                   },
                   child: const RecentUpdated(
                     title: "Pasta, Rice",
