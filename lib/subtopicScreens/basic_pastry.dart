@@ -1,19 +1,32 @@
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/apple_flan.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/apple_puree.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/apple_turnover.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/bakewell_tart.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/boiledButterCream.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/butter_cream.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/chantily_cream.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/cheese_straw.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/chocolate_eclairs.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/choux_paste.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/choux_paste_fritters.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/cream_buns.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/cream_horns.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/egg_custard.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/fruit_paste.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/fruit_tart.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/ganache.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/gateau_pithiviers.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/introduction.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/lemon_meringue_pie.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/lemon_tart.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/minced_pies.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/pastry_cream.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/profiteroles.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/puff_paste.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/puff_pastry_cases.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/question_answer.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/rough_puff_paste.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/sausage_rolls.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/short_paste.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/steamed_fruit_puddings.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/suet_paste.dart';
@@ -307,78 +320,78 @@ class BasicPastry extends StatelessWidget {
           SubtopicRow(
             title: 'rough Puff Paste',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const RoughPuffPaste()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Puff Pastry cases',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const PuffPastryCases()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Cheese Straws',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const CheeseStraw()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Sausage Rolls',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SausageRoll()),
+                ),
+              );
             },
           ),
           SubtopicRow(
-            title: 'Puff Pastry Slice',
+            title: 'Gâteau Pithiviers',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const GateauPithiviers()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Cream Horns',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const CreamHorns()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Apple Turnovers',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const AppleTurnover()),
+                ),
+              );
             },
           ),
           const Padding(
@@ -392,78 +405,67 @@ class BasicPastry extends StatelessWidget {
           SubtopicRow(
             title: 'Pastry Cream',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const PastryCream()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Chantiliy Cream',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ChantilyCream()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Buttercream',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ButterCream()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Boiled Buttercream',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BoiledButterCream()),
+                ),
+              );
             },
           ),
           SubtopicRow(
-            title: 'Italian Meringue',
+            title: 'Ganache',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const Ganache()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Apple Puree',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
-            },
-          ),
-          SubtopicRow(
-            title: 'Stock Syrup',
-            onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ApplePuree()),
+                ),
+              );
             },
           ),
         ],
