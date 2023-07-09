@@ -1,6 +1,22 @@
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/apple_flan.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/bakewell_tart.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/chocolate_eclairs.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/choux_paste.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/choux_paste_fritters.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/cream_buns.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/egg_custard.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/fruit_paste.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/fruit_tart.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/introduction.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/lemon_meringue_pie.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/lemon_tart.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/minced_pies.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/profiteroles.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/puff_paste.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/question_answer.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/short_paste.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/steamed_fruit_puddings.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/suet_paste.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/sugar_paste.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/treacle_tart.dart';
 import 'package:cih_first_app/components/subtopic.dart';
@@ -31,12 +47,12 @@ class BasicPastry extends StatelessWidget {
           SubtopicRow(
             title: 'Question & Answer',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const QuestionAnswer()),
+                ),
+              );
             },
           ),
           const Padding(
@@ -102,56 +118,78 @@ class BasicPastry extends StatelessWidget {
           SubtopicRow(
             title: 'Egg Custard Tart',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const EggCustard()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Apple Flan',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const AppleFlan()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Lemon Tart',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const LemonTart()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Lemon Meringue Pie',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const LemonPie()),
+                ),
+              );
+            },
+          ),
+          SubtopicRow(
+            title: 'Bakewell Tart',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const BakewellTart()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Mince Pies',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const MincedPies()),
+                ),
+              );
+            },
+          ),
+          SubtopicRow(
+            title: 'Fruit Tart',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const FruitTart()),
+                ),
+              );
             },
           ),
           const Padding(
@@ -165,56 +203,56 @@ class BasicPastry extends StatelessWidget {
           SubtopicRow(
             title: 'Choux Paste',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ChouxPaste()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Cream buns',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const CreamBuns()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Profiteroles & Chocolate Sauce',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const Profiteroles()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Chocolate Eclairs',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ChocolateEclairs()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Choux Paste Fritters',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const ChouxPasteFritters()),
+                ),
+              );
             },
           ),
           const Padding(
@@ -228,23 +266,23 @@ class BasicPastry extends StatelessWidget {
           SubtopicRow(
             title: 'Suet Paste',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SuetPaste()),
+                ),
+              );
             },
           ),
           SubtopicRow(
             title: 'Steamed Fruit Puddings',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SteamedFruitPuddings()),
+                ),
+              );
             },
           ),
           const Padding(
@@ -258,12 +296,12 @@ class BasicPastry extends StatelessWidget {
           SubtopicRow(
             title: 'Puff Paste',
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const BasicPastryProduct()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const PuffPaste()),
+                ),
+              );
             },
           ),
           SubtopicRow(
