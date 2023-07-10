@@ -1,3 +1,4 @@
+import 'package:cih_first_app/Features/notice_board.dart';
 import 'package:cih_first_app/Features/students_portal.dart';
 import 'package:cih_first_app/Features/suggets.dart';
 import 'package:flutter/material.dart';
@@ -12,12 +13,12 @@ class FeaturesContainer extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: [
-          FeatureContainer(
-            title: 'Courses',
-            onTap: () {
-              //_checkInternetAndNavigate(context, CoursesPage());
-            },
-          ),
+          // FeatureContainer(
+          //   title: 'Courses',
+          //   onTap: () {
+          //     //_checkInternetAndNavigate(context, CoursesPage());
+          //   },
+          // ),
           FeatureContainer(
             title: 'Students Portal',
             onTap: () {
@@ -33,27 +34,27 @@ class FeaturesContainer extends StatelessWidget {
           FeatureContainer(
             title: 'Notice Board',
             onTap: () {
-              //_checkInternetAndNavigate(context, NoticeBoardPage());
+              _checkInternetAndNavigate(context, NoticeBoardPage());
             },
           ),
-          FeatureContainer(
-            title: 'Sch Diary',
-            onTap: () {
-              //_checkInternetAndNavigate(context, SchDiaryPage());
-            },
-          ),
-          FeatureContainer(
-            title: 'Timetable',
-            onTap: () {
-              //_checkInternetAndNavigate(context, TimetablePage());
-            },
-          ),
-          FeatureContainer(
-            title: 'Events',
-            onTap: () {
-              // _checkInternetAndNavigate(context, EventsPage());
-            },
-          ),
+          // FeatureContainer(
+          //   title: 'Sch Diary',
+          //   onTap: () {
+          //     //_checkInternetAndNavigate(context, SchDiaryPage());
+          //   },
+          // ),
+          // FeatureContainer(
+          //   title: 'Timetable',
+          //   onTap: () {
+          //     //_checkInternetAndNavigate(context, TimetablePage());
+          //   },
+          // ),
+          // FeatureContainer(
+          //   title: 'Events',
+          //   onTap: () {
+          //     // _checkInternetAndNavigate(context, EventsPage());
+          //   },
+          // ),
         ],
       ),
     );
