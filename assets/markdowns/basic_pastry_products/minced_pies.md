@@ -24,7 +24,7 @@
 |Rum           |60ml     |
 |Brandy        |60ml     |
 
-### **Ingredients**
+### **method of work**
 1. Roll out the pastry 3 mm thick.
 2. Cut half the pastry into fluted rounds 6 cm in diameter.
 3. Place on a greased, dampened baking sheet. (Tartlet moulds may also be used.)

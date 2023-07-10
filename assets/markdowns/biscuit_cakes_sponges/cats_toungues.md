@@ -1,11 +1,11 @@
 ![cats tongues](resource:assets/images/spongeBiscuitsCakes/cats_tongues.png)
 
-### **Ingredients**
-- 125g Icing Sugar
-- 100g Butter
-- 4 Egg whites
-- 100g Flour(soft)
-- Vanilla essence, 4 drops
+|Ingredients|Quantity|
+|-----------|--------|
+|Flour (soft)|100g|
+|Icing Sugar|125g|
+|Butter|100g|
+|Vanilla essence| 4 drops|
 
 ### **Method of work**
 1. Lightly cream the sugar and butter, add the vanilla essence.

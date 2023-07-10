@@ -1,13 +1,15 @@
 ![BrownOnionSoup](resource:assets/images/stocksoupssauces/brown_onion_soup.png)
 
-### **Ingredients (4Portions)**
-- 600g Onions
-- 25g Butter or Margarine
-- 1 Clove of Garlic
-- 10g Flour, White or Wholemeal
-- 1L Brown Stock
-- ¼ Flute (thin French sticks)
-- 50g Grated Cheese
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Onions                 | 600g                   |
+| Butter or Margarine    | 25g                    |
+| Clove of Garlic        | 1                      |
+| Flour                  | 10g                    |
+| Brown Stock            | 1L                     |
+| Flute (thin French sticks) | ¼                   |
+| Grated Cheese          | 50g                    |
+
 
 ### **Method of Work**
 1. Peel the onions, halve and slice finely.

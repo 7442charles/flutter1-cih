@@ -1,9 +1,10 @@
 ![Doughnuts](resource:assets/images/breadDoughProducts/doughnuts.png)
 
-### **Ingredients** *(12 Doughnuts)*
-- 1kg Basic bun dough
-- 500g Caster sugar
-- 250g Raspberry jam
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Basic bun dough      | 1kg                    |
+| Caster sugar         | 500g                   |
+| Raspberry jam        | 250g                   |
 
 
 ### **Method of work**

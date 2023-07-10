@@ -1,12 +1,14 @@
 ![Pea Veloute](resource:assets/images/stocksoupssauces/pea_veloute.png)
 
-### **Ingredients** *(4 Portions)*
-- 400g Frozen Peas
-- 10ml Vegetable Oil
-- 1 Shallit, chopped
-- 200ml Milk
-- 40ml Double cream
-- 40g Butter or margarine
+| Ingredients           | Quantity               |
+|-----------------------|------------------------|
+| Frozen Peas           | 400g                   |
+| Vegetable Oil         | 10ml                   |
+| Shallot               | 1, chopped             |
+| Milk                  | 200ml                  |
+| Double cream          | 40ml                   |
+| Butter or margarine   | 40g                    |
+
 
 ### **Method of Work**
 1. Blanch the peas in a small pan of boiling water for

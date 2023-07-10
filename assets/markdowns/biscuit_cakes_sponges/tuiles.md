@@ -1,10 +1,11 @@
 ![Tuiles](resource:assets/images/spongeBiscuitsCakes/tuiles.png)
 
-### **Ingredients**
-- 100g Butter
-- 100g Icing sugar
-- 100g Flour
-- 2 Egg whites
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Butter                 | 100g                   |
+| Icing sugar            | 100g                   |
+| Flour                  | 100g                   |
+| Egg whites             | 2                      |
 
 ### **Method of work**
 1. Mix all ingredients; allow to rest for 1 hour.

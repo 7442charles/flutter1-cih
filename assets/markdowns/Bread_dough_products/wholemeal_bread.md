@@ -1,14 +1,16 @@
 ![Whole meal bread](resource:assets/images/breadDoughProducts/whole_mealbread.png)
 
 ### **Ingredients** *(2 loaves)*
-- 625g Flour, stoneground Wholemeal
-- 125g Flour, unbleached strong white
-- 60g Unsalted Butter 
-- 3tbsp Honey
-- 500ml water, lukewarm
-- 25g Fresh Yeast
-- 1tbsp Salt
-  
+| Ingredients                | Quantity               |
+|----------------------------|------------------------|
+| Flour, stoneground Wholemeal | 625g                   |
+| Flour, unbleached strong white | 125g                 |
+| Unsalted Butter           | 60g                    |
+| Honey                     | 3 tbsp                 |
+| Water, lukewarm           | 500ml                  |
+| Fresh Yeast               | 25g                    |
+| Salt                      | 1 tbsp                 |
+
 
 ### **Method of work**
 1. Melt the butter in a saucepan.

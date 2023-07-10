@@ -1,16 +1,18 @@
 ![Chicken soup](resource:assets/images/stocksoupssauces/chicken_soup.png)
 
-### **Ingredients (4 portions)**
-- 100g Vegetables (all sliced)
-   - Onions
-   - Leek
-   - Celery
-- 50g Butter or Oil
-- 50g Flour
-- 1L Chicken stock
-- 1 Bouquent garni
-- 250ml Milk
-- 25g Cooked dice of chicken (garnish)
+| Ingredients                         | Quantity                     |
+|-------------------------------------|------------------------------|
+| Vegetables (all sliced)             | 100g                         |
+|   - Onions                          |                              |
+|   - Leek                            |                              |
+|   - Celery                          |                              |
+| Butter or Oil                       | 50g                          |
+| Flour                               | 50g                          |
+| Chicken stock                       | 1L                           |
+| Bouquet garni                       | 1                            |
+| Milk                                | 250ml                        |
+| Cooked dice of chicken (garnish)     | 25g                          |
+
 
 ### **Method of work**
 1. Gently cook the sliced onions, leek and celery in

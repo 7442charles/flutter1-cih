@@ -1,16 +1,18 @@
 ![reducedVealStock](resource:assets/images/stocksoupssauces/reducedVealStock.png)
 
-### **Ingredients (4L)**
-- 4kg Veal bones, chopped
-- 2 Calves' feet, (optional)
-- 4L Water
-- 400g Carrots, rougly chopped
-- 200g Onions, rougly chopped
-- 100g, Cellery, roughly chopped
-- 1kg Tomatoes
-- 200g Mushrooms, chopped
-- 1 Large Bouquent garni
-- 4 unpealed Cloves of garlic (optional)
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Veal bones             | 4kg                    |
+| Calves' feet           | 2 (optional)           |
+| Water                  | 4L                     |
+| Carrots                | 400g, roughly chopped  |
+| Onions                 | 200g, roughly chopped  |
+| Celery                 | 100g, roughly chopped  |
+| Tomatoes               | 1kg                    |
+| Mushrooms              | 200g, chopped          |
+| Bouquet garni          | 1 large                |
+| Cloves of garlic       | 4 unpeeled (optional)  |
+
 
 ### **Method Of Work**
 1. Brown the bones and calves’ feet in a roasting

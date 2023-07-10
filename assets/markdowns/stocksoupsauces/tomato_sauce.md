@@ -1,19 +1,21 @@
 ![Tomato sauce](resource:assets/images/stocksoupssauces/tomato_sauce.png)
 
-### **Ingredients** *(500ml)*
-- 90g Carrots, chopped
-- 30g Celery, chopped
-- 1/2 clove of Garlic
-- 25g Vegetable oil
-- 25g Butter
-- 1g Thyme
-- 1/2 Bay leaf
-- 12g Tomato Puree
-- 200g Plum Tomatoes
-- 750g Chicken stock
-- 2 Juniper Berries
-- 75g Cream
-- 5g Gastric (50/50 sherry vinegar and sugar, heated to dissolve the sugar)
+| Ingredients                 | Quantity               |
+|-----------------------------|------------------------|
+| Carrots                     | 90g, chopped           |
+| Celery                      | 30g, chopped           |
+| Garlic                      | 1/2 clove              |
+| Vegetable oil               | 25g                    |
+| Butter                      | 25g                    |
+| Thyme                       | 1g                     |
+| Bay leaf                    | 1/2                    |
+| Tomato Puree                | 12g                    |
+| Plum Tomatoes               | 200g                   |
+| Chicken stock               | 750g                   |
+| Juniper Berries             | 2                      |
+| Cream                       | 75g                    |
+| Gastric                     | 5g                     |
+
 
 ### **Method of Work**
 1. Sweat the carrots, celery and garlic in the oil and butter.

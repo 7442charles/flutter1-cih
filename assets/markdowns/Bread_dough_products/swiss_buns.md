@@ -1,9 +1,11 @@
 ![Swiss Buns](resource:assets/images/breadDoughProducts/swiss_buns.png)
 
-### **Ingredients** *(12 buns)*
-- 1kg Basic bun dough
-- 500g Fondant
-- 5ml Lemon Oil
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Basic bun dough      | 1kg                    |
+| Fondant              | 500g                   |
+| Lemon Oil            | 5ml                    |
+
 
 ### **Method of Work**
 1. Scale the dough into 60 g pieces.

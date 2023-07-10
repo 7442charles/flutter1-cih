@@ -1,16 +1,18 @@
 ![Vegetable puree soup](resource:assets/images/stocksoupssauces/vegetable_puree.png)
 
-### **Ingredients (4 Portions)**
-- 100g vegetables, sliced
-   - Onions
-   - Leek
-   - Celery
-- 50g Butter or Oil
-- 50g Flour
-- 1L white stock or Water
-- 1 Bouquet garni
-- Salt
-- Pepper
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Vegetables           | 100g                   |
+|   - Onions           | Sliced                 |
+|   - Leek             | Sliced                 |
+|   - Celery           | Sliced                 |
+| Butter or Oil        | 50g                    |
+| Flour                | 50g                    |
+| White stock or Water | 1L                     |
+| Bouquet garni        | 1                      |
+| Salt                 | To taste               |
+| Pepper               | To taste               |
+
 
 ### **Method of Work**
 1. Gently cook all the sliced vegetables in the fat

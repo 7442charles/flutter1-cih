@@ -1,14 +1,15 @@
 ![sponge fingers](resource:assets/images/spongeBiscuitsCakes/sponge_fingers.png)
 
 
-### **Ingredients**
-- 180g Egg yolks
-- 125g Caster sugar
-- 125g Soft Flour
-- 125g Cornflour
-- 270g Egg whites
-- 125g Caster Sugar
-- Vanilla Essesnce (few drops)
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Egg yolks            | 180g                   |
+| Caster sugar         | 125g                   |
+| Soft Flour           | 125g                   |
+| Cornflour            | 125g                   |
+| Egg whites           | 270g                   |
+| Caster Sugar         | 125g                   |
+| Vanilla Essence      | Few drops              |
 
 
 ### **Method of work**

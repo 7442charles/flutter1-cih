@@ -1,14 +1,16 @@
 ![Sundried Tamato Bread](resource:assets/images/breadDoughProducts/sundried_tomato_bread.png)
 
-### **Ingredients** *(2 Loaves)*
-- 100g sun-dried Tomatoes, chopped
-- 300ml Water, warm
-- 500g Bread flour
-- 10g Salt
-- 12.5g Skimmed milk, powder
-- 12.5g Shortening
-- 20g Yeast, fresh
-- 12.5g Suar
+| Ingredients              | Quantity               |
+|--------------------------|------------------------|
+| Sun-dried Tomatoes       | 100g                   |
+| Water, warm              | 300ml                  |
+| Bread flour              | 500g                   |
+| Salt                     | 10g                    |
+| Skimmed milk powder      | 12.5g                  |
+| Shortening               | 12.5g                  |
+| Yeast, fresh             | 20g                    |
+| Sugar                    | 12.5g                  |
+
 
 ### **Method of work**
 1. Soak the sun-dried tomatoes in boiling water for 30 minutes.

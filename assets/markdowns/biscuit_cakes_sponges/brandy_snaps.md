@@ -1,11 +1,12 @@
 ![brandy snaps](resource:assets/images/spongeBiscuitsCakes/brandy_snap.png)
 
-### **Ingredients**
-- 225g Strong Flour
-- 10g Ground Ginger
-- 225g Golden Syrup
-- 250g Butter
-- 450g Caster Sugar
+|Ingredients|Quantity|
+|-----------|--------|
+|Strong Flour|225g|
+|Ground Ginger|10g|
+|Golden syrup|225g|
+|Butter|250g|
+|Caster sugar|450g|
 
 ### **Method of work**
 1. Combine the flour and ginger in a bowl on the scales. Make a well.

@@ -1,11 +1,13 @@
-### **Ingredients**
-- 450g Strong Flour
-- 1g Yeast
-- 125ml Water
-- 5 Eggs
-- 60g Caster Sugar
-- Salt Pinch
-- 150g melted Butter
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Strong Flour         | 450g                   |
+| Yeast                | 1g                     |
+| Water                | 125ml                  |
+| Eggs                 | 5                      |
+| Caster Sugar         | 60g                    |
+| Salt                 | Pinch                  |
+| Melted Butter        | 150g                   |
+
 
 ### **Method of work**
 1. Sieve the flour and place in a bowl. Make a well.

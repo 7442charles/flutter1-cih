@@ -1,11 +1,13 @@
-### **Ingredients** *(3 L)*
-- 2 Oranges
-- 2 Lemons
-- 2L Water
-- 1kg Sugar
-- 2 Bay Leaf
-- 2 Cloves
-- 2 Cinnamon sticks
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Oranges              | 2                      |
+| Lemons               | 2                      |
+| Water                | 2L                     |
+| Sugar                | 1kg                    |
+| Bay Leaf             | 2                      |
+| Cloves               | 2                      |
+| Cinnamon sticks      | 2                      |
+
 
 ### **Ingredients**
 1. Peel the oranges and lemons and squeeze the juice.

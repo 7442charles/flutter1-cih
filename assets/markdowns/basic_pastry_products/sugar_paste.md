@@ -1,10 +1,11 @@
-### **Ingredients**
+|Ingredients|Quantity|
+|-----------|--------|
+|Sugar|50g|
+|Butter/ cake margarine|125g
+|Eggs|1|
+|Flour|200g|
+|Salt|pinch|
 
-- sugar         50g
-- Butter/ cake margarine    125g
-- Eggs          1
-- Flour         200g
-- Salt          pinch
 
 ### **Method of work**
 **Method 1** *Sweet lining paste(rubbing in)*

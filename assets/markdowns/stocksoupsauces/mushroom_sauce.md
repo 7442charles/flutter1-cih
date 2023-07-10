@@ -1,14 +1,16 @@
 ![Mushroom sauce](resource:assets/images/stocksoupssauces/mushroom_sauce.png)
 
-### **Ingredients** *(1 litre)*
-- 100g Butter or Oil
-- 100g Flour
-- 1L Stock(chicken, veal, fish)
-- 200g White Button Mushroom, washed, sliced, sweated
-- 50g Mushroom trimmings
-- 2 Egg Yolk
-- 120ml Cream
-- 1/2 Lemon (juice)
+| Ingredients                    | Quantity               |
+|--------------------------------|------------------------|
+| Butter or Oil                  | 100g                   |
+| Flour                          | 100g                   |
+| Stock (chicken, veal, fish)    | 1L                     |
+| White Button Mushroom          | 200g, washed, sliced, sweated |
+| Mushroom trimmings             | 50g                    |
+| Egg Yolk                       | 2                      |
+| Cream                          | 120ml                  |
+| Lemon (juice)                  | 1/2                    |
+
 
 ### **Method of Work**
 1. Melt the butter or heat the oil in a thick-bottomed pan.

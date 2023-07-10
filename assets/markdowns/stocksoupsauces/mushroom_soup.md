@@ -1,15 +1,16 @@
 ![Mushroom soup](resource:assets/images/stocksoupssauces/mushroom_soup.png)
 
-### **Ingredients (4 portions)**
-- 100g Onion,
-   - Leeks
-   - Celery
-   - *chopped*
-- 50g Butter or Oil
-- 1L White stock
-- 200g White mushrooms, washed and chopped
-- 1 Bouquet garni
-- 125 ml Milk
+| Ingredients               | Quantity               |
+|---------------------------|------------------------|
+| Onion                     | 100g, chopped         |
+| Leeks                     |                         |
+| Celery                    |                         |
+| Butter or Oil             | 50g                    |
+| White stock               | 1L                     |
+| White mushrooms           | 200g, washed and chopped |
+| Bouquet garni             | 1                      |
+| Milk                      | 125ml                  |
+
 
 ### **Method of Work**
 1. Gently cook the sliced onions, leek and celery in

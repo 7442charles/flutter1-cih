@@ -1,16 +1,20 @@
 ![chocolate gateau](resource:assets/images/spongeBiscuitsCakes/chocolate_gateau.png)
 
-### **Ingredients**
-- Chocolate genoise sponge 
-- 4 Eggs
-- 50g Chocolate Pieces
-- Stock syrup
-- Chocolate glaze
-  
-**ButterCream**
-- 200g Unsalted Butter
-- 150g Icing sugar
-- 50g Block chocolate
+|Ingredients|Quantity|
+|-----------|--------|
+|Chocolate Genoise sponge||
+|Stock Syrup||
+|Chocolate glaze||
+|Chocolate Pieces|50g|
+|Eggs|4|
+
+|Ingredients|Quantity|
+|-----------|--------|
+|**Buttercream**||
+|Unsalted butter|200g|
+|Icing Sugar|150g|
+|Block Chocolate|50g|
+
 
 ### **Method of work**
 1. Cut the genoise into three slices crosswise.

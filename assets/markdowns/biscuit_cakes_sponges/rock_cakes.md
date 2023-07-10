@@ -1,17 +1,20 @@
 ![ERock cakes](resource:assets/images/spongeBiscuitsCakes/rock_cake.png)
 
-### **Ingredients**
-- 500g medium flour(50% soft & 50% strong flour)
-- 30g Baking powder
-- 3g Salt
-- 125g Caster sugar
-- 60g Egg
-- 120g Butter
-- 90g Currants
-- 30g Citrus peel
-- 180g Milk
-- Egg wash
-- Caster sugar, to sprinkle
+| Ingredients                    | Quantity                        |
+|--------------------------------|---------------------------------|
+| medium flour (50% soft & 50%   | 500g                            |
+| strong flour)                  |                                 |
+| Baking powder                  | 30g                             |
+| Salt                           | 3g                              |
+| Caster sugar                   | 125g                            |
+| Egg                            | 60g                             |
+| Butter                         | 120g                            |
+| Currants                       | 90g                             |
+| Citrus peel                    | 30g                             |
+| Milk                           | 180g                            |
+| Egg wash                       |                                 |
+| Caster sugar, to sprinkle      |                                 |
+
 
 ### **Method of work**
 1. Sieve the flour, baking powder and salt through a fine sieve.

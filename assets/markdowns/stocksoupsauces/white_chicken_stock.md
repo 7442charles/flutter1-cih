@@ -1,15 +1,17 @@
 ![WhiteChickenStock](resource:assets/images/stocksoupssauces/whteChickenStock.png)
 
-### **Ingredients (3L)**
-- 5kg Chicken carcass
-- 1.5 Onion
-- 2 Carrot
-- 2 Cloves of garlic
-- 1 Leek
-- 2 Celery Stick
-- 1 Spring of Thyme
-- 5g White peppercorns
-- 5L water
+| Ingredients              | Quantity               |
+|--------------------------|------------------------|
+| Chicken carcass          | 5kg                    |
+| Onion                    | 1.5                    |
+| Carrot                   | 2                      |
+| Garlic cloves            | 2                      |
+| Leek                     | 1                      |
+| Celery stick             | 2                      |
+| Thyme sprig              | 1                      |
+| White peppercorns        | 5g                     |
+| Water                    | 5L                     |
+
 
 ### **Method of work**
 1. Remove any excess fat from the chicken

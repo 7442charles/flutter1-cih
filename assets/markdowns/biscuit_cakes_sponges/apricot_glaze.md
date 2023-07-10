@@ -1,8 +1,9 @@
 ![Apricot glaze](resource:assets/images/spongeBiscuitsCakes/apricot_glaze.png)
 
-### **Ingredients**
-- 100g Apricot jam
-- 50ml stock syrup
+|Ingredients|Quantity|
+|-----------|--------|
+|Apricot Jam|100g|
+|Stock syrup|50ml|
 
 ### **Method of work**
 1. Boil the apricot jam with a little syrup or water.

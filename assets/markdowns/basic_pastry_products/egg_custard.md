@@ -1,11 +1,13 @@
 ![Egg custard](resource:assets/images/basicPastryProducts/EggCustRardTart.png)
 
-### **Ingredients**
-- Sweet paste       250g
-- Egg Yolks         9
-- Custer sugar      75g
-- Whipping Cream    500ml
-- Nutmeg, freshly grated
+
+|Ingredients|Quantity|
+|-----------|--------|
+|Sweet Paste|250g|
+|Egg Yolks|9|
+|Caster sugar|75g|
+|Whipping Cream| 500ml|
+|Nutmeg, freshly grated||
 
 ### **Method of work**
 1. Roll out the pastry on a lightly floured surface, to 2 mm thickness. Use it to line a 20 cm flan ring, placed on a baking sheet.

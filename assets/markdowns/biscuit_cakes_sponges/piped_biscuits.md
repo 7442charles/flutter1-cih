@@ -1,12 +1,13 @@
 ![piped Biscuits](resource:assets/images/spongeBiscuitsCakes/pipped_biscuits.png)
 
-### **Ingredients**
-- 75g Caster or Unrefined sugar
-- 150g Butter or Margarine
-- 1 Egg
-- 4 drops Vanilla essence
-- 200g Soft flour, white or wholemeal
-- 35g Ground Almonds
+|Ingredients|Quantity|
+|-----------|--------|
+|Flour (soft)| 200g|
+|Ground Almonds|35g|
+|caster sugar| 75g|
+|Butter or Margarine|150g|
+|Egg|1|
+|Vanilla essence|4 drops|
 
 
 ### **Method of work**

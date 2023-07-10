@@ -1,14 +1,16 @@
 ![WhiteVegetableStock](resource:assets/images/stocksoupssauces/brown_stock.png)
 
-### **Ingredients (4.5L)**
-- 1kg Raw, Meaty Bones
-- 5liters Water
-- 100g Onion
-- 100g Carrot
-- 100g Celery
-- 100g leek
-- 1/2 Bouquet Garni
-- 8 Peppercorns
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Raw, Meaty Bones       | 1kg                    |
+| Water                  | 5 liters               |
+| Onion                  | 100g                   |
+| Carrot                 | 100g                   |
+| Celery                 | 100g                   |
+| Leek                   | 100g                   |
+| Bouquet Garni          | 1/2                    |
+| Peppercorns            | 8                      |
+
 
 ### **Method Of Work**
 1. Chop the beef bones and brown well on all sides

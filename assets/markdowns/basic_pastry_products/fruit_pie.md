@@ -1,10 +1,11 @@
 ![fruit Pie](resource:assets/images/basicPastryProducts/fruit_pie.png)
 
-### **Ingrediets**
-- short paste       200g
-- sugar             100g
-- water             2 tbsp
-- Egg wash
+|Ingredients|Quantity|
+|-----------|--------|
+|Short Paste|200g|
+|Sugar|100g|
+|Water|2 tbsp|
+|Egg wash||
 
 ### **Method of work**
 1. Prepare the fruit, wash and place in a bowl.

@@ -1,10 +1,11 @@
 ![Royal Icing](resource:assets/images/spongeBiscuitsCakes/royal_icing.png)
 
-### **Ingredients** *(makes 400g)*
-- 400g Icing Sugar
-- 3 Pasteurised eggs whites
-- 1 Lemon, juice
-- 2tsp Glycerine
+| Ingredients           | Quantity               |
+|-----------------------|------------------------|
+| Icing Sugar           | 400g                   |
+| Pasteurised egg whites| 3                      |
+| Lemon, juice          | 1                      |
+| Glycerine             | 2tsp                   |
 
 ### **Method of work**
 1. Sift the icing sugar. Mix it well with the egg whites in a basin, using a wooden spoon.

@@ -2,18 +2,18 @@
 
 White stock is a flavorful base used in many soups, sauces, and dishes. It is commonly made from bones and aromatics. Here's a recipe for preparing white stock:
 
----
-## Ingredients (4.5liters)
-
-- 1kg Raw, meaty bones
-- 200g Onion, Carrotg
-- 200g Celery,Leek      
-- 8 Peppercorns 
-- 1/2 Bouquet Garni 
-- Salt, to taste
-- 5liters Water     
-
----
+| Ingredients              | Quantity               |
+|--------------------------|------------------------|
+| Raw, meaty bones         | 1kg                    |
+| Onion                    | 200g                   |
+| Carrot                   | 200g                   |
+| Celery                   | 200g                   |
+| Leek                     | 200g                   |
+| Peppercorns              | 8                      |
+| Bouquet Garni            | 1/2                    |
+| Salt                     | To taste               |
+| Water                    | 5 liters               |
+   
 
 ## Method of Work
 

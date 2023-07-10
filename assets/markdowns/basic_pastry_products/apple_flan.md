@@ -1,11 +1,13 @@
 ![apple flan](resource:assets/images/basicPastryProducts/apple_flan.png)
 
-### **Ingredients**
-- Sweet Paste       100g
-- Pastry cream      250ml
-- Cooking apples    400g
-- Sugar                 50g
-- Apricot glaze     2 tbsp
+|Ingredients|Quantity|
+|-----------|--------|
+|Sweet Paste|100g|
+|Pastry cream|250ml|
+|Cooking Apples| 400g|
+|Sugar |50g|
+|Apricot glaze|2 tbsp|
+
 
 ### **Method Of work**
 1. Line a flan ring with sweet paste. Pierce the bottom several times with a fork.

@@ -1,13 +1,14 @@
 ![coffee gateau](resource:assets/images/spongeBiscuitsCakes/coffee_gataeu.png)
 
-### **Ingredients**
-- 1*16cm Plain Genoise Sponge
-- 50ml Stock syrup Flavoured with rum
-- 750g Coffee ButterCream
-- 100g Coffee marzipan
-- 500g Fondant
-- Crystalised violets
-- Chocolate Squares
+|Ingredients|Quantity|
+|-----------|--------|
+|Plain Genoise Sponge|1*16cm|
+|Stock syrup Flavoured with rum|50ml|
+|Coffee buttercream|750g|
+|Coffee Marzipan|100g|
+|Fondant|500g|
+|Crystalized violets||
+|Chocolte squares||
 
 ### **Method of work**
 1. Carefully split the sponge into three and line up the three pieces.

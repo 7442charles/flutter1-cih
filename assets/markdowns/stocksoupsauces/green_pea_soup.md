@@ -1,15 +1,16 @@
 ![Green Pea Soup](resource:assets/images/stocksoupssauces/greenpeasoup.png)
 
-### **Ingredients (4 Portions)**
-- 25g Onions, chopped
-- 25g Leek, chopped
-- 25g Celery, chopped
-- 25g Butter or Oil
-- 500ml Water or White stock
-- 250ml Peas, fresh(shelled) or frozen
-- 1 Bouquet Garni
-- 500ml Thin béchamel
-- 60ml Cream, natural youhurt or fromage frais
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Onions               | 25g                    |
+| Leek                 | 25g                    |
+| Celery               | 25g                    |
+| Butter or Oil        | 25g                    |
+| Water or White stock | 500ml                  |
+| Peas                 | 250ml, fresh (shelled) or frozen |
+| Bouquet Garni        | 1                      |
+| Thin béchamel        | 500ml                  |
+| Cream                | 60ml                   |
 
 ### **Method of work**
 1. Sweat the onion, leek and celery in the butter or oil.

@@ -1,12 +1,14 @@
 ![Supreme Sauce](resource:assets/images/stocksoupssauces/supreme_sauce.png)
 
-### **Ingredients** *(4 Portions)*
-- 250ml Chicken or Veal veloute
-- 50g Mushroom trimmings, washed & dried
-- 50ml Cream, Single or double
-- 1/2 lemon, juice
-- 1tbsp Chicken or beef glaze
-- Seasoning
+| Ingredients                 | Quantity               |
+|-----------------------------|------------------------|
+| Chicken or Veal veloute     | 250ml                  |
+| Mushroom trimmings          | 50g, washed & dried    |
+| Cream                       | 50ml, single or double |
+| Lemon juice                 | 1/2 lemon              |
+| Chicken or beef glaze       | 1 tbsp                 |
+| Seasoning                   | To taste               |
+
 
 ### **Method of Work**
 1. Place the velouté into a suitable saucepan and bring to the boil.

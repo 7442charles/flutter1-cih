@@ -1,15 +1,17 @@
 ![Begals](resource:assets/images/breadDoughProducts/begals.png)
 
-### **Ingredients**  *(10 begals)*
-- 450g Storng Flour
-- 15g Yeast
-- 150ml Water, warm
-- 10g Salt
-- 25g Caster Sugar
-- 45ml Oil
-- 20g Egg Yolk
-- 150ml Milk
-- Poppy seeds
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Strong Flour         | 450g                   |
+| Yeast                | 15g                    |
+| Water, warm          | 150ml                  |
+| Salt                 | 10g                    |
+| Caster Sugar         | 25g                    |
+| Oil                  | 45ml                   |
+| Egg Yolk             | 20g                    |
+| Milk                 | 150ml                  |
+| Poppy seeds          | As desired             |
+
 
 ### **Method of work**
 1. Sieve the flour, place in a mixing bowl.

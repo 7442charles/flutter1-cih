@@ -1,10 +1,12 @@
 ![swiss roll](resource:assets/images/spongeBiscuitsCakes/swiss_roll.png)
 
-### **Ingredients**
-- 4 Eggs
-- 100g caster sugar
-- 100g Self-raising flour
-- jam, as required
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Eggs                   | 4                      |
+| Caster sugar           | 100g                   |
+| Self-raising flour     | 100g                   |
+| Jam                    | As required            |
+
 
 ### **Method of work**
 1. Whisk the eggs and sugar with a balloon whisk in a bowl over a pan of hot water.

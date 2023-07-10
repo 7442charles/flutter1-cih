@@ -1,8 +1,10 @@
-### **Ingredients**
-- flour         250g
-- butter        125g
-- water         40ml
-- Salt          pinch
+|Ingredients|Quantity|
+|-----------|--------|
+|flour|250g|
+|Butter|125g|
+|Water|40ml|
+|Salt|pinch|
+
 
 ### **Method of Work**
 1. Sieve the flour and salt. Add the butter in small pieces.
