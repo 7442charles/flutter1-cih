@@ -1,18 +1,22 @@
 ![Potato soup](resource:assets/images/stocksoupssauces/potato_soup.png)
-### **Ingredients (4 portions)**
-- 25g Butter ot Oil
-- 50g Onion, pelled and sliced
-- 50g wwhite of Leek, sliced
-- 1L water or White stock
-- 400g Potatoes, peeled and sliced
-- 1 Bouquet garni
-- Parsley, chopped
-- Salt
-- Pepper
 
-#### **Croutons**
-- 1 slice stale Bread
-- 50g Butter, Margarine or Oil
+
+| Ingredients                     | Quantity               |
+|---------------------------------|------------------------|
+| Butter or Oil                   | 25g                    |
+| Onion                           | 50g, peeled and sliced |
+| Leek (white part)               | 50g, sliced            |
+| Water or White stock            | 1L                     |
+| Potatoes                        | 400g, peeled and sliced |
+| Bouquet garni                   | 1                      |
+| Parsley                         | Chopped                |
+| Salt                            | To taste               |
+| Pepper                          | To taste               |
+|                                 |                        |
+| **Croutons**                    |                        |
+| Stale Bread                     | 1 slice                |
+| Butter, Margarine or Oil        | 50g                    |
+
 
 ### **Method of work**
 1. Melt the butter or heat the oil in a thick-bottomed

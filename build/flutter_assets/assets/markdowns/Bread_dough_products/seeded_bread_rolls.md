@@ -1,16 +1,18 @@
 ![Seeded Bread rolls](resource:assets/images/breadDoughProducts/seededBreadRolls.png)
 
-### **Ingredients** *(30 rolls)*
-- 1kg strong flour
-- 30g Yeast
-- 600ml Water, 37 °C
-- 20g Salt
-- 10g Caster Sugar
-- 20g Milk Powder
-- 50g Sunflower
-- Eggwash 
-- Poppy seeds
-- Sasame seeds
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Strong flour         | 1kg                    |
+| Yeast                | 30g                    |
+| Water, 37 °C         | 600ml                  |
+| Salt                 | 20g                    |
+| Caster sugar         | 10g                    |
+| Milk powder          | 20g                    |
+| Sunflower oil        | 50g                    |
+| Egg wash             |                        |
+| Poppy seeds          |                        |
+| Sesame seeds         |                        |
+
 
 ### **Method of Work**
 1. Sieve the flour on to paper.

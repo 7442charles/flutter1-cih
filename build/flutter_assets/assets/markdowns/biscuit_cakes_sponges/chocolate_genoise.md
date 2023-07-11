@@ -1,11 +1,12 @@
 ![chocolate Genoise](resource:assets/images/spongeBiscuitsCakes/chocolate_genoise.png)
 
-### **Ingredients**
-- 8 Eggs
-- 225g Caster sugar
-- 175g Flour
-- 50g Cocoa powder
-- 65g Butter, melted
+|Ingredients|Quantity|
+|-----------|--------|
+|Flour|175g|
+|Caster sugar|225g|
+|Cocoa powder|50g|
+|Butter, melted|65g|
+|Eggs|8|
 
 ### **Method of work**
 1. Whisk the eggs and sugar together to form a sabayon.

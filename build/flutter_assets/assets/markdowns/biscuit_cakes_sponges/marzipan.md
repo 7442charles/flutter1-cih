@@ -1,11 +1,13 @@
 ![marzipan](resource:assets/images/spongeBiscuitsCakes/marzipan.png)
 
-### **Ingredients**
-- 250ml water
-- 1kg Caster sugar
-- 400g Ground Almonds
-- 3 Egg Yolks
-- 3 drops Almond essence
+|Ingredients|Quantity|
+|-----------|--------|
+|Caster sugar|1 kg|
+|Water|250ml|
+|Ground Almonds|400g|
+|Egg Yolks|3|
+|Almond Essence|3 drops|
+
 
 ### **Method of work**
 1. Place the water and sugar in a pan and boil. Skim as necessary.

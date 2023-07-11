@@ -1,11 +1,13 @@
 ![SweetSourSauce](resource:assets/images/stocksoupssauces/sweet_sour_sauce.png)
 
-### **Ingredients** *(4 portions)*
-- 375ml White Vinegar
-- 150g Brown sugar
-- 125ml Tomato Ketchup
-- 1tbsp Light soy sauce
-- Seasoning
+| Ingredients                 | Quantity               |
+|-----------------------------|------------------------|
+| White Vinegar               | 375ml                  |
+| Brown sugar                 | 150g                   |
+| Tomato Ketchup              | 125ml                  |
+| Light soy sauce             | 1 tbsp                 |
+| Seasoning                   | To taste               |
+
 
 ### **Method of Work**
 1. Boil the vinegar and sugar in a suitable pan.

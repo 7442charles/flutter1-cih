@@ -1,15 +1,13 @@
 ![whiteVegetableStock](resource:assets/images/stocksoupssauces/whiteVegetableStock.png)
 White vegetable stock is a flavorful and versatile base for various vegetarian dishes. Made with a combination of aromatic vegetables, herbs, and spices, it adds depth and complexity to soups, stews, risottos, and more. Here's how you can make white vegetable stock:
 
----
-
-## Ingredients (4 Portions)
-
-- 100g Onions
-- 100g Carrots
-- 100g Celery stalks
-- 100g Leeks
-- 1.5liters Water
+| Ingredients              | Quantity               |
+|--------------------------|------------------------|
+| Onions                   | 100g                   |
+| Carrots                  | 100g                   |
+| Celery stalks            | 100g                   |
+| Leeks                    | 100g                   |
+| Water                    | 1.5 liters             |
 
 ## Method
 

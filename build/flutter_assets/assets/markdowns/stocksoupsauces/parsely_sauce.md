@@ -1,10 +1,12 @@
 ![Parsley Sauce](resource:assets/images/stocksoupssauces/parsely_sauce.png)
 
-### **Ingredients** *(500 ml)*
-- 500ml Milk
-- 40g Sauce Flour
-- 1 Tbsp Parsley, chopped
-- Seasoning
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Milk                 | 500ml                  |
+| Sauce Flour          | 40g                    |
+| Parsley              | 1 tbsp, chopped       |
+| Seasoning            | To taste               |
+
 
 ### **Method of Work**
 1. The milk may be first infused with a studded onion clouté, carrot and a bouquet garni. Allow to cool.

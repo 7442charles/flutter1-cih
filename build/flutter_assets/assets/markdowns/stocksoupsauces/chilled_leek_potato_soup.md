@@ -1,16 +1,18 @@
 ![Chilled leek & Potato soup](resource:assets/images/stocksoupssauces/chilled_leek_potato.png)
 
-### **Ingredients (4 portions)**
-- 160g Onions, finely sliced
-- 175g Leeks, finely sliced
-- 152g Butter
-- 750g Potatoes, diced small
-- 1.8L Water or Vegetable stock
-- 15g Salt
-- Pepper, to taste
-- Garnish
-- Whipped Cream
-- Chives, chopped
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Onions                 | 160g                   |
+| Leeks                  | 175g                   |
+| Butter                 | 152g                   |
+| Potatoes               | 750g                   |
+| Water or Vegetable stock | 1.8L                 |
+| Salt                   | 15g                    |
+| Pepper                 | To taste              |
+| Garnish                |                        |
+| Whipped Cream          |                        |
+| Chives                 | Chopped                |
+
 
 ### **Method of Work**
 1. Sweat the sliced onion and leek without colour in

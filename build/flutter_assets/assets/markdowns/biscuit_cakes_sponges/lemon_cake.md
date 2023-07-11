@@ -1,19 +1,21 @@
 ![Lemon cake](resource:assets/images/spongeBiscuitsCakes/lemon_cake.png)
 
-### **Ingredients**
-- 250g Butter
-- 400g Caster Sugar
-- 3 Lemon, grated zest
-- 380g Soft flour
-- 10g Baking powder
-- 4 Eggs
-- 1/2tbsp Vanilla extract
-- 25ml Milk
+|Ingredients|Quantity|
+|-----------|--------|
+|Butter|250g|
+|Flour (soft)|380g|
+|Caster sugar|400g|
+|Baking powder|10g|
+|Milk|25ml|
+|Eggs|4|
+|Lemon, grated zets|3|
+|vanilla extract| 1/2 tbsp|
 
-
-**Syrup**
-- 3 Lemon, juice
-- 100g Cater sugar
+|Ingredients|Quantity|
+|-----------|--------|
+|**syrup**||
+|Lemon, Juice|3|
+|Caster sugar|100g|
 
 ### **Method of work**
 1. Cream the butter, sugar and zest until soft and light.

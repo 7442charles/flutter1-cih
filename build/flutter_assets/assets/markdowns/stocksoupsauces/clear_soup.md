@@ -1,17 +1,19 @@
 ![Clear Soup](resource:assets/images/stocksoupssauces/clear_soup.png)
 
-### **Ingredients** *(4 portions)*
-- 200g Minced beef
-- 2 Egg whites
-- 1L White or Brown stock, cold
-- 100g Mixed Vegetable
-   - Onion
-   - carrot
-   - celery
-   - leek
-- 1 Bouduet Garni
-- 4 Peppercorns
-- Salt to Taste
+| Ingredients                          | Quantity               |
+|--------------------------------------|------------------------|
+| Minced beef                          | 200g                   |
+| Egg whites                           | 2                      |
+| White or Brown stock, cold           | 1L                     |
+| Mixed Vegetable                      | 100g                   |
+|   - Onion                            |                        |
+|   - Carrot                           |                        |
+|   - Celery                           |                        |
+|   - Leek                             |                        |
+| Bouquet Garni                        | 1                      |
+| Peppercorns                           | 4                      |
+| Salt                                 | To taste               |
+
 
 ### **Method of Work**
 1. Thoroughly mix the beef, salt, egg

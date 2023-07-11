@@ -2,13 +2,14 @@
 
 Scones are traditionally served at afternoon tea with jam and butter or clotted cream, and are best served on the day they are made.
 
-### **Ingredients**
-- 450g Plain flour
-- 25g Baking Powder
-- salt, Pinch
-- 225g Butter
-- 170g Caster Sugar
-- 300ml Sour cream
+| Ingredients           | Quantity               |
+|-----------------------|------------------------|
+| Plain flour           | 450g                   |
+| Baking Powder         | 25g                    |
+| Salt                  | Pinch                  |
+| Butter                | 225g                   |
+| Caster Sugar          | 170g                   |
+| Sour cream            | 300ml                  |
 
 ### **Method of work**
 1. ieve the flour, baking powder and salt.

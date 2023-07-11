@@ -1,13 +1,15 @@
 ![Soda Bread](resource:assets/images/breadDoughProducts/soda_bread.png)
 
-### **Ingredients** *(2 Loaves)*
-- 250g Flour, WholeMeal
-- 250g Flour, strong
-- 1tbsp Bicarbonate
-- 1tbsp Salt
-- 200g Butterkmilk
-- 60ml Water, warm
-- 25g Butter, melted
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Flour, Wholemeal     | 250g                   |
+| Flour, Strong        | 250g                   |
+| Bicarbonate          | 1 tbsp                 |
+| Salt                 | 1 tbsp                 |
+| Buttermilk           | 200g                   |
+| Water, warm          | 60ml                   |
+| Butter, melted       | 25g                    |
+
 
 ### **Method Of Work**
 1. Sift the flours, salt and bicarbonate of soda into a bowl.

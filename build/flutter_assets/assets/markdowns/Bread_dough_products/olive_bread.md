@@ -1,20 +1,21 @@
 ![Olive Bread](resource:assets/images/breadDoughProducts/olive_bread.png)
 
-### **Ingredients** *(4 Loaves)*
+| Ingredients               | Quantity               |
+|---------------------------|------------------------|
+| Starter                   |                        |
+| Yeast                     | 40g                    |
+| Water, 37°C               | 180ml                  |
+| Strong Flour              | 225g                   |
+| Sugar                     | 5g                     |
+|                           |                        |
+| **Dough **                    |                        |
+| Strong Flour              | 855g                   |
+| Sugar                     | 40g                    |
+| Salt                      | 20g                    |
+| Water, 37°C               | 450ml                  |
+| Olive Oil                 | 160ml                  |
+| Green olives              | 100g                   |
 
-**starter**
-- 40g Yeast
-- 180ml Water, 37°C
-- 225g Storng Flour
-- 5g Sugar
-
-**Dough**
-- 855g Strong Flour
-- 40g Sugar
-- 20g salt
-- 450ml Water, 37°C
-- 160ml Olice Oil
-- 100g Green olives, cut into quarters
 
 
 ### **Method of work**

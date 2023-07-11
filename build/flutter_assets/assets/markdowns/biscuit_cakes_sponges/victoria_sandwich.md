@@ -2,14 +2,15 @@
 
 This is a classic afternoon tea cake named after Queen Victoria.
 
-### **Ingredients** 
-- 250g Butter
-- 250g Caster sugar
-- 250g soft flour
-- 10g Baking Powder
-- 5 Eggs
-- 1/2tbsp Vanilla Extract
-- Jam to fill
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Butter               | 250g                   |
+| Caster sugar         | 250g                   |
+| Soft flour           | 250g                   |
+| Baking Powder        | 10g                    |
+| Eggs                 | 5                      |
+| Vanilla Extract      | 1/2 tbsp               |
+| Jam                  | To fill                |
 
 ### **Method of Work**
 1. Cream the butter and sugar until soft and light.

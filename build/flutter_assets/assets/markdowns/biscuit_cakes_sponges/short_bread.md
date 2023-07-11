@@ -1,11 +1,13 @@
 ![short Bread](resource:assets/images/spongeBiscuitsCakes/shortbread.png)
 
 ## **Method 1**
-### **Ingredients**
-- 150g Flour
-- 100g Butter or margarne
-- 50g Caster sugar
-- Salt, pinch
+| Ingredients           | Quantity               |
+|-----------------------|------------------------|
+| Flour                 | 150g                   |
+| Butter or margarine   | 100g                   |
+| Caster sugar          | 50g                    |
+| Salt                  | Pinch                  |
+
 
 **Workflow**
 1. Sift the flour and salt.
@@ -16,12 +18,15 @@
 6. Bake in a moderate oven at 180–200 °C for 15–20 minutes.
 
 ## **Method 2**
-### **ingredients**
-- 100g Flour (soft), white or wholemeal
-- 100g Rice Flour
-- 100g Butter or margarine
-- 100g Caster or unrefined sugar
-- 1 Egg, beaten
+| Ingredients                 | Quantity               |
+|-----------------------------|------------------------|
+| Flour (soft), white or      | 100g                   |
+| wholemeal                    |                        |
+| Rice Flour                  | 100g                   |
+| Butter or margarine         | 100g                   |
+| Caster or unrefined sugar   | 100g                   |
+| Egg, beaten                 | 1                      |
+
 
 **Workflow**
 1. Sieve the flour and rice flour into a basin.

@@ -1,15 +1,19 @@
 ![lambJus](resource:assets/images/stocksoupssauces/lambjus.png)
-### **Ingredients (2L)**
-- 2kg Lamb bones
-- 1kg Veal bones
-- Bunch Thyme
-- 4 Bay leaves, fresh
-- 1L Red Wine 
-- 6 White Onions
-- 8 Large Carrots
-- 7 Celery sticks
-- 4 leeks Chopped
-- 6tbsp Tomato purée
+
+
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Lamb bones             | 2kg                    |
+| Veal bones             | 1kg                    |
+| Thyme                  | Bunch                  |
+| Bay leaves, fresh      | 4                      |
+| Red Wine               | 1L                     |
+| White Onions           | 6                      |
+| Large Carrots          | 8                      |
+| Celery sticks          | 7                      |
+| Leeks                  | 4, chopped            |
+| Tomato purée           | 6 tbsp                 |
+
 
 ### **Method Of Work**
 1. Preheat the oven to 175 °C. Place the herbs,

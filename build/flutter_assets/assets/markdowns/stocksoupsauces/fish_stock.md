@@ -1,16 +1,18 @@
 ![Fishstock](resource:assets/images/stocksoupssauces/fishstock.png)
 
-### **Ingredients (2L)**
-- 5kg Fish bones
-- 100ml Olive Oil
-- 3 Onions, finely chopped
-- 3 leeks, finely chopped
-- 3 Celery sticks, Finely chopped
-- 1 Fennel bulb, finely chopped
-- 350ml dry white wine
-- 10 parsley stalks
-- 3spring peppercons
-- 2 lemons,Finely Sliced
+| Ingredients           | Quantity               |
+|-----------------------|------------------------|
+| Fish bones            | 5kg                    |
+| Olive Oil             | 100ml                  |
+| Onions                | 3, finely chopped     |
+| Leeks                 | 3, finely chopped     |
+| Celery sticks         | 3, finely chopped     |
+| Fennel bulb           | 1, finely chopped     |
+| Dry white wine        | 350ml                  |
+| Parsley stalks        | 10                     |
+| Peppercorns           | 3 sprigs               |
+| Lemons                | 2, finely sliced      |
+
 
 ### **Method Of Work**
 1. Wash off the bones in cold water for 1 hour.

@@ -1,15 +1,17 @@
 ![Parmesan rolls](resource:assets/images/breadDoughProducts/parmesan_rolls.png)
 
-### **Ingredients** *(30 rolls)*
-- 200g Parmesan Cheese, grared
-- 1kg Strong Flour
-- 30g Yeast
-- 600ml Water, 37°C
-- 20g Salt
-- 10g Caster Sugar
-- 20g Milk Powder
-- 50g Sunflower Oil
-- Egg wash
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Parmesan Cheese        | 200g                   |
+| Strong Flour           | 1kg                    |
+| Yeast                  | 30g                    |
+| Water, 37°C            | 600ml                  |
+| Salt                   | 20g                    |
+| Caster Sugar           | 10g                    |
+| Milk Powder            | 20g                    |
+| Sunflower Oil          | 50g                    |
+| Egg wash               |                        |
+
 
 ### **Method of work**
 1. Sieve the flour on to paper.

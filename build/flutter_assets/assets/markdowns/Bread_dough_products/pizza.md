@@ -1,22 +1,24 @@
 ![Pizza](resource:assets/images/breadDoughProducts/pizza.png)
 
-### **Ingredients** 
-- 200g Flour, strong white
-- 12g Margarine
-- 5g Yeast
-- 125ml Water or Milk at 24°C
-- 5g Caster sugar
-- 100g Onions, finely chopped
-- 2 Cloves of Garlic, crushed
-- 60ml Sunflower oil
-- 200g plum tomatoes, canned
-- 100g Tomato puree
-- 3g Oregano
-- 3g Basil
-- 10g Sugar
-- 10g Cornflour
-- 100g Mozzarella cheese
-- salt, pinch
+| Ingredients              | Quantity               |
+|--------------------------|------------------------|
+| Flour, strong white      | 200g                   |
+| Margarine                | 12g                    |
+| Yeast                    | 5g                     |
+| Water or Milk at 24°C    | 125ml                  |
+| Caster sugar             | 5g                     |
+| Onions, finely chopped   | 100g                   |
+| Cloves of Garlic         | 2                      |
+| Sunflower oil            | 60ml                   |
+| Plum tomatoes, canned    | 200g                   |
+| Tomato puree             | 100g                   |
+| Oregano                  | 3g                     |
+| Basil                    | 3g                     |
+| Sugar                    | 10g                    |
+| Cornflour                | 10g                    |
+| Mozzarella cheese        | 100g                   |
+| Salt                     | Pinch                  |
+
 
 ### **Method Of Work**
 1. Sieve the flour and the salt. Rub in the margarine.

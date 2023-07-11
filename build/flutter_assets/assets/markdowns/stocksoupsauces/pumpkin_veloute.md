@@ -1,13 +1,14 @@
 ![Pumpkin Veloute](resource:assets/images/stocksoupssauces/pumpkin_veloute.png)
 
-### **Ingredients** *(4 portions)*
-- 1 Shallot, sliced
-- 320g Butter
-- ½ Clove of Garlic
-- 1 Large squah or 300g Pumpkin
-- 30g Parmesan, grated
-- 1 tbsp Truffle oil
-- 400ml Chicken stock
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Shallot                | 1, sliced              |
+| Butter                 | 320g                   |
+| Garlic                 | ½ clove                |
+| Squash or Pumpkin      | 1 large squash or 300g |
+| Parmesan               | 30g, grated            |
+| Truffle oil            | 1 tbsp                 |
+| Chicken stock          | 400ml                  |
 
 ### **Method of Work**
 1. Sweat the shallots in the butter, without colour, until cooked and soft.

@@ -1,15 +1,17 @@
 ![Naan Bread](resource:assets/images/breadDoughProducts/naan_bread.png)
 
-### **Ingredients** *(6 Portions)*
-- 350g Flour, strong
-- 1½tbsp Caster Sugar
-- 1tbsp Salt
-- ½tbsp Baking Powder
-- 15g Yeast
-- 150ml Warm milk
-- 150ml Unsweetened plain yoghurt
-- 100g Butter, Clarified
-- 2tbsp Poppy Seed
+| Ingredients                      | Quantity               |
+|----------------------------------|------------------------|
+| Flour, strong                    | 350g                   |
+| Caster Sugar                     | 1½ tbsp               |
+| Salt                             | 1 tbsp                 |
+| Baking Powder                    | ½ tbsp                 |
+| Yeast                            | 15g                    |
+| Warm milk                        | 150ml                  |
+| Unsweetened plain yoghurt        | 150ml                  |
+| Butter, Clarified                | 100g                   |
+| Poppy Seed                       | 2 tbsp                 |
+
 
 ### **Method of Work**
 1. Sift the flour into a suitable bowl and add the sugar, salt and baking powder.

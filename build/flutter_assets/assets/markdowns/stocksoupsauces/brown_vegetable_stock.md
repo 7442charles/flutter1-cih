@@ -1,16 +1,18 @@
 ![BrownVegetableStock](resource:assets/images/stocksoupssauces/brownVegetableStock.png)
 
-### **Ingredients (4L)**
-- 300g Onions
-- 300g Carrots
-- 300g Celery
-- 300g Leeks
-- 180ml Sunflower oil
-- 150g Tomatoes
-- 150g Mushrooms Trimmings
-- 18 peppercorns
-- 4L water
-- 15g Yeast extract
+| Ingredients              | Quantity               |
+|--------------------------|------------------------|
+| Onions                   | 300g                   |
+| Carrots                  | 300g                   |
+| Celery                   | 300g                   |
+| Leeks                    | 300g                   |
+| Sunflower oil            | 180ml                  |
+| Tomatoes                 | 150g                   |
+| Mushroom Trimmings       | 150g                   |
+| Peppercorns              | 18                     |
+| Water                    | 4L                     |
+| Yeast extract            | 15g                    |
+
 
 
 ### **Method Of Work**

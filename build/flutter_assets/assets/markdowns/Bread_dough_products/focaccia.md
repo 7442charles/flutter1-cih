@@ -1,14 +1,16 @@
 ![focaccia](resource:assets/images/breadDoughProducts/focaccia.png)
 
-### **Ingredients** *(1 loaf)*
-- 750g Flour, Unbleached all-purpose
-- 2packets Active dry yeast
-- 1tbsp Sugar
-- 230ml Lukewarm Water
-- 70g Extra Virgin oil
-- 1½ tbsp Salt
-- Coarse salt
-- Picked rosemary
+| Ingredients                     | Quantity               |
+|---------------------------------|------------------------|
+| Flour, Unbleached all-purpose   | 750g                   |
+| Active dry yeast                | 2 packets              |
+| Sugar                           | 1 tbsp                 |
+| Lukewarm Water                  | 230ml                  |
+| Extra Virgin oil                | 70g                    |
+| Salt                            | 1½ tbsp               |
+| Coarse salt                     | As desired             |
+| Picked rosemary                 | As desired             |
+
 
 ### **Method of work**
 1. Dissolve the yeast and sugar in half of the lukewarm water in a bowl; let sit until foamy. In

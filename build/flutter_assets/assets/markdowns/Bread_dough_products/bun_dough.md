@@ -1,13 +1,15 @@
 ![Bun dough](resource:assets/images/breadDoughProducts/bundough.png)
 
-### **Ingredients** *(12 buns)*
-- 500g Strong Flour
-- 25g Yeast
-- 250ml Milk
-- 60g Butter
-- 2 Eggs
-- g Salt
-- 60g Sugar
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Strong Flour         | 500g                   |
+| Yeast                | 25g                    |
+| Milk                 | 250ml                  |
+| Butter               | 60g                    |
+| Eggs                 | 2                      |
+| Salt                 | To taste               |
+| Sugar                | 60g                    |
+
 
 ### **Method of work**
 1. Sieve the flour.
@@ -25,9 +27,11 @@
 
 Bun wash is used for most bun recipes, including Bath and chelsea buns, after baking.
 
-### **Ingredients**
-- 250ml Milk
-- 100g Caster sugar
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Milk                 | 250ml                  |
+| Caster sugar         | 100g                   |
+
 
 ### **Method of work**
 1. Bring both ingredients to the boil and brush over liberally as soon the buns are removed from the oven. The heat from the buns will set the glaze and prevent it from soaking in, giving a characteristic sticky coat.

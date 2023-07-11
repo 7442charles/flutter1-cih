@@ -1,11 +1,13 @@
 ![Bath Buns](resource:assets/images/breadDoughProducts/bath_buns.png)
 
-### **Ingredients** *(12 buns)*
-- 1 kg Basic bun Dough
-- 20ml Bun spice
-- 200g Sultanas
-- 360g Sugar nibs
-- 8 Egg yolks
+| Ingredients          | Quantity               |
+|----------------------|------------------------|
+| Basic bun Dough      | 1 kg                   |
+| Bun spice            | 20ml                   |
+| Sultanas             | 200g                   |
+| Sugar nibs           | 360g                   |
+| Egg yolks            | 8                      |
+
 
 ### **Method of Work**
 1. Mix the bun spice into the basic dough and knead.

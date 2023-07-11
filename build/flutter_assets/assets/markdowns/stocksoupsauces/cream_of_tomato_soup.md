@@ -1,18 +1,18 @@
 ![Cream of Tomato soup](resource:assets/images/stocksoupssauces/creamtomatosoup.png)
 
-### **Ingredients (4 portions)**
-- 50g Butter or Oil
-- 25g Bacon trimmings (optional)
-- 100g Onion, diced
-- 100g Carrot, diced
-- 50g Flour
-- 1kg Tomatoes, fresh, Fully ripe
-- 1L Stock
-- 1 Bouquet garni
-- 1 Croutons
-- 50g Butter
-- Salt
-- Pepper
+| Ingredients                          | Quantity               |
+|--------------------------------------|------------------------|
+| Minced beef                          | 200g                   |
+| Egg whites                           | 2                      |
+| White or Brown stock, cold           | 1L                     |
+| Mixed Vegetable                      | 100g                   |
+|   - Onion                            |                        |
+|   - Carrot                           |                        |
+|   - Celery                           |                        |
+|   - Leek                             |                        |
+| Bouquet Garni                        | 1                      |
+| Peppercorns                           | 4                      |
+| Salt                                 | To taste               |
 
 ### **Method of Work**
 1. Melt the butter or heat the oil in a thick-bottomed

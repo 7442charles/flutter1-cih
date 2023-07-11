@@ -1,14 +1,17 @@
 ![Cream Of Vegetable soup](resource:assets/images/stocksoupssauces/cream_of_vegetable_soup.png)
 
-### **Ingredients (4 Portions)**
-- 100g Onions, Leeks, Celery (sliced)
-- 200g Suitable Vegetables (sliced)
-- 50g Butter of Oil
-- 50g Flour
-- 0.5L White or Water
-- 0.5L Thin Béchamel
-- 1 Bouquet garni
-- salt & pepper
+| Ingredients                   | Quantity               |
+|-------------------------------|------------------------|
+| Onions, Leeks, Celery        | 100g, sliced           |
+| Suitable Vegetables          | 200g, sliced           |
+| Butter or Oil                | 50g                    |
+| Flour                        | 50g                    |
+| White or Water               | 0.5L                   |
+| Thin Béchamel                | 0.5L                   |
+| Bouquet garni                | 1                      |
+| Salt                          | To taste               |
+| Pepper                        | To taste               |
+
 
 ### **Method Of Work**
 1. Gently cook all the sliced vegetables in the fat under a lid, without colour.

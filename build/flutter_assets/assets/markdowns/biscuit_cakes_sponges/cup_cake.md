@@ -1,12 +1,13 @@
 ![cup cakes](resource:assets/images/spongeBiscuitsCakes/cup_cake.png)
 
-### **Ingredients**
-- 200g flour(soft) or self-raisin
-- 1tbsp Baking powder(if using plain flour)
-- Salt, pinch
-- 125g margarine or butter
-- 125g Caster Sugar
-- 3 Eggs
+|Ingredients|Quantity|
+|-----------|--------|
+|Flour (soft) or self raisin|200g|
+|Baking powder (If using plain flour)|1 tbsp|
+|Butter or Margarine|125g|
+|Eggs|3|
+|Caster sugar|125g|
+|Salt|pinch|
 
 ### **Method Of Work**
 **method 1:Rubbing In**

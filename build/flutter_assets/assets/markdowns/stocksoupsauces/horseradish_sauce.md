@@ -1,9 +1,11 @@
 ![Horseradish sauce](resource:assets/images/stocksoupssauces/horseradish.png)
 
-### **Ingredients** *(8 portions)*
-- 25g Horseradish
-- 1tbsp Vinegar or lemon juice
-- 125ml Cream  or crème fraiche, lightly whipped
+| Ingredients               | Quantity               |
+|---------------------------|------------------------|
+| Horseradish               | 25g                    |
+| Vinegar or lemon juice    | 1 tbsp                 |
+| Cream or crème fraiche    | 125ml, lightly whipped |
+
 
 ### **Method os Work**
 1. Wash, peel and rewash the horseradish, Grate finely.

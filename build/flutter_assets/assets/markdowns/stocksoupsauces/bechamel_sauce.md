@@ -1,10 +1,12 @@
 ![Bechamel sauce](resource:assets/images/stocksoupssauces/bechamel_sauce.png)
 
-### **Ingredients** *(1 Liter)*
-- 100g Butter Or Oil
-- 100g Flour
-- 1L Milk, warmed
-- 1 Onion, studded with cloves
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Butter or Oil          | 100g                   |
+| Flour                  | 100g                   |
+| Milk, warmed           | 1L                     |
+| Onion                  | 1, studded with cloves |
+
 
 ### **Method Of work**
 1. Melt the butter or heat the oil in a thick-bottomed

@@ -1,20 +1,21 @@
 ![Scorth Broth](resource:assets/images/stocksoupssauces/scoth_broth.png)
 
-### **Ingredients (4 Portions)**
-- 200g lean Beef (skirt)
-- 1L Beef Stock
-- 25g Barley
-- 200g Vegetables
-    - carrots
-    - turnip
-    - leeks
-    - celery
-    - onion
-    - *(Cut into Paysanne)*
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Lean Beef (skirt)      | 200g                   |
+| Beef Stock             | 1L                     |
+| Barley                 | 25g                    |
+| Vegetables             | 200g                   |
+|   - Carrots            |                        |
+|   - Turnip             |                        |
+|   - Leeks              |                        |
+|   - Celery             |                        |
+|   - Onion              |                        |
+| Bouquet Garni          | 1                      |
+| Salt                   | To taste               |
+| Pepper                 | To taste               |
+| Chopped Parsley        |                       |
 
-- 1 Bouquet Garni
-- salt pepper
-- chopped Parsley
 
 ### **Method Of Work**
 1. Place the beef, free from fat, in a saucepan and

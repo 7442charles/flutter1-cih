@@ -1,17 +1,19 @@
 ![rye Bread](resource:assets/images/breadDoughProducts/rye_bread.png)
 
-### **Ingredients** *(1 loaf)*
-- 250g Rye Flour
-- 175g Unbleached Bread Flour
-- 15g Freah Yeast
-- 60ml Water, Warm
-- 1tbsp Black treacle
-- 1tbsp Vegetable oil
-- 15g Caraway seeds
-- 15g Salt
-- 250g Lager
-- Polenta
-- Egg wash
+| Ingredients            | Quantity               |
+|------------------------|------------------------|
+| Rye Flour              | 250g                   |
+| Unbleached Bread Flour| 175g                   |
+| Fresh Yeast            | 15g                    |
+| Water, Warm            | 60ml                   |
+| Black treacle          | 1 tbsp                 |
+| Vegetable oil          | 1 tbsp                 |
+| Caraway seeds          | 15g                    |
+| Salt                   | 15g                    |
+| Lager                  | 250g                   |
+| Polenta                | As desired             |
+| Egg wash               |                        |
+
 
 ### **Method Of Work**
 1. Disperse the yeast in the warm water (at approximately 37 °C).

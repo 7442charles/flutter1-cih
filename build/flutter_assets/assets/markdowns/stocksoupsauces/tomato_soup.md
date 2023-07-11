@@ -1,20 +1,20 @@
 ![Tomato Soup](resource:assets/images/stocksoupssauces/tomato_soup.png)
 
-### **Ingredients (4 portions)**
-- 50g Butter Or oil
-- 25g Bacon trimmings(Optional)
-- 100g Onions, diced
-- 100g Carrot, diced
-- 50g Flour
-- 150g Tomato Puree
-- 1.25L Stock
-- 1 Bouquet garni
-- Salt
-- Pepper
-
-### **Croutons**
-- 1 slice stale bread
-- 50g Butter
+| Ingredients                 | Quantity               |
+|-----------------------------|------------------------|
+| Carrots                     | 90g, chopped           |
+| Celery                      | 30g, chopped           |
+| Garlic                      | 1/2 clove              |
+| Vegetable oil               | 25g                    |
+| Butter                      | 25g                    |
+| Thyme                       | 1g                     |
+| Bay leaf                    | 1/2                    |
+| Tomato Puree                | 12g                    |
+| Plum Tomatoes               | 200g                   |
+| Chicken stock               | 750g                   |
+| Juniper Berries             | 2                      |
+| Cream                       | 75g                    |
+| Gastric                     | 5g                     |
 
 ### **Method of Work**
 1. Melt the butter or heat the oil in a thick-bottomed

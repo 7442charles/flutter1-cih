@@ -1,22 +1,24 @@
 ![Rich fruit cake](resource:assets/images/spongeBiscuitsCakes/rich_fruit_cake.png)
 
-### **Ingredients**
-- 150g Butter
-- 150g Soft brown sugar
-- 4 Eggs
-- 2tbsp Black treacle
-- 125g Soft flour
-- 6g Salt
-- 3g Nutneg
-- 3g Mixed Spice
-- 3g Ground cinnamon
-- 75g Ground Almonds
-- 150g Currants
-- 150g Sultanas
-- 125g Raisins
-- 75g Mixed peel
-- 75g Glace Cherries
-- 1/2 Lemon, grated zest
+| Ingredients            | Quantity |
+|------------------------|----------|
+| Butter                 | 150g     |
+| Soft brown sugar       | 150g     |
+| Eggs                   | 4        |
+| Black treacle          | 2tbsp    |
+| Soft flour             | 125g     |
+| Salt                   | 6g       |
+| Nutmeg                 | 3g       |
+| Mixed Spice            | 3g       |
+| Ground cinnamon        | 3g       |
+| Ground Almonds         | 75g      |
+| Currants               | 150g     |
+| Sultanas               | 150g     |
+| Raisins                | 125g     |
+| Mixed peel             | 75g      |
+| Glace Cherries         | 75g      |
+| Lemon, grated zest     | 1/2      |
+
 
 ---
 
