@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_database/firebase_database.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 
 class Notice {
   final String ref;
@@ -34,44 +34,36 @@ class _NoticeBoardPageState extends State<NoticeBoardPage> {
     fetchNotices();
   }
 
-  void fetchNotices() {
-    DatabaseReference noticesRef =
-        FirebaseDatabase.instance.reference().child('noticeboard');
+  void fetchNotices() async {
+    final response = await http.get(Uri.https('raw.githubusercontent.com',
+        'your_username/repo_name/path_to_json_file.json'));
+    if (response.statusCode == 200) {
+      final jsonData = json.decode(response.body);
+      List<Notice> fetchedNotices = [];
 
-    noticesRef.onValue.listen((event) {
-      if (event.snapshot.value != null) {
-        Map<dynamic, dynamic>? noticesMap =
-            event.snapshot.value as Map<dynamic, dynamic>?;
+      jsonData.forEach((data) {
+        fetchedNotices.add(
+          Notice(
+            ref: data['ref'],
+            sender: data['sender'],
+            to: data['to'],
+            message: data['message'],
+            timestamp: DateTime.parse(data['timestamp']),
+          ),
+        );
+      });
 
-        if (noticesMap != null) {
-          List<Notice> fetchedNotices = [];
-
-          noticesMap.forEach((key, value) {
-            fetchedNotices.add(
-              Notice(
-                ref: key,
-                sender: value['sender'],
-                to: value['to'],
-                message: value['message'],
-                timestamp:
-                    DateTime.fromMillisecondsSinceEpoch(value['timestamp']),
-              ),
-            );
-          });
-
-          setState(() {
-            notices = fetchedNotices;
-          });
-        }
-      }
-    });
+      setState(() {
+        notices = fetchedNotices;
+      });
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Notice Board'),
+        title: const Text('Notice Board'),
       ),
       body: ListView.builder(
         itemCount: notices.length,
