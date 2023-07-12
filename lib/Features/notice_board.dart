@@ -35,8 +35,8 @@ class _NoticeBoardPageState extends State<NoticeBoardPage> {
   }
 
   void fetchNotices() async {
-    final response = await http.get(Uri.https('raw.githubusercontent.com',
-        'your_username/repo_name/path_to_json_file.json'));
+    final response = await http.get(Uri.https(
+        '//raw.githubusercontent.com/7442charles/ecascade_jsons/main/noticeboard.json'));
     if (response.statusCode == 200) {
       final jsonData = json.decode(response.body);
       List<Notice> fetchedNotices = [];
