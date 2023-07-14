@@ -29,6 +29,7 @@ class NoticeBoardPage extends StatefulWidget {
 
 class _NoticeBoardPageState extends State<NoticeBoardPage> {
   List<Notice> notices = [];
+  bool isLoading = true; // Added isLoading state variable
 
   @override
   void initState() {
@@ -60,10 +61,14 @@ class _NoticeBoardPageState extends State<NoticeBoardPage> {
 
         setState(() {
           notices = fetchedNotices;
+          isLoading = false; // Update isLoading state after fetching notices
         });
       }
     } catch (error) {
       print('Error: $error');
+      setState(() {
+        isLoading = false; // Update isLoading state if there's an error
+      });
     }
   }
 
@@ -73,94 +78,98 @@ class _NoticeBoardPageState extends State<NoticeBoardPage> {
       appBar: AppBar(
         title: const Text('Notice Board'),
       ),
-      body: ListView.builder(
-        itemCount: notices.length,
-        itemBuilder: (context, index) {
-          Notice notice = notices[index];
+      body: isLoading // Check if isLoading is true
+          ? Center(
+              child: CircularProgressIndicator(), // Show loading indicator
+            )
+          : ListView.builder(
+              itemCount: notices.length,
+              itemBuilder: (context, index) {
+                Notice notice = notices[index];
 
-          return Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Card(
-              elevation: 2.0,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  ListTile(
-                    title: Text(
-                      notice.ref,
-                      style: const TextStyle(
-                        fontSize: 18.0,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    subtitle: Text(
-                      notice.department,
-                      style: const TextStyle(
-                        fontSize: 14.0,
-                        fontStyle: FontStyle.italic,
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 16.0,
-                      vertical: 8.0,
-                    ),
+                return Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Card(
+                    elevation: 2.0,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        RichText(
-                          text: TextSpan(
-                            style: DefaultTextStyle.of(context).style,
-                            children: <TextSpan>[
-                              const TextSpan(
-                                text: 'Sender: ',
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
+                        ListTile(
+                          title: Text(
+                            notice.ref,
+                            style: const TextStyle(
+                              fontSize: 18.0,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          subtitle: Text(
+                            notice.department,
+                            style: const TextStyle(
+                              fontSize: 14.0,
+                              fontStyle: FontStyle.italic,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 16.0,
+                            vertical: 8.0,
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              RichText(
+                                text: TextSpan(
+                                  style: DefaultTextStyle.of(context).style,
+                                  children: <TextSpan>[
+                                    const TextSpan(
+                                      text: 'Sender: ',
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    TextSpan(text: notice.sender),
+                                  ],
                                 ),
                               ),
-                              TextSpan(text: notice.sender),
+                              RichText(
+                                text: TextSpan(
+                                  style: DefaultTextStyle.of(context).style,
+                                  children: <TextSpan>[
+                                    const TextSpan(
+                                      text: 'To: ',
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    TextSpan(text: notice.to),
+                                  ],
+                                ),
+                              ),
+                              const SizedBox(height: 8.0),
+                              Text(
+                                notice.message,
+                                style: const TextStyle(fontSize: 16.0),
+                              ),
                             ],
                           ),
                         ),
-                        RichText(
-                          text: TextSpan(
-                            style: DefaultTextStyle.of(context).style,
-                            children: <TextSpan>[
-                              const TextSpan(
-                                text: 'To: ',
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              TextSpan(text: notice.to),
-                            ],
+                        Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Text(
+                            'Posted: ${notice.timestamp.toString()}',
+                            style: const TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.grey,
+                            ),
                           ),
-                        ),
-                        const SizedBox(height: 8.0),
-                        Text(
-                          notice.message,
-                          style: const TextStyle(fontSize: 16.0),
                         ),
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Text(
-                      'Posted: ${notice.timestamp.toString()}',
-                      style: const TextStyle(
-                        fontSize: 14.0,
-                        color: Colors.grey,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
+                );
+              },
             ),
-          );
-        },
-      ),
     );
   }
 }

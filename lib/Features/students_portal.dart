@@ -131,62 +131,64 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            const Text(
-              'Check your grade',
-              style: TextStyle(
-                fontSize: 24.0,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const SizedBox(height: 16.0),
-            TextField(
-              controller: _nameController,
-              decoration: InputDecoration(
-                labelText: 'Enter name',
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(8.0),
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              const Text(
+                'Check your grade',
+                style: TextStyle(
+                  fontSize: 24.0,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
-            ),
-            const SizedBox(height: 16.0),
-            TextField(
-              controller: _admissionNumberController,
-              decoration: InputDecoration(
-                labelText: 'Enter admission full number',
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(8.0),
+              const SizedBox(height: 16.0),
+              TextField(
+                controller: _nameController,
+                decoration: InputDecoration(
+                  labelText: 'Enter name',
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
                 ),
               ),
-            ),
-            const SizedBox(height: 24.0),
-            ElevatedButton(
-              onPressed: _isLoading ? null : _submitForm,
-              style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
-                onPrimary: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 16.0),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(8.0),
+              const SizedBox(height: 16.0),
+              TextField(
+                controller: _admissionNumberController,
+                decoration: InputDecoration(
+                  labelText: 'Enter admission full number',
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
                 ),
               ),
-              child: _isLoading
-                  ? const CircularProgressIndicator(
-                      valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
-                    )
-                  : const Text(
-                      'Submit',
-                      style: TextStyle(
-                        fontSize: 18.0,
-                        fontWeight: FontWeight.bold,
+              const SizedBox(height: 24.0),
+              ElevatedButton(
+                onPressed: _isLoading ? null : _submitForm,
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.blue,
+                  onPrimary: Colors.white,
+                  padding: const EdgeInsets.symmetric(vertical: 16.0),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                ),
+                child: _isLoading
+                    ? const CircularProgressIndicator(
+                        valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                      )
+                    : const Text(
+                        'Submit',
+                        style: TextStyle(
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-            ),
-            const SizedBox(height: 24.0),
-            Expanded(
-              child: ListView.builder(
+              ),
+              const SizedBox(height: 24.0),
+              ListView.builder(
+                shrinkWrap: true,
+                physics: const ClampingScrollPhysics(),
                 itemCount: _searchResults.length,
                 itemBuilder: (BuildContext context, int index) {
                   final student = _searchResults[index];
@@ -246,8 +248,8 @@ class _StudentsPortalPageState extends State<StudentsPortalPage> {
                   );
                 },
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

@@ -26,17 +26,18 @@ class FeaturesContainer extends StatelessWidget {
             },
           ),
           FeatureContainer(
+            title: 'Notice Board',
+            onTap: () {
+              _checkInternetAndNavigate(context, const NoticeBoardPage());
+            },
+          ),
+          FeatureContainer(
             title: 'Suggestions Box',
             onTap: () {
               _checkInternetAndNavigate(context, SuggestionPage());
             },
           ),
-          FeatureContainer(
-            title: 'Notice Board',
-            onTap: () {
-              _checkInternetAndNavigate(context, NoticeBoardPage());
-            },
-          ),
+
           // FeatureContainer(
           //   title: 'Sch Diary',
           //   onTap: () {
