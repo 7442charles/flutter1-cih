@@ -1,6 +1,6 @@
-import 'package:cih_first_app/MainTopicContent/kitchen101/kitchen101Intro.dart';
-import 'package:cih_first_app/MainTopicContent/kitchen101/knifeSkills.dart';
-import 'package:cih_first_app/MainTopicContent/kitchen101/safetyMeasures.dart';
+import 'package:cih_first_app/MainTopicContent/kitchen101/kitchen_101_intro.dart';
+import 'package:cih_first_app/MainTopicContent/kitchen101/knife_skills.dart';
+import 'package:cih_first_app/MainTopicContent/kitchen101/safety_measures.dart';
 import 'package:cih_first_app/components/subtopic.dart';
 import 'package:flutter/material.dart';
 

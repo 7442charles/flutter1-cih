@@ -2,7 +2,7 @@ import 'package:cih_first_app/MainTopicContent/basicPastryProducts/apple_flan.da
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/apple_puree.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/apple_turnover.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/bakewell_tart.dart';
-import 'package:cih_first_app/MainTopicContent/basicPastryProducts/boiledButterCream.dart';
+import 'package:cih_first_app/MainTopicContent/basicPastryProducts/boiled_butter_cream.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/butter_cream.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/chantily_cream.dart';
 import 'package:cih_first_app/MainTopicContent/basicPastryProducts/cheese_straw.dart';

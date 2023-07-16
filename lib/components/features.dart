@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:cih_first_app/Features/notice_board.dart';
 import 'package:cih_first_app/Features/students_portal.dart';
 import 'package:cih_first_app/Features/suggets.dart';
@@ -35,14 +37,14 @@ class FeaturesContainer extends StatelessWidget {
           FeatureContainer(
             title: 'Suggestions Box',
             onTap: () {
-              _checkInternetAndNavigate(context, SuggestionPage());
+              _checkInternetAndNavigate(context, const SuggestionPage());
             },
           ),
 
           FeatureContainer(
             title: 'Sch Gallery',
             onTap: () {
-              _checkInternetAndNavigate(context, GalleryPage());
+              _checkInternetAndNavigate(context, const GalleryPage());
             },
           ),
 
@@ -101,7 +103,7 @@ class FeatureContainer extends StatelessWidget {
   final String title;
   final VoidCallback onTap;
 
-  const FeatureContainer({Key? key, required this.title, required this.onTap});
+  const FeatureContainer({super.key, required this.title, required this.onTap});
 
   @override
   Widget build(BuildContext context) {

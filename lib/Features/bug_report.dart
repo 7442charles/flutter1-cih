@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -5,7 +7,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:firebase_database/firebase_database.dart';
 
 class BugReport extends StatefulWidget {
-  const BugReport({Key? key});
+  const BugReport({super.key});
 
   @override
   _BugReportState createState() => _BugReportState();
@@ -16,6 +18,7 @@ class _BugReportState extends State<BugReport> {
   final _imagePicker = ImagePicker();
   final _descriptionController = TextEditingController();
   final FirebaseStorage _storage = FirebaseStorage.instance;
+  // ignore: deprecated_member_use
   final DatabaseReference _database = FirebaseDatabase.instance.reference();
 
   Future<void> _pickImage() async {

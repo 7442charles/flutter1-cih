@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -5,6 +7,8 @@ import 'package:http/http.dart' as http;
 import 'package:cached_network_image/cached_network_image.dart';
 
 class GalleryPage extends StatefulWidget {
+  const GalleryPage({super.key});
+
   @override
   _GalleryPageState createState() => _GalleryPageState();
 }
@@ -19,9 +23,9 @@ class _GalleryPageState extends State<GalleryPage> {
   }
 
   Future<void> _fetchGalleryItems() async {
-    final baseUrl =
+    const baseUrl =
         'https://raw.githubusercontent.com/7442charles/ecascade_jsons/main';
-    final url = '$baseUrl/sch-gallary.json';
+    const url = '$baseUrl/sch-gallary.json';
     final response = await http.get(Uri.parse(url));
 
     if (response.statusCode == 200) {

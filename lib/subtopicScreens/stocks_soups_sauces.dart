@@ -6,7 +6,7 @@ import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/brown_vegetable_
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/chicken_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/chilled_leek_and_potato.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/clear_soup.dart';
-import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/cream_of_Vegetable_soup.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/cream_of_vegetable_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/cream_tomato_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/fish_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/green_pea_soup.dart';
@@ -70,7 +70,6 @@ class StocksSoupSauces extends StatelessWidget {
           SubtopicRow(
             title: 'White Stock',
             onPressed: () {
-              print('white stock row clicked!');
               Navigator.push(
                 context,
                 MaterialPageRoute(

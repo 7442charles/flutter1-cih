@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'dart:convert';
@@ -65,7 +67,7 @@ class _NoticeBoardPageState extends State<NoticeBoardPage> {
         });
       }
     } catch (error) {
-      print('Error: $error');
+      //print('Error: $error');
       setState(() {
         isLoading = false; // Update isLoading state if there's an error
       });
@@ -79,7 +81,7 @@ class _NoticeBoardPageState extends State<NoticeBoardPage> {
         title: const Text('Notice Board'),
       ),
       body: isLoading // Check if isLoading is true
-          ? Center(
+          ? const Center(
               child: CircularProgressIndicator(), // Show loading indicator
             )
           : ListView.builder(

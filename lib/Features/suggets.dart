@@ -1,7 +1,11 @@
+// ignore_for_file: library_private_types_in_public_api, use_build_context_synchronously, deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 
 class SuggestionPage extends StatefulWidget {
+  const SuggestionPage({super.key});
+
   @override
   _SuggestionPageState createState() => _SuggestionPageState();
 }
@@ -142,7 +146,6 @@ class _SuggestionPageState extends State<SuggestionPage> {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: _submitSuggestion,
-                child: const Text('Submit'),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.blue,
                   onPrimary: Colors.white,
@@ -155,6 +158,7 @@ class _SuggestionPageState extends State<SuggestionPage> {
                     borderRadius: BorderRadius.circular(8.0),
                   ),
                 ),
+                child: const Text('Submit'),
               ),
             ),
           ],
