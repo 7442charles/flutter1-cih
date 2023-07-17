@@ -2,7 +2,7 @@ import 'package:cih_first_app/components/ecascade_container.dart';
 import 'package:cih_first_app/components/features.dart';
 import 'package:flutter/material.dart';
 
-import 'home_page_recentUpdate.dart';
+import 'home_page_recentupdate.dart';
 import '../components/open_drawer.dart';
 import '../components/style.dart';
 

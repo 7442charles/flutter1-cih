@@ -1,5 +1,5 @@
 import 'package:cih_first_app/components/recent_update.dart';
-import 'package:cih_first_app/subtopicScreens/Kitchen101_subtopics.dart';
+import 'package:cih_first_app/subtopicScreens/kitchen101_subtopics.dart';
 import 'package:cih_first_app/subtopicScreens/basic_pastry.dart';
 import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
 import 'package:cih_first_app/subtopicScreens/bread_dough_products.dart';
