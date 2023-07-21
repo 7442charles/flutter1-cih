@@ -20,6 +20,7 @@ import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/parsely_sauce.da
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/pea_veloute.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/potato_soup.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/pumpkin_veloute.dart';
+import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/question_answer.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/reduced_veal_stock.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/salsa_verde.dart';
 import 'package:cih_first_app/MainTopicContent/StockSoupsSauces/scotch_broth.dart';
@@ -53,6 +54,17 @@ class StocksSoupSauces extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: ((context) => const Introduction()),
+                ),
+              );
+            },
+          ),
+          SubtopicRow(
+            title: 'Question & Answer',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const SoupsQA()),
                 ),
               );
             },
