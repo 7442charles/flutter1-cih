@@ -29,24 +29,3 @@ jobs:
         with:
           name: app-release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
-
-      - name: Clone target repository
-        run: |
-          git config --global user.name "7442charles"
-          git config --global user.email "cking6951@gmail.com"
-          git clone https://github.com/7442charles/ecascade_app_release target-repo
-
-      - name: Create target directory if it doesn't exist
-        run: mkdir -p target-repo/app_file/DPC
-
-      - name: Copy APK to target directory
-        run: cp -r build/app/outputs/flutter-apk/app-release.apk target-repo/app_file/DPC/
-
-      - name: Push changes to target repository
-        working-directory: ./target-repo
-        env:
-          GH_TOKEN: ${{ secrets.workflow }}
-        run: |
-          git add .
-          git commit -m "Add APK for DPC branch"
-          git push https://$GH_TOKEN@github.com/7442charles/ecascade_app_release.git HEAD:main
