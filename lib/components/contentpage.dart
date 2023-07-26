@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:flutter_tts/flutter_tts.dart';
 
 class ContentPage extends StatefulWidget {
   final String appBarTitle;
@@ -21,13 +20,11 @@ class ContentPage extends StatefulWidget {
 
 class _ContentPageState extends State<ContentPage> {
   late Future<String> markdownContent;
-  FlutterTts tts = FlutterTts();
 
   @override
   void initState() {
     super.initState();
     markdownContent = fetchMarkdownContent();
-    tts.setLanguage('en-US'); // Set the language for text-to-speech
   }
 
   Future<String> fetchMarkdownContent() async {
@@ -38,10 +35,6 @@ class _ContentPageState extends State<ContentPage> {
     } catch (e) {
       return '';
     }
-  }
-
-  Future<void> readMarkdownContent(String content) async {
-    await tts.speak(content);
   }
 
   @override
@@ -70,13 +63,6 @@ class _ContentPageState extends State<ContentPage> {
                 }
               },
             ),
-          ),
-          ElevatedButton(
-            onPressed: () async {
-              String content = await markdownContent;
-              readMarkdownContent(content);
-            },
-            child: const Text('Listen'),
           ),
         ],
       ),
