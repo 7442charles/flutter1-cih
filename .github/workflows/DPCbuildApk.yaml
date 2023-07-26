@@ -44,7 +44,9 @@ jobs:
 
       - name: Push changes to target repository
         working-directory: ./target-repo
+        env:
+          GH_TOKEN: ${{ secrets.workflow }}
         run: |
           git add .
           git commit -m "Add APK for DPC branch"
-          git push
+          git push https://$GH_TOKEN@github.com/7442charles/ecascade_app_release.git HEAD:main
