@@ -1,4 +1,4 @@
-name: DPC Build APK and Upload (Quick Test)
+name: DPC Build APK and Upload (Quick Test2)
 
 on:
   push:
