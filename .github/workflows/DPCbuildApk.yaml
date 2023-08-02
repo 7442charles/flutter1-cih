@@ -24,8 +24,16 @@ jobs:
       - name: Build APK
         run: flutter build apk --release
 
-      - name: Archive APK as artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: app-release-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+      - name: Create apps directory
+        run: mkdir -p apps
+
+      - name: Move APK to apps directory
+        run: mv build/app/outputs/flutter-apk/app-release.apk apps/
+
+      - name: Commit and Push APK to repository
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add apps/app-release.apk
+          git commit -m "Add built APK"
+          git push
