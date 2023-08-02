@@ -24,8 +24,8 @@ jobs:
 
       - name: Commit and Push test text file to repository
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "cking6951@gmail.com"
+          git config --local user.name "7442charles"
           git add apps/test-file.txt
           git commit -m "Add test text file"
           git remote rm origin
