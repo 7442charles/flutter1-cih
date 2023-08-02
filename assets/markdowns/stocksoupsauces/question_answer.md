@@ -3,10 +3,10 @@
            *Cow bones, red wine, white onion, carrot, leek, tomato puree, garlic, bay leaves, thyme, celery*
 
     - [x] Method of work:  
-            *Roast the bones and the vegetables in the preheated oven at 175°C. till the bones are golden brown  
-            Place all the ingredients from the oven in a pot and add cold water and bring to simmer for 4-5hrs.  
+        - Roast the bones and the vegetables in the preheated    oven at 175°C. till the bones are golden brown  
+         - Place all the ingredients from the oven in a pot and add cold water and bring to simmer for 4-5hrs.  
             skim to remove all fat.  
-            leave to infuse overnight and then reduce to required amount.*
+         - leave to infuse overnight and then reduce to required amount.
 2. State four quality points you should look for in a white vegetable stock.
    - [x] No fat on the stock.
    - [ ] 

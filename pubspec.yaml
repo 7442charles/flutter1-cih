@@ -68,6 +68,7 @@ flutter:
      - assets/images/breadDoughProducts/
      - assets/images/pastaRiceEggs/
      - assets/images/basicPastryProducts/
+     - assets/images/eggs/
 
      - assets/markdowns/kitchen101/
      - assets/markdowns/stocksoupsauces/
@@ -75,5 +76,6 @@ flutter:
      - assets/markdowns/Bread_dough_products/
      - assets/markdowns/pasta_rice_eggs/
      - assets/markdowns/basic_pastry_products/
+     - assets/markdowns/eggs/
      
      - fonts/Alkatra-Regular.ttf

@@ -3,14 +3,14 @@ import 'package:cih_first_app/MainTopicContent/PastaRiceEggs/pesto_rice.dart';
 import 'package:cih_first_app/components/subtopic.dart';
 import 'package:flutter/material.dart';
 
-class PastaRiceEggs extends StatelessWidget {
-  const PastaRiceEggs({super.key});
+class PastaRice extends StatelessWidget {
+  const PastaRice({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pasta, Rice & Eggs'),
+        title: const Text('Pasta & Rice'),
       ),
       body: ListView(
         children: [
