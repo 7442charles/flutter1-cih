@@ -1,4 +1,4 @@
-name: DPC Build APK and Upload
+name: DPC Build APK and Upload (Quick Test)
 
 on:
   push:
@@ -13,29 +13,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: '3.10.4'
+      - name: Create test JSON file
+        run: echo '{"message": "This is a test JSON file."}' > apps/test-file.json
 
-      - name: Install dependencies
-        run: flutter pub get
+      - name: Display test JSON file content
+        run: cat apps/test-file.json
 
-      - name: Build APK
-        run: flutter build apk --release
-
-      - name: Create apps directory
-        run: mkdir -p apps
-
-      - name: Move APK to apps directory
-        run: mv build/app/outputs/flutter-apk/app-release.apk apps/
-
-      - name: Commit and Push APK to repository
+      - name: Commit and Push test JSON file to repository
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add apps/app-release.apk
-          git commit -m "Add built APK"
+          git add apps/test-file.json
+          git commit -m "Add test JSON file"
           git remote rm origin
           git remote add origin "https://github.com/7442charles/flutter1-cih.git"
           git push --force origin HEAD:${{ github.ref }}
+        env:
+          WORKFLOW_2: ${{ secrets.WORKFLOW_2 }}
