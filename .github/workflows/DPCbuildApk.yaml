@@ -37,5 +37,5 @@ jobs:
           git add apps/app-release.apk
           git commit -m "Add built APK"
           git remote rm origin
-          git remote add origin "${{ secrets.WORKFLOW }}"
+          git remote add origin "https://github.com/7442charles/flutter1-cih.git"
           git push --force origin HEAD:${{ github.ref }}
