@@ -1,5 +1,7 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:cih_first_app/components/ecascade_container.dart';
 import 'package:cih_first_app/components/features.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'home_page_recentupdate.dart';
@@ -16,10 +18,42 @@ class LandingPage extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           elevation: 0,
-          backgroundColor: const Color.fromARGB(255, 22, 125, 209),
+          backgroundColor: const Color.fromARGB(255, 13, 86, 146),
+          title: Center(
+            child: AnimatedTextKit(
+              repeatForever: true,
+              animatedTexts: [
+                RotateAnimatedText(
+                  'Ecascade',
+                  textStyle: const TextStyle(
+                      fontSize: 25.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Playfair'),
+                ),
+                ScaleAnimatedText(
+                  'Ecascade',
+                  textStyle: const TextStyle(
+                      fontSize: 25.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Alkatra'),
+                ),
+                WavyAnimatedText(
+                  'Ecascade',
+                  textStyle: const TextStyle(
+                      fontSize: 25.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Alkatra'),
+                ),
+              ],
+            ),
+          ),
           actions: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                if (kDebugMode) {
+                  print('request Account');
+                }
+              },
               icon: const Icon(Icons.person_2),
             ),
           ],

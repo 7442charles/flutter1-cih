@@ -8,7 +8,7 @@ class Lasagne extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ContentPage(
       appBarTitle: 'Lasagne',
-      markdownPath: 'assets/markdowns/pasta_rice_eggs/lasagne.md',
+      markdownPath: 'assets/markdowns/pasta_noodles/lasagne.md',
       errorMessage: 'Error loading ',
     );
   }

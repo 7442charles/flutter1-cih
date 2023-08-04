@@ -10,10 +10,10 @@ class EcascadeContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 150.0,
-      decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 22, 125, 209),
-        border: Border.all(color: Colors.blue),
-        borderRadius: const BorderRadius.only(
+      decoration: const BoxDecoration(
+        color: Color.fromARGB(255, 13, 86, 146),
+        //border: Border.all(color: Colors.blue),
+        borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(20.0),
           bottomRight: Radius.circular(20.0),
         ),
@@ -23,24 +23,54 @@ class EcascadeContainer extends StatelessWidget {
         children: [
           Center(
             child: AnimatedTextKit(
+              repeatForever: true,
               animatedTexts: [
-                ColorizeAnimatedText('eCASCADE',
-                    textStyle: const TextStyle(
-                        fontSize: 45.0,
-                        fontWeight: FontWeight.bold,
-                        fontFamily: 'Rubik'),
-                    colors: [
-                      Colors.green,
-                      Colors.black,
-                      Colors.white,
-                    ]
-                    //speed: const Duration(milliseconds: 250),
-                    ),
+                ColorizeAnimatedText(
+                  'ECASCADE',
+                  textStyle: const TextStyle(
+                      fontSize: 45.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Rubik'),
+                  colors: [
+                    Colors.green,
+                    Colors.black,
+                    Colors.white,
+                  ],
+                ),
+                ColorizeAnimatedText(
+                  'Educate...',
+                  textStyle: const TextStyle(
+                      fontSize: 35.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Rubik'),
+                  colors: [
+                    Colors.green,
+                    Colors.white,
+                  ],
+                ),
+                ColorizeAnimatedText(
+                  'Motivate..',
+                  textStyle: const TextStyle(
+                      fontSize: 45.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Rubik'),
+                  colors: [
+                    Colors.green,
+                    Colors.white,
+                  ],
+                ),
+                ColorizeAnimatedText(
+                  'Equip.',
+                  textStyle: const TextStyle(
+                      fontSize: 45.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Rubik'),
+                  colors: [
+                    Colors.green,
+                    Colors.white,
+                  ],
+                ),
               ],
-              totalRepeatCount: 9999999,
-              pause: const Duration(milliseconds: 350),
-              //displayFullTextOnTap: true,
-              //stopPauseOnTap: true,
             ),
           )
         ],

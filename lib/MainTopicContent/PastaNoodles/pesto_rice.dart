@@ -8,7 +8,7 @@ class PestoRice extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ContentPage(
       appBarTitle: 'Pesto Rice',
-      markdownPath: 'assets/markdowns/pasta_rice_eggs/pesto_rice.md',
+      markdownPath: 'assets/markdowns/pasta_noodles/pesto_rice.md',
       errorMessage: 'Error loading ',
     );
   }

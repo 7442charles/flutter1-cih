@@ -54,7 +54,7 @@ class _ContentPageState extends State<ContentPage> {
                 } else if (snapshot.hasError || !snapshot.hasData) {
                   return Center(
                     child: Text(
-                      widget.errorMessage ?? 'Error loading markdown content.',
+                      widget.errorMessage ?? 'Error loading  content.',
                     ),
                   );
                 } else {

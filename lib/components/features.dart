@@ -114,11 +114,12 @@ class FeatureContainer extends StatelessWidget {
         height: 150,
         margin: const EdgeInsets.all(10),
         decoration: BoxDecoration(
-          color: Colors.blue, // Customize the container color as needed
+          color: const Color.fromARGB(
+              255, 13, 86, 146), // Customize the container color as needed
           borderRadius: BorderRadius.circular(20),
           boxShadow: [
             BoxShadow(
-              color: Colors.blue.withOpacity(0.3),
+              color: const Color.fromARGB(255, 13, 86, 146).withOpacity(0.3),
               blurRadius: 10,
               offset: const Offset(0, 5),
             ),
@@ -129,12 +130,12 @@ class FeatureContainer extends StatelessWidget {
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                   colors: [
-                    Colors.blue.shade700,
-                    Colors.blue.shade900,
+                    Color.fromARGB(255, 13, 86, 146),
+                    Color.fromARGB(193, 10, 82, 25),
                   ],
                 ),
               ),
@@ -148,7 +149,7 @@ class FeatureContainer extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white, // Customize the text color as needed
+                    color: Colors.white,
                     shadows: [
                       Shadow(
                         color: Colors.black.withOpacity(0.5),

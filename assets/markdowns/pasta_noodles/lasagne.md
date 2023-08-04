@@ -1,20 +1,22 @@
-![Lasagne](resource:assets/images/pastaRiceEggs/lasagne.png)
+![Lasagne](resource:assets/images/pastaNoodles/lasagne.png)
 
-### **Ingredients**
-- 200g Lasagne sheets 
-- 1tbsp oil
-- 50g streaky bacon, thin strips
-- 100g onions, chopped
-- 50g Carrots, chopped
-- 50g Celery, chopped
-- 200g minced beef
-- 1tbsp Tomato Purée
-- 375ml Jus-lié or demi-glace
-- 1 Clove Of garlic
-- ½tsp Marjoram
-- 100g mushroom, Sliced
-- 250ml Béchamel sauce
-- 25g Parmesan or Cheddar cheese Grated
+|Ingredients|Quantity|
+|-----------|--------|
+|Lasagne Sheets|200g|
+|Minced meat|200g|
+|Streaky bacon, thin Strips|50g| 
+|Oil| 1 btspn|
+|Onions, chopped| 100g|
+|Carrots, chopped|50g|
+|Celery, Chopped|50g|
+|Tomato Puree| 1 tbsp|
+|demi-glace|375ml|
+|Garlic, clove|1|
+|Marjoram|½tsp|
+|Mushroom, Sliced| 100g|
+|Bechamel sauce|250ml|
+|Parmesan Cheese| 25g|
+
 
 ### **Method of work**
 1. Preheat an oven to 190 degrees.

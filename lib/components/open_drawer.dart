@@ -13,8 +13,8 @@ class MyDrawer extends StatelessWidget {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Color.fromARGB(255, 21, 114, 190),
-              Color.fromARGB(255, 18, 95, 158),
+              Color.fromARGB(255, 13, 86, 146),
+              Color.fromARGB(193, 10, 82, 25),
             ],
           ),
         ),
@@ -82,12 +82,20 @@ class MyDrawer extends StatelessWidget {
               ),
               onTap: () {},
             ),
-            const Divider(color: Colors.white),
+            const Divider(color: Color.fromRGBO(255, 255, 255, 1)),
+            const ListTile(
+              title: Center(
+                child: Text(
+                  'Powered by C.I.H.',
+                  style: TextStyle(color: Colors.white, fontSize: 15.0),
+                ),
+              ),
+            ),
             const ListTile(
               title: Center(
                 child: Text(
                   'Version 1.0.0',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white, fontSize: 10.0),
                 ),
               ),
             ),
