@@ -27,7 +27,7 @@ class MyDrawer extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  'eCASCADE',
+                  'ECASCADE',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 28.0,

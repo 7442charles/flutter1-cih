@@ -51,7 +51,7 @@ class EcascadeContainer extends StatelessWidget {
                 ColorizeAnimatedText(
                   'Motivate..',
                   textStyle: const TextStyle(
-                      fontSize: 45.0,
+                      fontSize: 35.0,
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Rubik'),
                   colors: [
@@ -62,7 +62,7 @@ class EcascadeContainer extends StatelessWidget {
                 ColorizeAnimatedText(
                   'Equip.',
                   textStyle: const TextStyle(
-                      fontSize: 45.0,
+                      fontSize: 35.0,
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Rubik'),
                   colors: [
