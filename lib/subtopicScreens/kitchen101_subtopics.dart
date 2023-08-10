@@ -1,5 +1,5 @@
 import 'package:cih_first_app/MainTopicContent/kitchen101/kitchen_101_intro.dart';
-import 'package:cih_first_app/MainTopicContent/kitchen101/kitchen_hygiene.dart';
+import 'package:cih_first_app/MainTopicContent/kitchen101/kitchen_hygiene_QA.dart';
 import 'package:cih_first_app/MainTopicContent/kitchen101/knife_skills.dart';
 import 'package:cih_first_app/MainTopicContent/kitchen101/safety_measures.dart';
 import 'package:cih_first_app/components/subtopic.dart';
@@ -50,26 +50,26 @@ class Kitchen101subs extends StatelessWidget {
               );
             },
           ),
+          // SubtopicRow(
+          //   title: 'Kitchen Hygiene',
+          //   onPressed: () {
+          //     Navigator.push(
+          //       context,
+          //       MaterialPageRoute(
+          //         builder: ((context) => const KitchenHygeine()),
+          //       ),
+          //     );
+          //   },
+          // ),
           SubtopicRow(
-            title: 'Kitchen Hygiene',
+            title: 'Kitchen Hygiene (Q & A)',
             onPressed: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: ((context) => const KitchenHygeine()),
+                  builder: ((context) => const KitchenHygeineQA()),
                 ),
               );
-            },
-          ),
-          SubtopicRow(
-            title: 'Kitchen Hygiene (Q & A)',
-            onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => const KitchenHygeine()),
-              //   ),
-              // );
             },
           ),
           // SubtopicRow(
