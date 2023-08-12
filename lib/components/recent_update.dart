@@ -62,6 +62,7 @@ class RecentUpdated extends StatelessWidget {
                           color: Colors.blue,
                           size: 20.0,
                         ),
+                        const Padding(padding: EdgeInsets.only(right: 5.0)),
                         Text(lecturer),
                       ],
                     ),

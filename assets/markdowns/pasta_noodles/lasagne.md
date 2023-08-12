@@ -24,7 +24,7 @@
 3. Butter a suitable oven-proof dish before covering with a layer of the meat sauce followed by a layerof cooked lasagne sheets. Repeat this process two more times.
 
 ---
-***cover the complete layers with bechamel sauce and top with the cheese before covering the dish with foil and baking for 20 minutes in the pre-heated oven. after this time, remove the foil and continue to bake for a further 15 minutes  **gratinute** the cheese***
+*cover the complete layers with bechamel sauce and top with the cheese before covering the dish with foil and baking for 20 minutes in the pre-heated oven.*  
 
->For a vegetarian simply exchange the beef mince for quorn, vegetable stock for beef stock and remove the bacon.
-For different approch select seasonal vegetable, cut into **macedoine**: finish with a little tomato sauceand continue as normal. 
+*After this time, remove the foil and continue to bake for a further 15 minutes  **gratinute** the cheese*
+

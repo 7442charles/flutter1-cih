@@ -47,3 +47,7 @@ Most commonly know type of fast food.
 Versitile and easy to cook.
 They are in high starch and also provide proteins.
 
+### **Types of noodles**
+- Cantonese noodles
+- Chinese noodles
+- rice noodles

@@ -116,7 +116,7 @@ class CustomNotification extends StatelessWidget {
                   },
                   child: const RecentUpdated(
                     title: "Eggs",
-                    lecturer: "M.o",
+                    lecturer: "M.O",
                     subtopics: 20,
                   ),
                 ),
@@ -130,9 +130,9 @@ class CustomNotification extends StatelessWidget {
                     );
                   },
                   child: const RecentUpdated(
-                    title: "Pasta, Rice",
+                    title: "Pasta & Noodles",
                     lecturer: "M.O",
-                    subtopics: 20,
+                    subtopics: 2,
                   ),
                 ),
               ],

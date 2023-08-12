@@ -4,6 +4,7 @@ import 'package:cih_first_app/Features/notice_board.dart';
 import 'package:cih_first_app/Features/students_portal.dart';
 import 'package:cih_first_app/Features/suggets.dart';
 import 'package:cih_first_app/Features/school_gallary.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 
@@ -16,12 +17,20 @@ class FeaturesContainer extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: [
-          // FeatureContainer(
-          //   title: 'Courses',
-          //   onTap: () {
-          //     //_checkInternetAndNavigate(context, CoursesPage());
-          //   },
-          // ),
+          FeatureContainer(
+            title: 'Course Notes',
+            onTap: () {
+              if (kDebugMode) {
+                print('Course notes clicked');
+              }
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: ((context) => CourseNotes()),
+              //   ),
+              // );
+            },
+          ),
           FeatureContainer(
             title: 'Students Portal',
             onTap: () {
@@ -40,26 +49,12 @@ class FeaturesContainer extends StatelessWidget {
               _checkInternetAndNavigate(context, const SuggestionPage());
             },
           ),
-
           FeatureContainer(
             title: 'Sch Gallery',
             onTap: () {
               _checkInternetAndNavigate(context, const GalleryPage());
             },
           ),
-
-          // FeatureContainer(
-          //   title: 'Timetable',
-          //   onTap: () {
-          //     //_checkInternetAndNavigate(context, TimetablePage());
-          //   },
-          // ),
-          // FeatureContainer(
-          //   title: 'Events',
-          //   onTap: () {
-          //     // _checkInternetAndNavigate(context, EventsPage());
-          //   },
-          // ),
         ],
       ),
     );
