@@ -1,14 +1,14 @@
 import 'package:cih_first_app/components/contentpage.dart';
 import 'package:flutter/material.dart';
 
-class EggsIntroduction extends StatelessWidget {
-  const EggsIntroduction({super.key});
+class SpanishOmelette extends StatelessWidget {
+  const SpanishOmelette({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const ContentPage(
-      appBarTitle: 'Introduction To Eggs',
-      markdownPath: 'assets/markdowns/eggs/eggs_introduction.md',
+      appBarTitle: 'Spanish Omelette',
+      markdownPath: 'assets/markdowns/eggs/spanish_omelette.md',
       errorMessage: 'Error loading ',
     );
   }
