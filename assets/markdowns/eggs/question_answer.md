@@ -12,6 +12,7 @@
    - [x] Use less butter or oil.
    - [x] minimize the use of salt.
    - [x] use a more healtier substitue of milk.
+   - [x] Use fresh ingredients.
 4. At what temperature should egg dishes be held for service?
    - [x] refridgerate at 5 °C or below.
    
