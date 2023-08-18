@@ -4,6 +4,7 @@ import 'package:cih_first_app/subtopicScreens/kitchen101_subtopics.dart';
 import 'package:cih_first_app/subtopicScreens/basic_pastry.dart';
 import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
 import 'package:cih_first_app/subtopicScreens/bread_dough_products.dart';
+import 'package:cih_first_app/subtopicScreens/meat_game.dart';
 import 'package:cih_first_app/subtopicScreens/pasta_noodles.dart';
 import 'package:cih_first_app/subtopicScreens/stocks_soups_sauces.dart';
 import 'package:flutter/material.dart';
@@ -125,12 +126,27 @@ class CustomNotification extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const PastaRice(),
+                        builder: (context) => const PastaNoodles(),
                       ),
                     );
                   },
                   child: const RecentUpdated(
                     title: "Pasta & Noodles",
+                    lecturer: "M.O",
+                    subtopics: 2,
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const MeatGame(),
+                      ),
+                    );
+                  },
+                  child: const RecentUpdated(
+                    title: "Meat & Game",
                     lecturer: "M.O",
                     subtopics: 2,
                   ),

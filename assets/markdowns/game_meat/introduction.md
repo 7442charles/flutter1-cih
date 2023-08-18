@@ -1,0 +1,1 @@
+**Meat** is the flesh of domestic animals (cattle, hogs, and lambs) and of wild game animals (such as deer).
