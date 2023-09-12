@@ -71,6 +71,7 @@ flutter:
      - assets/images/eggs/
      - assets/images/pastaNoodles/
      - assets/images/meat_game/
+     - assets/images/hot_cold_desserts/
 
      - assets/markdowns/kitchen101/
      - assets/markdowns/stocksoupsauces/
@@ -80,5 +81,6 @@ flutter:
      - assets/markdowns/basic_pastry_products/
      - assets/markdowns/eggs/
      - assets/markdowns/game_meat/
+     - assets/markdowns/hot_cold_desserts/
      
      - fonts/Alkatra-Regular.ttf

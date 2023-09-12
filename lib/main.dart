@@ -5,9 +5,9 @@ import 'firebase_options.dart';
 import 'mainscreens/splash_screen.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  Admob.initialize();
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  // Admob.initialize();
   runApp(const MyApp());
 }
 

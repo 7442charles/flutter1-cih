@@ -1,5 +1,6 @@
 import 'package:cih_first_app/components/recent_update.dart';
 import 'package:cih_first_app/subtopicScreens/eggs.dart';
+import 'package:cih_first_app/subtopicScreens/hot_cold_desserts.dart';
 import 'package:cih_first_app/subtopicScreens/kitchen101_subtopics.dart';
 import 'package:cih_first_app/subtopicScreens/basic_pastry.dart';
 import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
@@ -148,6 +149,21 @@ class CustomNotification extends StatelessWidget {
                   child: const RecentUpdated(
                     title: "Meat & Game",
                     lecturer: "M.O",
+                    subtopics: 2,
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const HotColdDesserts(),
+                      ),
+                    );
+                  },
+                  child: const RecentUpdated(
+                    title: "Hot & Cold Desserts",
+                    lecturer: "J.W",
                     subtopics: 2,
                   ),
                 ),
