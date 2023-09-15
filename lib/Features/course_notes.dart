@@ -1,34 +1,34 @@
+import 'package:cih_first_app/subtopicScreens/basic_pastry.dart';
+import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
+import 'package:cih_first_app/subtopicScreens/bread_dough_products.dart';
+import 'package:cih_first_app/subtopicScreens/eggs.dart';
+import 'package:cih_first_app/subtopicScreens/hot_cold_desserts.dart';
+import 'package:cih_first_app/subtopicScreens/kitchen101_subtopics.dart';
+import 'package:cih_first_app/subtopicScreens/meat_game.dart';
+import 'package:cih_first_app/subtopicScreens/pasta_noodles.dart';
+import 'package:cih_first_app/subtopicScreens/stocks_soups_sauces.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
 class CourseNotes extends StatefulWidget {
-  const CourseNotes({Key? key});
+  const CourseNotes({super.key});
 
   @override
   _CourseNotesState createState() => _CourseNotesState();
 }
 
 class _CourseNotesState extends State<CourseNotes> {
-  final PageController _pageController = PageController();
-  int _currentPage = 0;
-
-  @override
-  void dispose() {
-    _pageController.dispose();
-    super.dispose();
-  }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           elevation: 0,
           backgroundColor: const Color.fromARGB(255, 13, 86, 146),
           leading: IconButton(
-            icon: const Icon(Icons.arrow_back), // Add a back arrow icon
+            icon: const Icon(Icons.arrow_back),
             onPressed: () {
-              // Navigate back to the previous screen
               Navigator.of(context).pop();
             },
           ),
@@ -39,23 +39,26 @@ class _CourseNotesState extends State<CourseNotes> {
                 RotateAnimatedText(
                   'Ecascade',
                   textStyle: const TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'Playfair'),
+                    fontSize: 25.0,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Playfair',
+                  ),
                 ),
                 ScaleAnimatedText(
                   'Ecascade',
                   textStyle: const TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'Alkatra'),
+                    fontSize: 25.0,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Alkatra',
+                  ),
                 ),
                 WavyAnimatedText(
                   'Ecascade',
                   textStyle: const TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'Alkatra'),
+                    fontSize: 25.0,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Alkatra',
+                  ),
                 ),
               ],
             ),
@@ -66,83 +69,207 @@ class _CourseNotesState extends State<CourseNotes> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.only(top: 10.0, left: 10.0),
                 child: Text(
                   "Culinary",
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
+                    fontFamily: 'Alkatra',
                   ),
                 ),
               ),
-              Container(
-                height: 200, // Adjust the height as needed
-                child: PageView.builder(
-                  controller: _pageController,
-                  itemCount: 5, // Replace with your actual item count
-                  onPageChanged: (int page) {
-                    setState(() {
-                      _currentPage = page;
-                    });
-                  },
-                  itemBuilder: (context, index) {
-                    return Container(
-                      width: 150, // Adjust the width as needed
-                      margin: const EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.green,
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      // Add your content for each container here
-                    );
-                  },
+              GridView.builder(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2, // Number of columns in the grid
                 ),
+                itemCount: 9, // Number of containers
+                itemBuilder: (context, index) {
+                  return CourseNoteContainer(
+                    title: _getCourseTitle(index),
+                    onTap: () {
+                      _navigateToCoursePage(index, context);
+                    },
+                  );
+                },
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: List<Widget>.generate(
-                  5, // Replace with your actual item count
-                  (int index) {
-                    return Container(
-                      width: 8.0,
-                      height: 8.0,
-                      margin: const EdgeInsets.symmetric(horizontal: 4.0),
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: _currentPage == index
-                            ? Colors.blue // Active dot color
-                            : Colors.grey, // Inactive dot color
-                      ),
-                    );
-                  },
-                ),
-              ),
-              const Padding(
-                padding: EdgeInsets.all(16.0),
-                child: Text(
-                  "Hospitality Management",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              Image.asset(
-                  "assets/images/comingsoon_one.jpg"), // Display the image
-              const Padding(
-                padding: EdgeInsets.all(16.0),
-                child: Text(
-                  "Tourism",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              Image.asset(
-                  "assets/images/comingsoon_two.jpg"), // Display the image
             ],
           ),
+        ),
+      ),
+    );
+  }
+
+  String _getCourseTitle(int index) {
+    switch (index) {
+      case 0:
+        return 'Kitchen 101';
+      case 1:
+        return 'Stocks, Soups, and Sauces';
+      case 2:
+        return 'Basic Pastry Products';
+      case 3:
+        return 'Biscuits, Cakes & Sponges';
+      case 4:
+        return 'Bread & Dough Products';
+      case 5:
+        return 'Eggs';
+      case 6:
+        return 'Pasta & Noodles';
+      case 7:
+        return 'Meat & Game';
+      case 8:
+        return 'Hot & Cold Desserts';
+      default:
+        return '';
+    }
+  }
+
+  void _navigateToCoursePage(int index, BuildContext context) {
+    switch (index) {
+      case 0:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const Kitchen101subs(),
+          ),
+        );
+        break;
+      case 1:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const StocksSoupSauces(),
+          ),
+        );
+        break;
+      case 2:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const BasicPastry(),
+          ),
+        );
+        break;
+      case 3:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const BiscuitsCakesSponge(),
+          ),
+        );
+        break;
+      case 4:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const BreadDoughProducts(),
+          ),
+        );
+        break;
+      case 5:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const Eggs(),
+          ),
+        );
+        break;
+      case 6:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const PastaNoodles(),
+          ),
+        );
+        break;
+      case 7:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const MeatGame(),
+          ),
+        );
+        break;
+      case 8:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const HotColdDesserts(),
+          ),
+        );
+        break;
+    }
+  }
+}
+
+class CourseNoteContainer extends StatelessWidget {
+  final String title;
+  final VoidCallback onTap;
+
+  const CourseNoteContainer(
+      {Key? key, required this.title, required this.onTap})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        width: 150,
+        height: 150,
+        margin: const EdgeInsets.all(10),
+        decoration: BoxDecoration(
+          color: const Color.fromARGB(255, 13, 86, 146),
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            BoxShadow(
+              color: const Color.fromARGB(255, 13, 86, 146).withOpacity(0.3),
+              blurRadius: 10,
+              offset: const Offset(0, 5),
+            ),
+          ],
+        ),
+        child: Stack(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                gradient: const LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [
+                    Color.fromARGB(255, 13, 86, 146),
+                    Color.fromARGB(193, 10, 82, 25),
+                  ],
+                ),
+              ),
+            ),
+            Align(
+              alignment: Alignment.center,
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  title,
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                    shadows: [
+                      Shadow(
+                        color: Colors.black.withOpacity(0.5),
+                        offset: const Offset(0, 2),
+                        blurRadius: 4,
+                      ),
+                    ],
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
