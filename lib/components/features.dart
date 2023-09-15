@@ -4,6 +4,7 @@ import 'package:cih_first_app/Features/notice_board.dart';
 import 'package:cih_first_app/Features/students_portal.dart';
 import 'package:cih_first_app/Features/suggets.dart';
 import 'package:cih_first_app/Features/school_gallary.dart';
+import 'package:cih_first_app/Features/course_notes.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
@@ -23,12 +24,12 @@ class FeaturesContainer extends StatelessWidget {
               if (kDebugMode) {
                 print('Course notes clicked');
               }
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: ((context) => CourseNotes()),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => const CourseNotes()),
+                ),
+              );
             },
           ),
           FeatureContainer(
