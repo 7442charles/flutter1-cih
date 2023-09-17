@@ -25,7 +25,8 @@ class CustomNotification extends StatelessWidget {
         children: [
           const Text(
             "Recent Updated",
-            style: TextStyle(fontWeight: FontWeight.bold),
+            style:
+                TextStyle(fontWeight: FontWeight.bold, fontFamily: 'Alkatra',),
           ),
           SingleChildScrollView(
             scrollDirection: Axis.vertical,

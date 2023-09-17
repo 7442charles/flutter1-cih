@@ -1,6 +1,6 @@
-import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:cih_first_app/components/ecascade_container.dart';
 import 'package:cih_first_app/components/features.dart';
+import 'package:cih_first_app/components/main_appbar.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -19,34 +19,7 @@ class LandingPage extends StatelessWidget {
         appBar: AppBar(
           elevation: 0,
           backgroundColor: const Color.fromARGB(255, 13, 86, 146),
-          title: Center(
-            child: AnimatedTextKit(
-              repeatForever: true,
-              animatedTexts: [
-                RotateAnimatedText(
-                  'Ecascade',
-                  textStyle: const TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'Playfair'),
-                ),
-                ScaleAnimatedText(
-                  'Ecascade',
-                  textStyle: const TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'Alkatra'),
-                ),
-                WavyAnimatedText(
-                  'Ecascade',
-                  textStyle: const TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'Alkatra'),
-                ),
-              ],
-            ),
-          ),
+          title: const MainAppBar(),
           actions: [
             IconButton(
               onPressed: () {

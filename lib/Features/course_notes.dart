@@ -1,3 +1,4 @@
+import 'package:cih_first_app/components/main_appbar.dart';
 import 'package:cih_first_app/subtopicScreens/basic_pastry.dart';
 import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
 import 'package:cih_first_app/subtopicScreens/bread_dough_products.dart';
@@ -8,7 +9,6 @@ import 'package:cih_first_app/subtopicScreens/meat_game.dart';
 import 'package:cih_first_app/subtopicScreens/pasta_noodles.dart';
 import 'package:cih_first_app/subtopicScreens/stocks_soups_sauces.dart';
 import 'package:flutter/material.dart';
-import 'package:animated_text_kit/animated_text_kit.dart';
 
 class CourseNotes extends StatefulWidget {
   const CourseNotes({super.key});
@@ -20,83 +20,50 @@ class CourseNotes extends StatefulWidget {
 class _CourseNotesState extends State<CourseNotes> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          elevation: 0,
-          backgroundColor: const Color.fromARGB(255, 13, 86, 146),
-          leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-          ),
-          title: Center(
-            child: AnimatedTextKit(
-              repeatForever: true,
-              animatedTexts: [
-                RotateAnimatedText(
-                  'Ecascade',
-                  textStyle: const TextStyle(
-                    fontSize: 25.0,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Playfair',
-                  ),
-                ),
-                ScaleAnimatedText(
-                  'Ecascade',
-                  textStyle: const TextStyle(
-                    fontSize: 25.0,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Alkatra',
-                  ),
-                ),
-                WavyAnimatedText(
-                  'Ecascade',
-                  textStyle: const TextStyle(
-                    fontSize: 25.0,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Alkatra',
-                  ),
-                ),
-              ],
-            ),
-          ),
+    return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: const Color.fromARGB(255, 13, 86, 146),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
         ),
-        body: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const Padding(
-                padding: EdgeInsets.only(top: 10.0, left: 10.0),
-                child: Text(
-                  "Culinary",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Alkatra',
-                  ),
+        title: const MainAppBar(),
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Padding(
+              padding: EdgeInsets.only(top: 10.0, left: 10.0),
+              child: Text(
+                "Culinary",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Alkatra',
                 ),
               ),
-              GridView.builder(
-                shrinkWrap: true,
-                physics: const NeverScrollableScrollPhysics(),
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2, // Number of columns in the grid
-                ),
-                itemCount: 9, // Number of containers
-                itemBuilder: (context, index) {
-                  return CourseNoteContainer(
-                    title: _getCourseTitle(index),
-                    onTap: () {
-                      _navigateToCoursePage(index, context);
-                    },
-                  );
-                },
+            ),
+            GridView.builder(
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 3, // Number of columns in the grid
               ),
-            ],
-          ),
+              itemCount: 9, // Number of containers
+              itemBuilder: (context, index) {
+                return CourseNoteContainer(
+                  title: _getCourseTitle(index),
+                  onTap: () {
+                    _navigateToCoursePage(index, context);
+                  },
+                );
+              },
+            ),
+          ],
         ),
       ),
     );
@@ -218,8 +185,8 @@ class CourseNoteContainer extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        width: 150,
-        height: 150,
+        // width: 100,
+        // height: 100,
         margin: const EdgeInsets.all(10),
         decoration: BoxDecoration(
           color: const Color.fromARGB(255, 13, 86, 146),
@@ -250,7 +217,7 @@ class CourseNoteContainer extends StatelessWidget {
             Align(
               alignment: Alignment.center,
               child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.symmetric(horizontal: 5.0),
                 child: Text(
                   title,
                   style: TextStyle(
