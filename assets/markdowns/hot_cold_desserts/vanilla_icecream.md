@@ -1,4 +1,4 @@
-![vanilla_icecream](resource:assets/images/hot_cold_desserts/lemon_curd.png)
+![vanilla_icecream](resource:assets/images/hot_cold_desserts/vanilla_icecream.png)
 
 |Ingredients|Quantity|
 |-----------|--------|

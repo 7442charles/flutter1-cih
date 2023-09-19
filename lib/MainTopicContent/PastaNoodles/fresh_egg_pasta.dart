@@ -7,7 +7,7 @@ class FreshEggPastaDough extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const ContentPage(
-      appBarTitle: 'Fresh Egg Past Dough',
+      appBarTitle: 'Fresh Egg Pasta Dough',
       markdownPath: 'assets/markdowns/pasta_noodles/fresh_egg_pasta.md',
       errorMessage: 'Error loading ',
     );

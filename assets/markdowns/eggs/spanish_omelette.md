@@ -14,4 +14,4 @@
 **Method of work**
 1. Make up an omelette following recipe 10, steps 1 to 5, but including the tomato, onion, red pepper and parsley with the eggs.
 2. Sharply tap the pan on the stove to loosen the omelette and toss it over as for a pancake.
-3. 
+   
