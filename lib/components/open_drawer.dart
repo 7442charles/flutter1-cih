@@ -1,4 +1,5 @@
 import 'package:cih_first_app/Features/bug_report.dart';
+import 'package:cih_first_app/configs/ads.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -75,6 +76,17 @@ class MyDrawer extends StatelessWidget {
               onTap: () {},
             ),
             ListTile(
+              leading: const Icon(Icons.video_collection_outlined,
+                  color: Colors.white),
+              title: const Text(
+                'View Ads',
+                style: TextStyle(color: Colors.white, fontSize: 18.0),
+              ),
+              onTap: () async {
+                await showInterstitialAd();
+              },
+            ),
+            ListTile(
               leading: const Icon(Icons.logout, color: Colors.white),
               title: const Text(
                 'Logout',
@@ -86,7 +98,7 @@ class MyDrawer extends StatelessWidget {
             const ListTile(
               title: Center(
                 child: Text(
-                  'Powered by C.I.H.',
+                  'Powered by Q.O.P.',
                   style: TextStyle(color: Colors.white, fontSize: 15.0),
                 ),
               ),

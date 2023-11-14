@@ -28,6 +28,7 @@ dependencies:
   cached_network_image: ^3.2.3
   animated_text_kit: ^4.2.2
   flutter_tts: ^3.7.0
+  notix_inapp_flutter: ^0.0.1
   # admob_flutter: ^2.0.0
 
 dev_dependencies:
@@ -62,6 +63,7 @@ flutter:
 
 
   assets:
+  #images assets
      - assets/images/
      - assets/images/vegcuts/
      - assets/images/stocksoupssauces/
@@ -72,7 +74,9 @@ flutter:
      - assets/images/pastaNoodles/
      - assets/images/meat_game/
      - assets/images/hot_cold_desserts/
+     - assets/images/fishShellFish/
 
+  #markdown Assets
      - assets/markdowns/kitchen101/
      - assets/markdowns/stocksoupsauces/
      - assets/markdowns/biscuit_cakes_sponges/
@@ -82,5 +86,6 @@ flutter:
      - assets/markdowns/eggs/
      - assets/markdowns/game_meat/
      - assets/markdowns/hot_cold_desserts/
+     - assets/markdowns/fishShellFish/
      
      - fonts/Alkatra-Regular.ttf

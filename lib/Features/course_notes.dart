@@ -1,8 +1,11 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:cih_first_app/components/main_appbar.dart';
 import 'package:cih_first_app/subtopicScreens/basic_pastry.dart';
 import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
 import 'package:cih_first_app/subtopicScreens/bread_dough_products.dart';
 import 'package:cih_first_app/subtopicScreens/eggs.dart';
+import 'package:cih_first_app/subtopicScreens/fish_shellfish.dart';
 import 'package:cih_first_app/subtopicScreens/hot_cold_desserts.dart';
 import 'package:cih_first_app/subtopicScreens/kitchen101_subtopics.dart';
 import 'package:cih_first_app/subtopicScreens/meat_game.dart';
@@ -39,7 +42,7 @@ class _CourseNotesState extends State<CourseNotes> {
             const Padding(
               padding: EdgeInsets.only(top: 10.0, left: 10.0),
               child: Text(
-                "Culinary",
+                "Professional Cookery",
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -89,6 +92,8 @@ class _CourseNotesState extends State<CourseNotes> {
         return 'Meat & Game';
       case 8:
         return 'Hot & Cold Desserts';
+      case 9:
+        return 'Fish & ShellFish';
       default:
         return '';
     }
@@ -165,6 +170,14 @@ class _CourseNotesState extends State<CourseNotes> {
           context,
           MaterialPageRoute(
             builder: (context) => const HotColdDesserts(),
+          ),
+        );
+        break;
+      case 9:
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const FishShellFish(),
           ),
         );
         break;

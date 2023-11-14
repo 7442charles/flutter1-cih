@@ -8,7 +8,8 @@ class HotColdDessertsIntro extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ContentPage(
       appBarTitle: 'Introduction ',
-      markdownPath: '',
+      markdownPath:
+          'assets/markdowns/hot_cold_desserts/introduction_hot_cold_desserts.md',
       errorMessage: 'Error loading Markdown',
     );
   }
