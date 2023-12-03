@@ -5,6 +5,7 @@ import 'package:cih_first_app/Features/students_portal.dart';
 import 'package:cih_first_app/Features/suggets.dart';
 import 'package:cih_first_app/Features/school_gallary.dart';
 import 'package:cih_first_app/Features/course_notes.dart';
+import 'package:cih_first_app/configs/ads.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
@@ -19,19 +20,37 @@ class FeaturesContainer extends StatelessWidget {
       child: Row(
         children: [
           FeatureContainer(
-            title: 'Course Notes',
-            onTap: () {
-              if (kDebugMode) {
-                print('Course notes clicked');
+              title: 'Course Notes',
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: ((context) => const CourseNotes()),
+                  ),
+                );
               }
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: ((context) => const CourseNotes()),
-                ),
-              );
-            },
-          ),
+
+              // () async {
+              //   if (kDebugMode) {
+              //     print('Course notes clicked');
+              //   }
+
+              //   // Check for internet connectivity
+              //   var connectivityResult = await Connectivity().checkConnectivity();
+              //   if (connectivityResult != ConnectivityResult.none) {
+              //     // Internet is available, show interstitial ad
+              //     await showInterstitialAd();
+              //   }
+
+              //   // Proceed to CourseNotes
+              //   Navigator.push(
+              //     context,
+              //     MaterialPageRoute(
+              //       builder: ((context) => const CourseNotes()),
+              //     ),
+              //   );
+              // },
+              ),
           FeatureContainer(
             title: 'Students Portal',
             onTap: () {

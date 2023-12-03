@@ -1,3 +1,5 @@
+import 'package:cih_first_app/MainTopicContent/fishshellfish/fishIntroduction.dart';
+import 'package:cih_first_app/MainTopicContent/fishshellfish/question_answer.dart';
 import 'package:cih_first_app/components/subtopic.dart';
 import 'package:flutter/material.dart';
 
@@ -15,12 +17,23 @@ class FishShellFish extends StatelessWidget {
             SubtopicRow(
               title: 'Introduction',
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: ((context) => const WhiteChickenStock()),
-                //   ),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: ((context) => const FishIntroduction()),
+                  ),
+                );
+              },
+            ),
+            SubtopicRow(
+              title: 'Question & Answer',
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: ((context) => const FishQA()),
+                  ),
+                );
               },
             ),
             const Padding(

@@ -56,7 +56,7 @@ class _CourseNotesState extends State<CourseNotes> {
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 3, // Number of columns in the grid
               ),
-              itemCount: 9, // Number of containers
+              itemCount: 10, // Number of containers
               itemBuilder: (context, index) {
                 return CourseNoteContainer(
                   title: _getCourseTitle(index),
