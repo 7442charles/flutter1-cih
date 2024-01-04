@@ -31,3 +31,12 @@ This method is effective to vary small pieces of meat that are to be roasted rar
 
 Tempararture range from 190° to 230°C.
 
+## **Storing Meat**  
+meat should be hung and stored between 0 °C and 1 °C.
+
+### **Presevation Methods**
+1. Freezing.
+2. Canning
+3. Salting
+
+

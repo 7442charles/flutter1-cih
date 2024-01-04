@@ -22,35 +22,36 @@ class FeaturesContainer extends StatelessWidget {
           FeatureContainer(
               title: 'Course Notes',
               onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: ((context) => const CourseNotes()),
-                  ),
-                );
-              }
+                //   Navigator.push(
+                //     context,
+                //     MaterialPageRoute(
+                //       builder: ((context) => const CourseNotes()),
+                //     ),
+                //   );
+                // }
 
-              // () async {
-              //   if (kDebugMode) {
-              //     print('Course notes clicked');
-              //   }
+                () async {
+                  if (kDebugMode) {
+                    print('Course notes clicked');
+                  }
 
-              //   // Check for internet connectivity
-              //   var connectivityResult = await Connectivity().checkConnectivity();
-              //   if (connectivityResult != ConnectivityResult.none) {
-              //     // Internet is available, show interstitial ad
-              //     await showInterstitialAd();
-              //   }
+                  // Check for internet connectivity
+                  var connectivityResult =
+                      await Connectivity().checkConnectivity();
+                  if (connectivityResult != ConnectivityResult.none) {
+                    // Internet is available, show interstitial ad
+                    await showInterstitialAd();
+                  }
 
-              //   // Proceed to CourseNotes
-              //   Navigator.push(
-              //     context,
-              //     MaterialPageRoute(
-              //       builder: ((context) => const CourseNotes()),
-              //     ),
-              //   );
-              // },
-              ),
+                  // Proceed to CourseNotes
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: ((context) => const CourseNotes()),
+                    ),
+                  );
+                };
+              }),
           FeatureContainer(
             title: 'Students Portal',
             onTap: () {
