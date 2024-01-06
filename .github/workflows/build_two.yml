@@ -3,7 +3,7 @@ name: Build and Push APK to Google Drive
 on:
   push:
     branches:
-      - DPC
+      - main
 
 jobs:
   build:
