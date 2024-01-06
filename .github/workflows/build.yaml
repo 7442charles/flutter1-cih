@@ -6,29 +6,32 @@ on:
       - DPC
 
 jobs:
- build:
+  build:
 
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Flutter
-      uses: subosito/flutter-action@v1
-      with:
-        channel: stable
+      - name: Decode Google Drive credentials
+        run: echo ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }} | base64 -d > credentials.json
 
-    - name: Install dependencies
-      run: flutter pub get
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v1
+        with:
+          channel: stable
 
-    - name: Build APK
-      run: flutter build apk --release
+      - name: Install dependencies
+        run: flutter pub get
 
-    - name: Upload APK to Google Drive
-      uses: nektos/act-google-drive-uploader@v2.1.1
-      with:
-        folderId: '1q2Gj6HX0z-O9FQkvv8hXy-b2wR3ASejo'
-        fileName: 'app-release.apk'
-        sourceFilePath: 'build/app/outputs/flutter-apk/app-release.apk'
-        credentialsJson: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
+      - name: Build APK
+        run: flutter build apk --release
+
+      - name: Upload APK to Google Drive
+        uses: google-github-actions/upload-cloud-storage@main
+        with:
+          credentials: credentials.json
+          path: build/app/outputs/flutter-apk/app-release.apk
+          destination: app-release.apk
+          parent: 1q2Gj6HX0z-O9FQkvv8hXy-b2wR3ASejo
