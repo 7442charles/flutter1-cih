@@ -41,7 +41,7 @@ jobs:
       - name: Upload APK to Google Drive
         uses: google-github-actions/upload-cloud-storage@v2
         with:
-          path: build/app/outputs/flutter-apk/app-release.apk
-          destination: /path/in/google/drive/app-release.apk  # Adjust the destination path in Google Drive
-          parent: 1q2Gj6HX0z-O9FQkvv8hXy-b2wR3ASejo  # Replace with the actual folder ID in your Google Drive
+          path: build/**/app-release.apk
+          destination: /path/in/google/drive/app-release.apk  
+          parent: 1q2Gj6HX0z-O9FQkvv8hXy-b2wR3ASejo 
           process_gcloudignore: false
