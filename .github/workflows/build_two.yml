@@ -25,7 +25,9 @@ jobs:
         run: |
           echo "Building APK..."
           flutter build apk --release
-          echo "::set-output name=apk-path::$(find $GITHUB_WORKSPACE -name '*.apk')"
+          APK_PATH=$(find $GITHUB_WORKSPACE -name '*.apk')
+          echo "APK Path: $APK_PATH"
+          echo "::set-output name=apk-path::$APK_PATH"
         id: build_apk
 
   push-to-drive:
