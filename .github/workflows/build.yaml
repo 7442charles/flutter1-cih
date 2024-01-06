@@ -26,7 +26,7 @@ jobs:
       run: flutter build apk --release
 
     - name: Upload APK to Google Drive
-      uses: theoohj/GoogleDriveUploader@master
+      uses: nektos/act-google-drive-uploader@v2.1.1
       with:
         folderId: '1q2Gj6HX0z-O9FQkvv8hXy-b2wR3ASejo'
         fileName: 'app-release.apk'
