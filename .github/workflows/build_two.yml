@@ -1,0 +1,47 @@
+name: Build and Push APK to Google Drive
+
+on:
+  push:
+    branches:
+      - DPC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '2.x.x'  # Specify your Flutter version
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build APK
+        run: flutter build apk --release
+
+  push-to-drive:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Decode Google Drive credentials
+        run: echo ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }} | base64 -d > credentials.json
+
+      - name: Set Google application credentials
+        run: export GOOGLE_APPLICATION_CREDENTIALS=credentials.json
+
+      - name: Upload APK to Google Drive
+        uses: google-github-actions/upload-cloud-storage@v2
+        with:
+          path: build/app/outputs/flutter-apk/app-release.apk
+          destination: /path/in/google/drive/app-release.apk  # Adjust the destination path in Google Drive
+          parent: 1q2Gj6HX0z-O9FQkvv8hXy-b2wR3ASejo  # Replace with the actual folder ID in your Google Drive
+          process_gcloudignore: false
