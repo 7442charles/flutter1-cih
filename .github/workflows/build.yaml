@@ -25,16 +25,10 @@ jobs:
     - name: Build APK
       run: flutter build apk --release
 
-    - name: Copy APK to apks directory
-      run: |
-        mkdir -p apks
-        cp -v build/app/outputs/flutter-apk/app-release.apk apks/
-
-    - name: Commit and push changes
-      uses: stefanzweifel/git-auto-commit-action@v4.1.2
+    - name: Upload APK to Google Drive
+      uses: theoohj/GoogleDriveUploader@master
       with:
-        commit_message: "Update APKs"
-        commit_options: "--all"
-        push_options: "--all"
-      env:
-        GITHUB_TOKEN: "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"
+        folderId: '1q2Gj6HX0z-O9FQkvv8hXy-b2wR3ASejo'
+        fileName: 'app-release.apk'
+        sourceFilePath: 'build/app/outputs/flutter-apk/app-release.apk'
+        credentialsJson: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
