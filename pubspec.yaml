@@ -28,8 +28,8 @@ dependencies:
   cached_network_image: ^3.2.3
   animated_text_kit: ^4.2.2
   flutter_tts: ^3.7.0
-  notix_inapp_flutter: ^0.0.1
   firebase_messaging: ^14.7.4
+  notix_inapp_flutter: ^0.1.82
   # admob_flutter: ^2.0.0
 
 dev_dependencies:
