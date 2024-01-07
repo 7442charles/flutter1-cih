@@ -1,12 +1,12 @@
-name: Build and Push APK to Google Drive
+name: Build and Push APK to Release
 
 on:
- push:
+  push:
     branches:
       - DPC
 
 jobs:
- build:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,9 +27,9 @@ jobs:
           flutter build apk --release
           APK_PATH=$(find $GITHUB_WORKSPACE -name '*.apk')
           echo "APK Path: $APK_PATH"
-          echo "APK_PATH=$APK_PATH" >> $GITHUB_ENV
+          echo "::set-output name=APK_PATH::$APK_PATH"
 
- create-release:
+  create-release:
     needs: build
     runs-on: ubuntu-latest
 
@@ -39,17 +39,17 @@ jobs:
 
       - name: Create Release
         id: create_release
-        uses: actions/create-release@latest
+        uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
           tag_name: ${{ github.sha }}
           release_name: Release ${{ github.sha }}
           draft: false
           prerelease: false
 
- upload-to-release:
-    needs: create-release
+  upload-to-release:
+    needs: [build, create-release]
     runs-on: ubuntu-latest
 
     steps:
@@ -57,12 +57,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Upload APK to Release
-        uses: actions/upload-release-asset@latest
+        uses: actions/upload-release-asset@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ env.APK_PATH }}
+          asset_path: ${{ needs.build.outputs.APK_PATH }}
           asset_name: app-release.apk
           asset_content_type: application/vnd.android.package-archive
-
