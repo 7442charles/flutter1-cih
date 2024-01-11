@@ -30,6 +30,7 @@ dependencies:
   flutter_tts: ^3.7.0
   firebase_messaging: ^14.7.4
   notix_inapp_flutter: ^0.1.82
+  flutter_neumorphic: ^3.2.0
   # admob_flutter: ^2.0.0
 
 dev_dependencies:

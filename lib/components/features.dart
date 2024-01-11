@@ -1,5 +1,3 @@
-// ignore_for_file: use_build_context_synchronously
-
 import 'package:cih_first_app/Features/notice_board.dart';
 import 'package:cih_first_app/Features/students_portal.dart';
 import 'package:cih_first_app/Features/suggets.dart';
@@ -20,38 +18,17 @@ class FeaturesContainer extends StatelessWidget {
       child: Row(
         children: [
           FeatureContainer(
-              title: 'Course Notes',
-              onTap: () {
-                //   Navigator.push(
-                //     context,
-                //     MaterialPageRoute(
-                //       builder: ((context) => const CourseNotes()),
-                //     ),
-                //   );
-                // }
-
-                () async {
-                  if (kDebugMode) {
-                    print('Course notes clicked');
-                  }
-
-                  // Check for internet connectivity
-                  var connectivityResult =
-                      await Connectivity().checkConnectivity();
-                  if (connectivityResult != ConnectivityResult.none) {
-                    // Internet is available, show interstitial ad
-                    await showInterstitialAd();
-                  }
-
-                  // Proceed to CourseNotes
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: ((context) => const CourseNotes()),
-                    ),
-                  );
-                };
-              }),
+            title: 'Course Notes',
+            onTap: () {
+              print("course notes clicked");
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const CourseNotes(),
+                ),
+              );
+            },
+          ),
           FeatureContainer(
             title: 'Students Portal',
             onTap: () {

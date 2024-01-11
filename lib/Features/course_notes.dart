@@ -1,7 +1,6 @@
 // ignore_for_file: library_private_types_in_public_api
 
 import 'package:cih_first_app/components/main_appbar.dart';
-import 'package:cih_first_app/configs/ads.dart';
 import 'package:cih_first_app/subtopicScreens/basic_pastry.dart';
 import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
 import 'package:cih_first_app/subtopicScreens/bread_dough_products.dart';
@@ -12,8 +11,6 @@ import 'package:cih_first_app/subtopicScreens/kitchen101_subtopics.dart';
 import 'package:cih_first_app/subtopicScreens/meat_game.dart';
 import 'package:cih_first_app/subtopicScreens/pasta_noodles.dart';
 import 'package:cih_first_app/subtopicScreens/stocks_soups_sauces.dart';
-import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class CourseNotes extends StatefulWidget {
@@ -45,7 +42,7 @@ class _CourseNotesState extends State<CourseNotes> {
             const Padding(
               padding: EdgeInsets.only(top: 10.0, left: 10.0),
               child: Text(
-                "Professional Cookery",
+                "Course SubTopics",
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -105,63 +102,20 @@ class _CourseNotesState extends State<CourseNotes> {
   void _navigateToCoursePage(int index, BuildContext context) {
     switch (index) {
       case 0:
-        () async {
-          if (kDebugMode) {
-            print('Course notes clicked');
-          }
-
-          // Check for internet connectivity
-          var connectivityResult = await Connectivity().checkConnectivity();
-          if (connectivityResult != ConnectivityResult.none) {
-            // Internet is available, show interstitial ad
-            await showInterstitialAd();
-          }
-
-          // Proceed to CourseNotes
-          // ignore: use_build_context_synchronously
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const Kitchen101subs(),
-            ),
-          );
-        };
-        // Navigator.push(
-        //   context,
-        //   MaterialPageRoute(
-        //     builder: (context) => const Kitchen101subs(),
-        //   ),
-        // );
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const Kitchen101subs(),
+          ),
+        );
         break;
       case 1:
-        () async {
-          if (kDebugMode) {
-            print('Course notes clicked');
-          }
-
-          // Check for internet connectivity
-          var connectivityResult = await Connectivity().checkConnectivity();
-          if (connectivityResult != ConnectivityResult.none) {
-            // Internet is available, show interstitial ad
-            await showInterstitialAd();
-          }
-
-          // Proceed to CourseNotes
-          // ignore: use_build_context_synchronously
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const StocksSoupSauces(),
-            ),
-          );
-        };
-
-        // Navigator.push(
-        //   context,
-        //   MaterialPageRoute(
-        //     builder: (context) => const StocksSoupSauces(),
-        //   ),
-        // );
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const StocksSoupSauces(),
+          ),
+        );
         break;
       case 2:
         Navigator.push(
@@ -244,8 +198,6 @@ class CourseNoteContainer extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        // width: 100,
-        // height: 100,
         margin: const EdgeInsets.all(10),
         decoration: BoxDecoration(
           color: const Color.fromARGB(255, 13, 86, 146),
@@ -261,6 +213,7 @@ class CourseNoteContainer extends StatelessWidget {
         child: Stack(
           children: [
             Container(
+              height: 100,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 gradient: const LinearGradient(
