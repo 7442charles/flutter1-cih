@@ -1,13 +1,13 @@
-import 'package:cih_first_app/components/recent_update.dart';
-import 'package:cih_first_app/subtopicScreens/eggs.dart';
-import 'package:cih_first_app/subtopicScreens/hot_cold_desserts.dart';
-import 'package:cih_first_app/subtopicScreens/kitchen101_subtopics.dart';
-import 'package:cih_first_app/subtopicScreens/basic_pastry.dart';
-import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
-import 'package:cih_first_app/subtopicScreens/bread_dough_products.dart';
-import 'package:cih_first_app/subtopicScreens/meat_game.dart';
-import 'package:cih_first_app/subtopicScreens/pasta_noodles.dart';
-import 'package:cih_first_app/subtopicScreens/stocks_soups_sauces.dart';
+import 'package:Recitte/components/recent_update.dart';
+import 'package:Recitte/subtopicScreens/eggs.dart';
+import 'package:Recitte/subtopicScreens/hot_cold_desserts.dart';
+import 'package:Recitte/subtopicScreens/kitchen101_subtopics.dart';
+import 'package:Recitte/subtopicScreens/basic_pastry.dart';
+import 'package:Recitte/subtopicScreens/biscuit_cakes_sponges.dart';
+import 'package:Recitte/subtopicScreens/bread_dough_products.dart';
+import 'package:Recitte/subtopicScreens/meat_game.dart';
+import 'package:Recitte/subtopicScreens/pasta_noodles.dart';
+import 'package:Recitte/subtopicScreens/stocks_soups_sauces.dart';
 import 'package:flutter/material.dart';
 
 class CustomNotification extends StatelessWidget {
@@ -25,8 +25,10 @@ class CustomNotification extends StatelessWidget {
         children: [
           const Text(
             "Recent Updated",
-            style:
-                TextStyle(fontWeight: FontWeight.bold, fontFamily: 'Alkatra',),
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontFamily: 'Alkatra',
+            ),
           ),
           SingleChildScrollView(
             scrollDirection: Axis.vertical,

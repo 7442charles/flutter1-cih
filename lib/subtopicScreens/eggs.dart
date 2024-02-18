@@ -1,14 +1,14 @@
-import 'package:cih_first_app/MainTopicContent/eggs/egg_benedict.dart';
-import 'package:cih_first_app/MainTopicContent/eggs/fried_eggs.dart';
-import 'package:cih_first_app/MainTopicContent/eggs/hard_boiled_eggs.dart';
-import 'package:cih_first_app/MainTopicContent/eggs/introduction.dart';
-import 'package:cih_first_app/MainTopicContent/eggs/omelette.dart';
-import 'package:cih_first_app/MainTopicContent/eggs/question_answer.dart';
-import 'package:cih_first_app/MainTopicContent/eggs/scotch_eggs.dart';
-import 'package:cih_first_app/MainTopicContent/eggs/scrambled_eggs.dart';
-import 'package:cih_first_app/MainTopicContent/eggs/soft_boiled_eggs.dart';
-import 'package:cih_first_app/MainTopicContent/eggs/spanish_omelette.dart';
-import 'package:cih_first_app/components/subtopic.dart';
+import 'package:Recitte/MainTopicContent/eggs/egg_benedict.dart';
+import 'package:Recitte/MainTopicContent/eggs/fried_eggs.dart';
+import 'package:Recitte/MainTopicContent/eggs/hard_boiled_eggs.dart';
+import 'package:Recitte/MainTopicContent/eggs/introduction.dart';
+import 'package:Recitte/MainTopicContent/eggs/omelette.dart';
+import 'package:Recitte/MainTopicContent/eggs/question_answer.dart';
+import 'package:Recitte/MainTopicContent/eggs/scotch_eggs.dart';
+import 'package:Recitte/MainTopicContent/eggs/scrambled_eggs.dart';
+import 'package:Recitte/MainTopicContent/eggs/soft_boiled_eggs.dart';
+import 'package:Recitte/MainTopicContent/eggs/spanish_omelette.dart';
+import 'package:Recitte/components/subtopic.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

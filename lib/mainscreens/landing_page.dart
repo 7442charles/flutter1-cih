@@ -1,6 +1,6 @@
-import 'package:cih_first_app/components/ecascade_container.dart';
-import 'package:cih_first_app/components/features.dart';
-import 'package:cih_first_app/components/main_appbar.dart';
+import 'package:Recitte/components/ecascade_container.dart';
+import 'package:Recitte/components/features.dart';
+import 'package:Recitte/components/main_appbar.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

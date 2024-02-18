@@ -1,8 +1,8 @@
-name: cih_first_app
-description: Ecascade notes offline version.
+name: Recitte
+description: Recitte offline/Full version.
 publish_to: 'none' 
 
-version: 1.0.0+1
+version: 1.0.1
 
 environment:
   sdk: '>=2.18.0 <4.0.0'

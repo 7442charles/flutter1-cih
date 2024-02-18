@@ -1,5 +1,5 @@
-import 'package:cih_first_app/Features/bug_report.dart';
-import 'package:cih_first_app/configs/ads.dart';
+import 'package:Recitte/Features/bug_report.dart';
+import 'package:Recitte/configs/ads.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatelessWidget {

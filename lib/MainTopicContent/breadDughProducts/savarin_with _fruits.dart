@@ -1,4 +1,4 @@
-import 'package:cih_first_app/components/contentpage.dart';
+import 'package:Recitte/components/contentpage.dart';
 import 'package:flutter/material.dart';
 
 class SavarinWithFruits extends StatelessWidget {

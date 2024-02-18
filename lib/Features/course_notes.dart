@@ -1,16 +1,15 @@
-// ignore_for_file: library_private_types_in_public_api
-
-import 'package:cih_first_app/components/main_appbar.dart';
-import 'package:cih_first_app/subtopicScreens/basic_pastry.dart';
-import 'package:cih_first_app/subtopicScreens/biscuit_cakes_sponges.dart';
-import 'package:cih_first_app/subtopicScreens/bread_dough_products.dart';
-import 'package:cih_first_app/subtopicScreens/eggs.dart';
-import 'package:cih_first_app/subtopicScreens/fish_shellfish.dart';
-import 'package:cih_first_app/subtopicScreens/hot_cold_desserts.dart';
-import 'package:cih_first_app/subtopicScreens/kitchen101_subtopics.dart';
-import 'package:cih_first_app/subtopicScreens/meat_game.dart';
-import 'package:cih_first_app/subtopicScreens/pasta_noodles.dart';
-import 'package:cih_first_app/subtopicScreens/stocks_soups_sauces.dart';
+import 'package:Recitte/subtopicScreens/kitchen101_subtopics.dart';
+import 'package:Recitte/components/main_appbar.dart';
+import 'package:Recitte/subtopicScreens/basic_pastry.dart';
+import 'package:Recitte/subtopicScreens/biscuit_cakes_sponges.dart';
+import 'package:Recitte/subtopicScreens/bread_dough_products.dart';
+import 'package:Recitte/subtopicScreens/eggs.dart';
+import 'package:Recitte/subtopicScreens/fish_shellfish.dart';
+import 'package:Recitte/subtopicScreens/hot_cold_desserts.dart';
+// import 'package:Recitte/subtopicScreens/kitchen101_subtopics.dart';
+import 'package:Recitte/subtopicScreens/meat_game.dart';
+import 'package:Recitte/subtopicScreens/pasta_noodles.dart';
+import 'package:Recitte/subtopicScreens/stocks_soups_sauces.dart';
 import 'package:flutter/material.dart';
 
 class CourseNotes extends StatefulWidget {
@@ -189,62 +188,69 @@ class CourseNoteContainer extends StatelessWidget {
   final String title;
   final VoidCallback onTap;
 
-  const CourseNoteContainer(
-      {Key? key, required this.title, required this.onTap})
-      : super(key: key);
+  const CourseNoteContainer({
+    Key? key,
+    required this.title,
+    required this.onTap,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap,
       child: Container(
+        height: 150, // Increased height
         margin: const EdgeInsets.all(10),
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 13, 86, 146),
+          color: const Color(0xFFFFE8E1),
           borderRadius: BorderRadius.circular(20),
-          boxShadow: [
+          boxShadow: const [
             BoxShadow(
-              color: const Color.fromARGB(255, 13, 86, 146).withOpacity(0.3),
+              color: Color(0xFF38369A), // Border color
               blurRadius: 10,
-              offset: const Offset(0, 5),
+              offset: Offset(0, 5),
             ),
           ],
         ),
         child: Stack(
           children: [
-            Container(
-              height: 100,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-                gradient: const LinearGradient(
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                  colors: [
-                    Color.fromARGB(255, 13, 86, 146),
-                    Color.fromARGB(193, 10, 82, 25),
-                  ],
-                ),
-              ),
-            ),
             Align(
               alignment: Alignment.center,
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 5.0),
-                child: Text(
-                  title,
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
+                child: Container(
+                  decoration: BoxDecoration(
                     color: Colors.white,
-                    shadows: [
-                      Shadow(
-                        color: Colors.black.withOpacity(0.5),
-                        offset: const Offset(0, 2),
-                        blurRadius: 4,
+                    borderRadius: BorderRadius.circular(20),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.2),
+                        blurRadius: 5,
+                        offset: const Offset(0, 3),
                       ),
                     ],
                   ),
-                  textAlign: TextAlign.center,
+                  child: Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: Text(
+                      title,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.normal, // Reduced font weight
+                        color: const Color(0xFF38369A),
+                        shadows: [
+                          Shadow(
+                            color: Colors.black.withOpacity(0.5),
+                            offset: const Offset(0, 2),
+                            blurRadius: 4,
+                          ),
+                        ],
+                      ),
+                      textAlign: TextAlign.center,
+                      maxLines: 4, // Increased maximum lines
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
                 ),
               ),
             ),

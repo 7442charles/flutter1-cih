@@ -1,10 +1,8 @@
-import 'package:cih_first_app/Features/notice_board.dart';
-import 'package:cih_first_app/Features/students_portal.dart';
-import 'package:cih_first_app/Features/suggets.dart';
-import 'package:cih_first_app/Features/school_gallary.dart';
-import 'package:cih_first_app/Features/course_notes.dart';
-import 'package:cih_first_app/configs/ads.dart';
-import 'package:flutter/foundation.dart';
+import 'package:Recitte/Features/notice_board.dart';
+import 'package:Recitte/Features/students_portal.dart';
+import 'package:Recitte/Features/suggets.dart';
+import 'package:Recitte/Features/school_gallary.dart';
+import 'package:Recitte/Features/course_notes.dart';
 import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 
@@ -20,9 +18,7 @@ class FeaturesContainer extends StatelessWidget {
           FeatureContainer(
             title: 'Course Notes',
             onTap: () {
-              print("course notes clicked");
-              Navigator.push(
-                context,
+              Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (context) => const CourseNotes(),
                 ),

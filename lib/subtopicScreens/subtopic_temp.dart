@@ -1,4 +1,4 @@
-import 'package:cih_first_app/components/subtopic.dart';
+import 'package:Recitte/components/subtopic.dart';
 import 'package:flutter/material.dart';
 
 class ClassNameHere extends StatelessWidget {

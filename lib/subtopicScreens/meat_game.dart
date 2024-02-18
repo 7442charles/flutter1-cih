@@ -1,8 +1,8 @@
-import 'package:cih_first_app/MainTopicContent/meatGame/beef.dart';
-import 'package:cih_first_app/MainTopicContent/meatGame/introduction.dart';
-import 'package:cih_first_app/MainTopicContent/meatGame/lamb_mutton.dart';
-import 'package:cih_first_app/MainTopicContent/meatGame/meat_question_answer.dart';
-import 'package:cih_first_app/components/subtopic.dart';
+import 'package:Recitte/MainTopicContent/meatGame/beef.dart';
+import 'package:Recitte/MainTopicContent/meatGame/introduction.dart';
+import 'package:Recitte/MainTopicContent/meatGame/lamb_mutton.dart';
+import 'package:Recitte/MainTopicContent/meatGame/meat_question_answer.dart';
+import 'package:Recitte/components/subtopic.dart';
 import 'package:flutter/material.dart';
 
 class MeatGame extends StatelessWidget {
